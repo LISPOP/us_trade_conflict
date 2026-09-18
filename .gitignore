@@ -47,3 +47,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Scraper raw HTML cache (re-fetchable from source)
+Data/raw_html/
