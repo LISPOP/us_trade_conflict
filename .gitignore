@@ -50,3 +50,6 @@ rsconnect/
 
 # Scraper raw HTML cache (re-fetchable from source)
 Data/raw_html/
+
+# NYT raw poll CSVs (re-downloadable from source)
+Data/nyt_raw/
