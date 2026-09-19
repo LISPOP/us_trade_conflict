@@ -19,3 +19,5 @@ senate_polls <- senate_polls %>%
 
 merged <- senate_polls %>%
   left_join(tariffed_imports, by = "state")
+
+View(merged)
