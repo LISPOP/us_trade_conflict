@@ -1,8 +1,16 @@
+library(readxl)
+library(dplyr)
+library(stringr)
+library(lubridate)
 library(here)
-library(readr)
 
-install.packages(c("here", "readr"))
+senate_polls <- read_excel(
+  path = here("data/senate_general_polls_2026.xlsx")
+)
 
-raw <- read_csv(here("data/senate_general_polls_2026.csv"))
+tariffed_imports <- read_excel(
+  path = here("data/tariffedImportsByState.xlsx")
+)
 
-glimpse()
+
+list.files(here("data"), pattern = "senate")
