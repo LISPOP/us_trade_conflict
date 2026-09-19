@@ -11,6 +11,3 @@ senate_polls <- read_excel(
 tariffed_imports <- read_excel(
   path = here("data/tariffedImportsByState.xlsx")
 )
-
-
-list.files(here("data"), pattern = "senate")
