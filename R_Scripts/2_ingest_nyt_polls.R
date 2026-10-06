@@ -127,7 +127,7 @@ state_vi <- bind_rows(sen, gov) |>
   filter(!is.na(state), state != "US") |>
   arrange(state, end_date)
 write_csv(state_vi, here("Data", "nyt_state_vote_intention_2026.csv"))
-
+state_vi
 # --- Report ---------------------------------------------------------
 report <- function(nm, d) {
   message(sprintf("%-9s %4d matchups | %2d states/seats | latest %s | last 30d: %d",
