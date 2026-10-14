@@ -115,7 +115,8 @@ state_vi <- state_vi |>
 tariffs <- read_csv(here("Data", "tariffedImportsByState.csv"),
                     show_col_types = FALSE) |>
   rename(state_name = State) |>
-  mutate(state_name = str_trim(state_name))           # tariffedPercent is 0-100
+  mutate(state_name = str_trim(state_name) |>        # tariffedPercent is 0-100
+                      recode("Washington, State" = "Washington"))
 
 merged <- state_vi |>
   left_join(state_lookup, by = "state") |>
