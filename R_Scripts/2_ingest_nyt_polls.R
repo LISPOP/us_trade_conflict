@@ -28,6 +28,7 @@ suppressMessages({
   library(readr); library(dplyr); library(stringr)
   library(lubridate); library(here)
 })
+here::i_am("R_Scripts/2_ingest_nyt_polls.R")   # root = project, not R_Scripts/
 
 UA      <- "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 RAW_DIR <- here("Data", "nyt_raw")
