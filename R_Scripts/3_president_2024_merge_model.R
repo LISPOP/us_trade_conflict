@@ -7,7 +7,8 @@
 #      two-party share (Harris votes used only to compute it).
 #   2. Keep only the Republican side of each 2026 Senate/Governor
 #      poll (state_vi from script 2), plus its two-party share.
-#   3. Merge polls + counter-tariff exposure + 2024 presidential vote.
+#   3. Merge polls + counter-tariff exposure + Canada trade shares
+#      + 2024 presidential vote.
 #      All shares are numeric on a 0-100 scale (no "%" strings).
 #   4. rep_diff = 2026 poll R two-party share - 2024 Trump two-party
 #      share (two-party removes undecideds, which polls have and
@@ -16,6 +17,7 @@
 #
 # INPUT   Data/nyt_state_vote_intention_2026.csv   (script 2)
 #         Data/tariffedImportsByState.csv
+#         Data/state_trade_with_canada_2025_50states.xlsx
 # OUTPUT  Data/president_2024_rep_by_state.csv
 #         Data/state_polls_tariffs_pres2024.csv
 #         Output/README.md  (tables; renders on GitHub)
@@ -25,7 +27,7 @@
 # ------------------------------------------------------------------
 
 suppressMessages({
-  library(readr); library(dplyr); library(stringr)
+  library(readr); library(readxl); library(dplyr); library(stringr)
   library(rvest); library(here)
   library(modelsummary); library(tinytable)
 })
@@ -117,6 +119,23 @@ tariffs <- read_csv(here("Data", "tariffedImportsByState.csv"),
   rename(state_name = State) |>
   mutate(state_name = str_trim(state_name) |>        # tariffedPercent is 0-100
                       recode("Washington, State" = "Washington"))
+
+# Canada's share of each state's 2025 goods trade (Census via ITA
+# TradeStats Express). Header is on row 4; the "All 50 states" total and
+# footnotes have no Code, so filtering on Code keeps the 50 states.
+# Shares come as 0-1 fractions; x100 to match the 0-100 scale.
+canada_trade <- read_excel(here("Data", "state_trade_with_canada_2025_50states.xlsx"),
+                           skip = 3) |>
+  filter(!is.na(Code)) |>
+  transmute(
+    state                    = Code,
+    canada_share_exports     = round(100 * `Canada share of exports`, 2),
+    canada_share_imports     = round(100 * `Canada share of imports`, 2),
+    canada_share_total_trade = round(100 * `Canada share of total trade`, 2)
+  )
+
+stopifnot(nrow(canada_trade) == 50)
+
 tariffs
 # The first three lines link the state abbreviation in state_vi with 
 # the state names that were generated in state_lookup
@@ -124,15 +143,17 @@ tariffs
 merged <- state_vi |>
   left_join(state_lookup, by = "state") |>
   left_join(tariffs,   by = "state_name") |>
+  left_join(canada_trade, by = "state") |>
   left_join(select(pres_2024, -state_name), by = "state") |>
   # --- 4. Republican over/under-performance vs. 2024 --------------
   mutate(rep_diff = round(rep_2party - rep_2party_2024, 2))
 
 write_csv(merged, here("Data", "state_polls_tariffs_pres2024.csv"))
 
-message(sprintf("merged: %d polls, %d states | missing tariff: %d | missing 2024: %d",
+message(sprintf("merged: %d polls, %d states | missing tariff: %d | missing Canada trade: %d | missing 2024: %d",
                 nrow(merged), n_distinct(merged$state),
                 sum(is.na(merged$tariffedPercent)),
+                sum(is.na(merged$canada_share_total_trade)),
                 sum(is.na(merged$rep_vote_share_2024))))
 
 
