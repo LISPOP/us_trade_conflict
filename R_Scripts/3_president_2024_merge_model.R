@@ -199,14 +199,6 @@ glimpse(merged)
 model2<-lm(rep_diff ~ tariffedPercent*after_tariffs + incumbent, data = filter(merged, office_type!="Governor"))
 summary(model2)
 
-# Let's try the House district polls
-
-house
-
-
-
-
-
 # State-by-state data table: poll averages vs. 2024
 state_df <- merged |>
   group_by(State = state_name) |>
