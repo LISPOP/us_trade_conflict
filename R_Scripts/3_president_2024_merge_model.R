@@ -117,7 +117,10 @@ tariffs <- read_csv(here("Data", "tariffedImportsByState.csv"),
   rename(state_name = State) |>
   mutate(state_name = str_trim(state_name) |>        # tariffedPercent is 0-100
                       recode("Washington, State" = "Washington"))
-
+tariffs
+# The first three lines link the state abbreviation in state_vi with 
+# the state names that were generated in state_lookup
+# because the tariffs data frame contains information only by state name. 
 merged <- state_vi |>
   left_join(state_lookup, by = "state") |>
   left_join(tariffs,   by = "state_name") |>
@@ -132,9 +135,19 @@ message(sprintf("merged: %d polls, %d states | missing tariff: %d | missing 2024
                 sum(is.na(merged$tariffedPercent)),
                 sum(is.na(merged$rep_vote_share_2024))))
 
-# --- 5. Model -------------------------------------------------------
-model <- lm(rep_2party ~ tariffedPercent + incumbent, data = merged)
 
+# Create a new poll before or after counter tarrifs go into effect
+
+merged |> 
+  mutate(after_tariffs=case_when(
+    start_date>"2026-09-07"~"Post",
+    start_date>"2026-08-01" &start_date<"2026-09-08"~ "Pre",
+    TRUE~NA_character_)) |> 
+  mutate(after_tariffs=factor(after_tariffs, levels=c("Pre", "Post")))->merged
+
+# --- 5. Model -------------------------------------------------------
+model1 <- lm(rep_diff ~ tariffedPercent*after_tariffs + incumbent, data = merged)
+summary(model1)
 # --- 6. Tables (modelsummary, not console output) -------------------
 # Each table is built once as a data frame, then
 #   - shown in the RStudio Viewer (tinytable), and
@@ -146,17 +159,32 @@ fmt2 <- function(df) mutate(df, across(where(is.double), ~ formatC(.x, format = 
 stars_note <- "+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001"
 
 # Regression table
-reg_df <- modelsummary(
-  list("Republican two-party share (%)" = model),
+model1 <- modelsummary(
+  list("Republican two-party share (%)" = model1),
   stars       = TRUE,
-  coef_rename = c("tariffedPercent" = "Counter-tariff exposure (%)",
-                  "incumbentyes"    = "Republican incumbent"),
+  # coef_rename = c("tariffedPercent" = "Counter-tariff exposure (%)",
+  #                 "incumbentyes"    = "Republican incumbent", 
+  #                 "after_tariffs"="After Tariffs"),
   gof_map     = c("nobs", "r.squared", "adj.r.squared"),
   output      = "data.frame"
 ) |>
   mutate(term = if_else(statistic == "std.error", "", term)) |>   # SE under its estimate
   select(-part, -statistic) |>
   rename(" " = term)
+
+model1
+#### Model 2 - Exclude gubernatorial races, include only senate races
+glimpse(merged)
+model2<-lm(rep_diff ~ tariffedPercent*after_tariffs + incumbent, data = filter(merged, office_type!="Governor"))
+summary(model2)
+
+# Let's try the House district polls
+
+house
+
+
+
+
 
 # State-by-state data table: poll averages vs. 2024
 state_df <- merged |>
