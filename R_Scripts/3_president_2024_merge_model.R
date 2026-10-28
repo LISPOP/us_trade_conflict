@@ -6,23 +6,21 @@
 #   1. Scrape 2024 presidential results by state (Wikipedia) and keep
 #      only the Republican (Trump/Vance) result, plus Trump's
 #      two-party share (Harris votes used only to compute it).
-#   2. 2024 presidential vote by House district (2026 lines, The
-#      Downballot), same two-party construction.
-#   3. Keep only the Republican side of each 2026 Senate poll and
-#      House district poll (script 2), stacked in state_vi, plus its
-#      two-party share. Governor races are dropped.
-#   4. Merge polls + counter-tariff exposure (by state) + 2024 Trump
-#      baseline (state for Senate, district for House).
+#   2. Keep only the Republican side of each 2026 Senate/Governor
+#      poll (state_vi from script 2), plus its two-party share.
+#   3. Merge polls + counter-tariff exposure + Canada trade shares
+#      + 2024 presidential vote.
 #      All shares are numeric on a 0-100 scale (no "%" strings).
 #      rep_diff = 2026 poll R two-party share - 2024 Trump two-party
 #      share (two-party removes undecideds, which polls have and
 #      results don't).
-#   5. lm(rep_diff ~ tariffedPercent + incumbent), Senate vs. House,
+#   4. lm(rep_diff ~ tariffedPercent + incumbent), Senate vs. House,
 #      SEs clustered by state.
 #
 # INPUT   Data/nyt_state_vote_intention_2026.csv   (script 2)
 #         Data/nyt_house_polls_2026.csv            (script 2)
 #         Data/tariffedImportsByState.csv
+#         Data/state_trade_with_canada_2025_50states.xlsx
 # OUTPUT  Data/president_2024_rep_by_state.csv
 #         Data/president_2024_rep_by_district.csv
 #         Data/polls_tariffs_pres2024.csv
@@ -32,7 +30,7 @@
 # ------------------------------------------------------------------
 
 suppressMessages({
-  library(readr); library(dplyr); library(stringr)
+  library(readr); library(readxl); library(dplyr); library(stringr)
   library(rvest); library(here)
   library(modelsummary); library(tinytable)
 })
@@ -239,6 +237,23 @@ tariffs <- read_csv(here("Data", "tariffedImportsByState.csv"),
   rename(state_name = State) |>
   mutate(state_name = str_trim(state_name) |>        # tariffedPercent is 0-100
                       recode("Washington, State" = "Washington"))
+
+# Canada's share of each state's 2025 goods trade (Census via ITA
+# TradeStats Express). Header is on row 4; the "All 50 states" total and
+# footnotes have no Code, so filtering on Code keeps the 50 states.
+# Shares come as 0-1 fractions; x100 to match the 0-100 scale.
+canada_trade <- read_excel(here("Data", "state_trade_with_canada_2025_50states.xlsx"),
+                           skip = 3) |>
+  filter(!is.na(Code)) |>
+  transmute(
+    state                    = Code,
+    canada_share_exports     = round(100 * `Canada share of exports`, 2),
+    canada_share_imports     = round(100 * `Canada share of imports`, 2),
+    canada_share_total_trade = round(100 * `Canada share of total trade`, 2)
+  )
+
+stopifnot(nrow(canada_trade) == 50)
+
 tariffs
 # The first three lines link the state abbreviation in state_vi with
 # the state names that were generated in state_lookup
@@ -248,19 +263,19 @@ tariffs
 merged <- state_vi |>
   left_join(state_lookup, by = "state") |>
   left_join(tariffs,   by = "state_name") |>
-  left_join(pres_baseline, by = c("chamber", "state", "seat_number")) |>
-  # Republican over/under-performance vs. Trump 2024
-  mutate(rep_diff = round(rep_2party - rep_2party_2024, 2),
-         chamber  = factor(chamber, levels = c("Senate", "House")))
+  left_join(canada_trade, by = "state") |>
+  left_join(select(pres_2024, -state_name), by = "state") |>
+  # --- 4. Republican over/under-performance vs. 2024 --------------
+  mutate(rep_diff = round(rep_2party - rep_2party_2024, 2))
 
 write_csv(merged, here("Data", "polls_tariffs_pres2024.csv"))
 
-message(sprintf("merged: %d Senate polls, %d House polls (%d districts), %d states | missing tariff: %d | missing 2024: %d",
-                sum(merged$chamber == "Senate"), sum(merged$chamber == "House"),
-                nrow(distinct(filter(merged, chamber == "House"), state, seat_number)),
-                n_distinct(merged$state),
+message(sprintf("merged: %d polls, %d states | missing tariff: %d | missing Canada trade: %d | missing 2024: %d",
+                nrow(merged), n_distinct(merged$state),
                 sum(is.na(merged$tariffedPercent)),
-                sum(is.na(merged$rep_2party_2024))))
+                sum(is.na(merged$canada_share_total_trade)),
+                sum(is.na(merged$rep_vote_share_2024))))
+
 
 
 # --- 5. Model -------------------------------------------------------
@@ -284,19 +299,7 @@ fmt2 <- function(df) mutate(df, across(where(is.double), ~ formatC(.x, format = 
 stars_note <- "+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001"
 
 # Regression table
-state_models <- modelsummary(
-  list("Senate"       = model1,
-       "House"        = model2,
-       "Senate+House" = model3),
-  stars       = TRUE,
-  vcov        = ~state,    # SEs clustered by state
-  # coef_rename = c("tariffedPercent" = "Counter-tariff exposure (%)",
-  #                 "incumbentyes"    = "Republican incumbent",
-  #                 "chamberHouse"    = "House poll"),
-  gof_map     = c("nobs", "r.squared", "adj.r.squared", "vcov.type"), fmt=2
-)
 
-state_models
 
 
 # State-by-state data table: poll averages vs. 2024
@@ -320,22 +323,4 @@ incumbent_df <- merged |>
             "Mean change since 2024 (pts)" = mean(rep_diff),
             .groups = "drop") |>
   fmt2()
-
-# # Markdown for GitHub
-# md_table <- function(title, df, note = NULL) {
-#   c(paste("##", title), "",
-#     knitr::kable(df, format = "pipe", align = c("l", rep("r", ncol(df) - 1))),
-#     if (!is.null(note)) c("", paste0("*", gsub("*", "\\*", note, fixed = TRUE), "*")), "")  # escape stars
-# }
-# writeLines(c(
-#   "# Results: 2026 Republican polling, counter-tariffs and incumbency", "",
-#   "Generated by `R_Scripts/3_president_2024_merge_model.R`. Shares are",
-#   "Republican two-party shares, R / (R + D), on a 0-100 scale.", "",
-#   md_table("Table 1. Regression of Republican two-party poll share", reg_md,
-#            paste("OLS, one observation per poll. Standard errors in parentheses.", stars_note)),
-#   md_table("Table 2. Change since 2024 by Republican incumbency", incumbent_df),
-#   md_table("Table 3. State-by-state polling vs. 2024", state_df,
-#            "Change since 2024 = average 2026 poll two-party share minus Trump's 2024 two-party share.")
-# ), here("Output", "README.md"))
-#
 
