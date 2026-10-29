@@ -8,14 +8,66 @@ Canada and the United States have been locked in a bitter conflict since Donald 
 
 In response, the government of Canada levied the same amount of retaliatory tariffs on American exports to Canada, coming into effect on September 8th, 2026. It is no coincidence that this trade conflict erupted just before the vital midterm elections scheduled for this Tuesday, November 3rd. On the one hand, presumably President Trump was hoping to secure some kind of diplomatic victory in the lead-up to the midterms, while presumably the government of Canada was hoping to hurt Republican chances in the midterms in order to incentivize the administration to back down.
 
-Much thought will have gone into which goods to tariff with what consequences. The CBC reported here INSERT LINKS the distribution of the effects of Canada's retaliatory tariffs by state. Some states' exports will be hurt by Canadian tariffs, while other states will hardly notice.
+Much thought will have gone into which goods to tariff with what consequences. The [CBC reported](https://www.cbc.ca/news/canada/canada-states-hurt-tariffs-9.7321614) the distribution of the effects of Canada's retaliatory tariffs by state. Some states' exports will be hurt by Canadian tariffs, while other states will hardly notice.
 
 Is there any evidence, however, that these tariffs have actually affected the midterm election results. 
 
-DATA
+## Data
 
-Where did we take the polls from? Where did we get the data on presidential vote results?  where did we get the trade numbers from? What is the difference between counter-tariff exposure and share of overall trade? Include links! 
-For the CBC Article, google graeme bruce share of states hit by countertariffs. 
+**Polls.** Our polls come from the *New York Times* polling database, which collects publicly released polls for the 2026 Senate, House and governor races.[^polls] We keep general-election polls for U.S. Senate races and for individual U.S. House districts. For each poll we take the Republican candidate's two-party share: the Republican's support divided by the combined support for the Republican and the leading opponent. This removes undecided respondents, who appear in polls but not in election results.
+
+**Presidential vote.** Our benchmark is Donald Trump's 2024 two-party share of the vote. For Senate polls we use the statewide result, taken from Wikipedia's state-by-state results table.[^pres] For House polls we use the result in that congressional district, on the district lines used in 2026, from *The Downballot*'s district-level calculations.[^downballot] Our outcome is the gap between the two: the Republican's 2026 poll share minus Trump's 2024 share in the same state or district. A negative number means Republicans are polling behind Trump's 2024 result.
+
+**Trade.** We measure each state's trade ties to Canada in two ways.
+
+-   **Counter-tariff exposure** is the share of a state's goods shipped to Canada that are on Canada's retaliatory tariff list. It divides the value of a state's exports to Canada that face the counter-tariffs by the value of all its exports to Canada. We built it from Statistics Canada's merchandise trade data, which record Canada's imports by the U.S. state they come from, in Canadian dollars.[^statcan] This follows the approach the CBC used to rank states, and it gives the same ranking: Arkansas (20.2%) and Wisconsin (16.9%) have the largest shares of their exports to Canada hit, while Ohio, Illinois and Pennsylvania have the largest dollar amounts.[^cbc]
+-   **Canada's share of overall trade** is how much of a state's total goods trade is with Canada, whether or not those goods face counter-tariffs. It adds a state's exports to Canada and imports from Canada, and divides by its exports to and imports from the whole world. These figures are 2025 U.S. Census Bureau data from the International Trade Administration's TradeStats Express.[^ita]
+
+The two measures answer different questions. Counter-tariff exposure asks how much of what a state sells to Canada is now taxed, so it captures the deliberate targeting of Canada's tariff list. Canada's share of overall trade asks how much a state depends on Canada at all. A state can trade heavily with Canada but face little exposure if its main exports were left off the list, or trade little with Canada but have most of that trade hit. Both measures are at the state level, so every House district in a state gets its state's values.
+
+```{r}
+#| label: tbl-trade
+#| tbl-cap: "Canada trade measures for each state in the polling data (%)"
+#| echo: false
+#| message: false
+#| warning: false
+
+library(dplyr)
+
+polls <- read.csv("../Data/polls_tariffs_pres2024.csv")
+
+state_trade <- polls |>
+  group_by(State = state_name) |>
+  summarise(
+    "Senate polls"              = sum(chamber == "Senate"),
+    "House polls"               = sum(chamber == "House"),
+    "Counter-tariff exposure"   = first(tariffedPercent),
+    "Canada share of exports"   = first(canada_share_exports),
+    "Canada share of imports"   = first(canada_share_imports),
+    "Canada share of all trade" = first(canada_share_total_trade)
+  ) |>
+  arrange(desc(`Counter-tariff exposure`))
+
+# Average row: each state counts once, however many polls it has
+state_avg <- state_trade |>
+  summarise(State = "Average across states",
+            across(ends_with("polls"), sum),
+            across(-c(State, ends_with("polls")), mean))
+
+knitr::kable(bind_rows(state_trade, state_avg), digits = 1)
+```
+
+[^polls]: *The New York Times*, 2026 election polls, downloaded as CSV files: [Senate](https://www.nytimes.com/newsgraphics/polls/senate.csv) and [House](https://www.nytimes.com/newsgraphics/polls/house.csv).
+
+[^pres]: Wikipedia, ["2024 United States presidential election"](https://en.wikipedia.org/wiki/2024_United_States_presidential_election), results by state.
+
+[^downballot]: *The Downballot*, ["The Downballot's calculations of presidential results by congressional district"](https://www.the-downballot.com/p/the-downballots-calculations-of-presidential).
+
+[^statcan]: Statistics Canada, ["Canadian International Merchandise Trade Web Application (CIMT), 2023–2026"](https://open.canada.ca/data/en/dataset/2909a648-5753-4924-878a-b069392d9cde), Open Government Portal.
+
+[^cbc]: CBC News, ["How will each state be affected by Canada's tariff retaliation?"](https://www.cbc.ca/news/canada/canada-states-hurt-tariffs-9.7321614)
+
+[^ita]: U.S. Census Bureau data via the International Trade Administration, ["TradeStats Express: Trade by Partner by State"](https://www.trade.gov/data-visualization/tradestats-express-trade-partner-state), annual 2025, all merchandise.
 
 RESULTS
 Generate a table of descriptive statistics for the data sets. 
