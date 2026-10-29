@@ -31,6 +31,7 @@
 
 suppressMessages({
   library(readr); library(readxl); library(dplyr); library(stringr)
+  library(tidyr); library(purrr)
   library(rvest); library(here)
   library(modelsummary); library(tinytable)
 })
@@ -264,7 +265,7 @@ merged <- state_vi |>
   left_join(state_lookup, by = "state") |>
   left_join(tariffs,   by = "state_name") |>
   left_join(canada_trade, by = "state") |>
-  left_join(select(pres_2024, -state_name), by = "state") |>
+  left_join(pres_baseline, by = c("chamber", "state", "seat_number")) |>
   # --- 4. Republican over/under-performance vs. 2024 --------------
   mutate(rep_diff = round(rep_2party - rep_2party_2024, 2))
 
@@ -274,53 +275,46 @@ message(sprintf("merged: %d polls, %d states | missing tariff: %d | missing Cana
                 nrow(merged), n_distinct(merged$state),
                 sum(is.na(merged$tariffedPercent)),
                 sum(is.na(merged$canada_share_total_trade)),
-                sum(is.na(merged$rep_vote_share_2024))))
+                sum(is.na(merged$rep_2party_2024))))
 
-
+names(merged)
 
 # --- 5. Model -------------------------------------------------------
-post <- filter(merged, start_date > "2026-09-07")
-model1 <- lm(rep_diff ~ tariffedPercent+incumbent, data = filter(post, chamber == "Senate"))
-model2 <- lm(rep_diff ~ tariffedPercent+incumbent, data = filter(post, chamber == "House"))
-model3 <- lm(rep_diff ~ tariffedPercent+incumbent+chamber, data = post)
+post <- filter(merged, start_date > "2026-10-01")
 
-# List models
-# SEs clustered by state: tariff exposure varies only across states,
-# and polls of the same race share candidates and campaign shocks.
-modelsummary(list(model1, model2, model3), stars=T, fmt=2, vcov = ~state)
-# --- 6. Tables (modelsummary, not console output) -------------------
-# Each table is built once as a data frame, then
-#   - shown in the RStudio Viewer (tinytable), and
-#   - written to Output/README.md as Markdown pipe tables, which GitHub
-#     renders on the Output/ folder page.
-dir.create(here("Output"), showWarnings = FALSE)
+# One model per chamber x exposure measure (name = which measure,
+# value = its 0-100 score). state stays in data for clustered SEs.
+# rep_2party_2024 controls for Trump's 2024 level: places he won big
+# have more room to fall, so the shortfall alone would assume every
+# point of 2024 support carries over one-for-one.
+exposure_models <- post |>
+ select(chamber, state, rep_diff, incumbent, rep_2party_2024, tariffedPercent, canada_share_total_trade) |>
+ pivot_longer(cols=c(tariffedPercent,canada_share_total_trade)) |>
+ nest(data=c(rep_diff, incumbent, rep_2party_2024, value, state)) |>
+  mutate(model=map(data, ~lm(rep_diff~value+incumbent+rep_2party_2024, data=.x)))
 
-fmt2 <- function(df) mutate(df, across(where(is.double), ~ formatC(.x, format = "f", digits = 2)))
-stars_note <- "+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001"
+# Four columns (Senate tariffs, Senate Canada, House tariffs, House
+# Canada) under a two-column "Senate" header and a two-column "House"
+# header. Column 1 is the coefficient labels, so the models are 2-5.
+exposure_models <- exposure_models |>
+  mutate(chamber = factor(chamber, levels = c("Senate", "House"))) |>
+  arrange(chamber, name != "tariffedPercent")    # tariffs first in each chamber
 
-# Regression table
+exposure_tbl <- modelsummary(setNames(exposure_models$model,
+                      paste0(recode(exposure_models$name,
+                                    tariffedPercent          = "Counter-tariff exposure",
+                                    canada_share_total_trade = "Canada share of trade"),
+                             c("", " ")[as.integer(exposure_models$chamber)])),  # names must be unique
+             stars=T, fmt=2, vcov = ~state,
+             coef_rename = c("value"        = "Exposure (%)",
+                             "incumbentyes" = "Republican incumbent",
+                             "rep_2party_2024" = "Trump 2024 two-party share (%)"),
+             gof_map = c("nobs", "r.squared", "adj.r.squared")) |>
+  group_tt(j = list("Senate" = 2:3, "House" = 4:5))
 
+exposure_tbl
+# Grouped headers are added after modelsummary(), so save the finished
+# table rather than passing output= (which would save it without them).
+save_tt(exposure_tbl, here("Output", "model_summary.html"), overwrite = TRUE)
 
-
-# State-by-state data table: poll averages vs. 2024
-# (House: averaged over the state's polled districts)
-state_df <- merged |>
-  group_by(Chamber = chamber, State = state_name) |>
-  summarise(
-    "Polls"                                = n(),
-    "Counter-tariff exposure (%)"          = first(tariffedPercent),
-    "Trump 2024, two-party (%)"            = mean(rep_2party_2024),
-    "Republican 2026 polls, two-party (%)" = mean(rep_2party),
-    "Change since 2024 (pts)"              = mean(rep_diff),
-    .groups = "drop"
-  ) |>
-  fmt2()
-
-# Change since 2024 by chamber and incumbency
-incumbent_df <- merged |>
-  group_by(Chamber = chamber, "Republican incumbent" = incumbent) |>
-  summarise("Polls"                        = n(),
-            "Mean change since 2024 (pts)" = mean(rep_diff),
-            .groups = "drop") |>
-  fmt2()
 

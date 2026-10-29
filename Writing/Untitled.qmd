@@ -1,0 +1,32 @@
+---
+title: "Untitled"
+format: pdf
+editor: visual
+---
+
+## Introduction
+
+
+Throughout US President Donald Trump's second term, relations with Canada have been fraught. INSERT refernces ABOUT 51ST STATE STUFF RIGHT FROM THE BEGINNGIN Tensions escalated in the summer of 2026, however, when the US president threatened increased tarrifs on a range of Canadian goods, regardless of whether the were compliant with the Canada-United States-Mexico (CUSMA) free trade agreement. As the imposition of these tariffs drew near, talks between the two countries fell apart and Canada responded with dollar-for-dollar tariffs worth \$X billino dollars on September 7th, 2026. 
+
+This trade conflict occurred against the backdrop of the crucial United States midterm elections for the House and the Senate. Here we ask investigate whether there is any evidence about whether not the trade conflict has influenced the US midterm elections in any way. 
+
+On the one hand, it is not hard to see why. US tariffs on Canadian goods imported into the United States primarily threaten to increase prices of those goods, at a time when inflation is already significant and voters are registering concerns about affordability. Moreover, Canadian tariffs against the United States threaten jobs in American firms. Either way, the trade conflict might feed into voters' evaluations of the current administration possibly leading to changes in the vote. 
+
+On the other hand, the US-Canada relationship is deeply asymmetrical. The United States is the world's largest, richest economy and Canada's is much smaller and not as wealthy. This means that campaign dynamics may be impacted by more domestic political concerns than by external shocks from the small Canadian economy. For example,  
+
+## Data
+
+We collected data from the following sources. Vote intention was taken from 
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

@@ -1,6 +1,7 @@
+library(tidyverse)
 # ------------------------------------------------------------------
 # Ingest the New York Times poll database (the 538-style feed NYT now
-# hosts) and reshape it into tidy Democrat-vs-Republican matchups.
+# hosts) and reshape it into tidy Republican-vs-opponent matchups.
 #
 # WHY THIS SOURCE
 #   NYT's feed is far more complete and current than Wikipedia's hand-
@@ -13,7 +14,7 @@
 #   https://www.nytimes.com/newsgraphics/polls/senate.csv
 #   https://www.nytimes.com/newsgraphics/polls/governor.csv
 #
-# OUTPUT (one row per poll question = one D-vs-R matchup)
+# OUTPUT (one row per poll question = one R-vs-opponent matchup)
 #   Data/nyt_house_polls_2026.csv    (district-level)
 #   Data/nyt_senate_polls_2026.csv   (state-level)
 #   Data/nyt_governor_polls_2026.csv (state-level)
@@ -52,11 +53,24 @@ fetch_csv <- function(office) {
   read_csv(dest, show_col_types = FALSE, col_types = cols(.default = "c"))
 }
 
-# --- Reshape long -> wide D-vs-R matchups ---------------------------
+# --- Reshape long -> wide R-vs-opponent matchups --------------------
 # The feed is long: one row per candidate per poll question. For each
-# (poll_id, question_id) we take the leading Democrat and leading
-# Republican (handles CA/WA top-two fields with multiple same-party
-# candidates by using the front-runner of each party).
+# (poll_id, question_id) we take the leading Republican and the leading
+# non-Republican ("opponent"), whatever their party. In races where
+# Democrats back an independent (AK-AL Hill, MT Bodnar, SD Bengs, ID
+# Achilles) the independent is the real opponent, so pairing with the
+# leading Democrat would compare against a minor candidate. Front-
+# runner of each side also handles CA/WA top-two fields.
+#   opp_party  party of the opponent (DEM / IND / ...), for robustness
+#   three_way  runner-up non-Republican polls >= 15%, i.e. a viable
+#              Democrat and a viable independent both run (MI Gov)
+#
+# Ranked-choice polls (AK, ME) report several rounds of the same poll
+# as separate questions. Only the final round is kept: it is the
+# head-to-head closest to a two-party result, and keeping every round
+# would count one poll several times.
+THREE_WAY_PCT <- 15
+
 tidy_matchups <- function(df) {
   df <- df |>
     filter(cycle == "2026") |>
@@ -64,8 +78,13 @@ tidy_matchups <- function(df) {
       start_date  = mdy(start_date),
       end_date    = mdy(end_date),
       pct         = suppressWarnings(as.numeric(pct)),
-      sample_size = suppressWarnings(as.numeric(sample_size))
-    )
+      sample_size = suppressWarnings(as.numeric(sample_size)),
+      rcv_round   = suppressWarnings(as.numeric(ranked_choice_round))
+    ) |>
+    group_by(poll_id, state, seat_number) |>
+    filter(is.na(rcv_round) |
+           rcv_round == suppressWarnings(max(rcv_round, na.rm = TRUE))) |>
+    ungroup()
 
   meta <- df |>
     group_by(poll_id, question_id) |>
@@ -83,26 +102,39 @@ tidy_matchups <- function(df) {
       end_date    = first(end_date),
       hypothetical= first(hypothetical),
       stage       = first(stage),
+      rcv_round   = first(rcv_round),
       url         = first(url),
       .groups = "drop"
     )
 
-  lead_party <- function(p) {
-    df |>
-      filter(party == p, !is.na(pct)) |>
-      group_by(poll_id, question_id) |>
-      slice_max(pct, n = 1, with_ties = FALSE) |>
-      ungroup() |>
-      select(poll_id, question_id, candidate_name, pct)
-  }
-  dem <- lead_party("DEM") |> rename(dem_candidate = candidate_name, dem_pct = pct)
-  rep <- lead_party("REP") |> rename(rep_candidate = candidate_name, rep_pct = pct)
+  rep <- df |>
+    filter(party == "REP", !is.na(pct)) |>
+    group_by(poll_id, question_id) |>
+    slice_max(pct, n = 1, with_ties = FALSE) |>
+    ungroup() |>
+    select(poll_id, question_id, rep_candidate = candidate_name, rep_pct = pct)
+
+  # Non-Republicans ranked within each question; "NONE" is undecided /
+  # someone else / neither, not a candidate.
+  non_rep <- df |>
+    filter(!party %in% c("REP", "NONE"), !is.na(pct)) |>
+    group_by(poll_id, question_id) |>
+    arrange(desc(pct), .by_group = TRUE)
+
+  opp <- non_rep |>
+    summarise(
+      opp_candidate = first(candidate_name),
+      opp_party     = first(party),
+      opp_pct       = first(pct),
+      three_way     = coalesce(nth(pct, 2), 0) >= THREE_WAY_PCT,
+      .groups = "drop"
+    )
 
   meta |>
-    inner_join(dem, by = c("poll_id", "question_id")) |>
+    inner_join(opp, by = c("poll_id", "question_id")) |>
     inner_join(rep, by = c("poll_id", "question_id")) |>
     mutate(
-      net_dem  = dem_pct - rep_pct,
+      net_opp  = opp_pct - rep_pct,
       partisan = na_if(partisan, ""),
       is_partisan = !is.na(partisan)
     ) |>
