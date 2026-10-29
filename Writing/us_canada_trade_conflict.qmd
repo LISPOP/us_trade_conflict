@@ -4,6 +4,21 @@ format: html
 editor: visual
 ---
 
-Canada and the United States have been locked in a bitter conflict since Donald Trump took office in January 2025. Affairs escalated this summer when the US government threatened AMOUNT of tariffs on a range of Canadian exports, despite being covered under the Canada-US-Mexico free trade agreement. 
+Canada and the United States have been locked in a bitter conflict since Donald Trump took office in January 2025. Affairs escalated this summer when the US government threatened AMOUNT of tariffs on a range of Canadian exports, despite being covered under the Canada-US-Mexico free trade agreement.
 
-In response, the government of Canada levied the same amount of retaliatory tariffs on American exports to Canada, coming into effect on September 8th, 2026. 
+In response, the government of Canada levied the same amount of retaliatory tariffs on American exports to Canada, coming into effect on September 8th, 2026. It is no coincidence that this trade conflict erupted just before the vital midterm elections scheduled for this Tuesday, November 3rd. On the one hand, presumably President Trump was hoping to secure some kind of diplomatic victory in the lead-up to the midterms, while presumably the government of Canada was hoping to hurt Republican chances in the midterms in order to incentivize the administration to back down.
+
+Much thought will have gone into which goods to tariff with what consequences. The CBC reported here INSERT LINKS the distribution of the effects of Canada's retaliatory tariffs by state. Some states' exports will be hurt by Canadian tariffs, while other states will hardly notice.
+
+Is there any evidence, however, that these tariffs have actually affected the midterm election results. 
+
+DATA
+
+Where did we take the polls from? Where did we get the data on presidential vote results?  where did we get the trade numbers from? What is the difference between counter-tariff exposure and share of overall trade? Include links! 
+For the CBC Article, google graeme bruce share of states hit by countertariffs. 
+
+RESULTS
+Generate a table of descriptive statistics for the data sets. 
+
+CONCLUSION
+Summarize the conclusion, story of null finding . 
