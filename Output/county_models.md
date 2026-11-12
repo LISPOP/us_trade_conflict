@@ -25,10 +25,10 @@ clustered by state. Controls: 2024 margin, 2020-2024 change in margin, and
 
 |Outcome                        |Exposure                                 |No controls  |With controls |Counties |States |
 |:------------------------------|:----------------------------------------|:------------|:-------------|:--------|:------|
-|House 2026 vs. president 2024  |State counter-tariff share (current)     |0.05 (0.66)  |-0.60 (0.57)  |3095     |48     |
-|Senate 2026 vs. president 2024 |State counter-tariff share (current)     |-0.91 (2.20) |-1.55 (1.15)  |2436     |34     |
-|House 2026 vs. president 2024  |County Canadian retaliation shock (2018) |0.21 (0.65)  |-0.77 (0.53)  |3095     |48     |
-|Senate 2026 vs. president 2024 |County Canadian retaliation shock (2018) |0.00 (0.85)  |-0.33 (0.35)  |2436     |34     |
+|House 2026 vs. president 2024  |State counter-tariff share (current)     |0.29 (0.66)  |-0.35 (0.55)  |3083     |48     |
+|Senate 2026 vs. president 2024 |State counter-tariff share (current)     |-0.09 (1.96) |-0.73 (0.90)  |2234     |31     |
+|House 2026 vs. president 2024  |County Canadian retaliation shock (2018) |0.28 (0.68)  |-0.71 (0.52)  |3083     |48     |
+|Senate 2026 vs. president 2024 |County Canadian retaliation shock (2018) |0.05 (0.89)  |-0.31 (0.37)  |2234     |31     |
 
 *+ p < 0.1, \* p < 0.05, \*\* p < 0.01, \*\*\* p < 0.001*
 

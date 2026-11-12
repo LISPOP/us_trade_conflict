@@ -95,8 +95,8 @@ names(table5) <- c("", "(1)", "(2) + industry", "(3) + region",
 res <- fromJSON(here("Data/county/results_2026_civicapi/counties.json")) %>%
   transmute(fips, st,
             rmargin24 = -m24, rmargin20 = -m20, votes24 = t24,
-            rmargin26_house  = house26_r - house26_d,
-            rmargin26_senate = sen26_r - sen26_d)
+            rmargin26_house  = ifelse(house26_r == 0 | house26_d == 0, NA, house26_r - house26_d),
+            rmargin26_senate = ifelse(sen26_r == 0 | sen26_d == 0, NA, sen26_r - sen26_d))
 
 tariff <- read.csv(here("Data/tariffedImportsByState.csv")) %>%
   mutate(State = ifelse(State == "Washington, State", "Washington", State),
