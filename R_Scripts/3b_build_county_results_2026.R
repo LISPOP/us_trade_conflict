@@ -6,7 +6,8 @@
 #               (civicAPI via jcalepos146/Electoral-Path-2026, 9 Nov 2026)
 #   official:   Data/county/official_state_feeds_2026/county_results_2026_official.csv
 #               (state election office feeds via pushbuild, 6 Nov 2026;
-#                Senate and governor, 18 states)
+#                Senate and governor; 15 states with full county
+#                coverage, plus one or two counties each in KS, MI, NJ)
 #
 # For each race (senate, governor, house) the output has
 #   *_r2p      Republican share of Republican + Democratic votes, 0-100
@@ -28,6 +29,10 @@
 #      the aggregator. Otherwise the aggregator is used and flagged:
 #      it is three days newer, and the official file has four North
 #      Carolina counties under the wrong names.
+#   5. The House figure is blanked in a county when the aggregator
+#      flags it as partial (house26_partial: part of the county is in
+#      a district one party did not contest), or when its House votes
+#      are under 80% of the votes in its Senate or governor race.
 #
 # OUTPUT  Data/county/county_results_2026_combined.csv
 # ------------------------------------------------------------------
@@ -66,6 +71,12 @@ for (race in names(races)) {
 
   bad <- is.na(r) | is.na(d) | pmin(r, d) < 5 |                       # rule 2
          agg$st %in% indep_states                                     # rule 3
+  if (race == "house") {                                              # rule 5
+    top <- pmax(agg$sen26_total, agg$gov26_total, na.rm = TRUE)
+    partial <- agg$house26_partial %in% TRUE | (!is.na(top) & !is.na(tot) & tot < 0.8 * top)
+    n_partial <- sum(partial & !bad)
+    bad <- bad | partial
+  }
   r2p <- ifelse(bad, NA, 100 * r / (r + d))
   rmargin <- ifelse(bad, NA, r - d)
 
@@ -86,7 +97,7 @@ for (race in names(races)) {
 out <- select(out, -key)
 write.csv(out, here("Data/county/county_results_2026_combined.csv"), row.names = FALSE, na = "")
 
-cat("counties:", nrow(out), "\n")
+cat("rows:", nrow(out), "| partial House counties blanked (rule 5):", n_partial, "\n")
 for (race in names(races)) {
   cat(sprintf("%-9s values: %d | sources: %s\n  whole states blanked (independents): %s | one-sided counties blanked: %d\n",
               race, sum(!is.na(out[[paste0(race, "_r2p")]])),

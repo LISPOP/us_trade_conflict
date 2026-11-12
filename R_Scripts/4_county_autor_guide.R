@@ -97,7 +97,8 @@ names(table5) <- c("", "(1)", "(2) + industry", "(3) + region",
 res <- read.csv(here("Data/county/county_results_2026_combined.csv"),
                 colClasses = c(fips = "character")) %>%
   transmute(fips, st = state, rmargin24, rmargin20, votes24,
-            rmargin26_house = house_rmargin, rmargin26_senate = senate_rmargin)
+            rmargin26_house = house_rmargin, rmargin26_senate = senate_rmargin) %>%
+  filter(st != "CA")   # California was still counting on 9 Nov: excluded
 
 tariff <- read.csv(here("Data/tariffedImportsByState.csv")) %>%
   mutate(State = ifelse(State == "Washington, State", "Washington", State),
@@ -176,9 +177,10 @@ out <- c(
   "",
   "Caveats: 2026 counts are unofficial. Neither exposure measure is the one we",
   "want: the first varies only across states, the second uses Canada's 2018",
-  "tariff list. Alaska, DC, uncontested races and races with a strong",
-  "independent are excluded (see `R_Scripts/3b_build_county_results_2026.R`).",
-  "California was still counting on 9 Nov, so its figures are incomplete."
+  "tariff list. Alaska, DC, uncontested races, races with a strong",
+  "independent and counties with partial House counts are excluded",
+  "(see `R_Scripts/3b_build_county_results_2026.R`).",
+  "California is excluded because it was still counting on 9 Nov."
 )
 writeLines(out, here("Output/county_models.md"))
 cat(out, sep = "\n")

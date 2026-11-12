@@ -17,9 +17,11 @@ Checks run 2026-11-11:
   import exposure measure (`d_imp_usch_pd_0008`) and its instrument
   (`d_imp_otch_lag_pd_0008`).
 - `workfile_12Jun19.dta` has 3,197 rows, of which 3,111 are counties with
-  values. The other 84 are 31 blank rows and 53 placeholder rows whose FIPS
-  codes end in 999 (one per state, no county name; Alaska's is among them).
-  Drop rows with a missing Canada shock before use. (`fips`, 1,459
+  values. Another 84 rows have no Canada shock: 31 with a blank FIPS code,
+  50 placeholders whose codes end in 999 and 3 whose codes end in 099
+  (15099, 23099, 44099). Two more placeholder rows do carry a value but
+  match no county. Drop rows with a missing Canada shock before use, and
+  merge on FIPS so the placeholders fall away. (`fips`, 1,459
   columns). It has separate 2018 retaliatory tariff shocks by partner,
   including **Canada** (`cty_can3_TS*`), China, Mexico and the EU.
 - `counties.json` Senate figures were compared with official state feeds (the
@@ -128,7 +130,7 @@ vote" means Senate, governor, or all House races combined.
 
 | Source | Coverage | Link |
 |---|---|---|
-| civicAPI, as packaged in `jcalepos146/Electoral-Path-2026` | `data/counties.json`: 3,235 county rows with FIPS. 2026 two-party shares for House (3,132 counties), Senate (2,465), governor (2,173), plus 2024 and 2020 presidential margins. Counts as of 9 Nov. Gaps: Alaska, Connecticut, DC | https://github.com/jcalepos146/Electoral-Path-2026 |
+| civicAPI, as packaged in `jcalepos146/Electoral-Path-2026` | `data/counties.json`: 3,235 county rows with FIPS. 2026 Republican and Democratic shares of all votes (not two-party shares) for House (3,132 counties), Senate (2,465), governor (2,173), plus 2024 and 2020 presidential margins. Counts as of 9 Nov. Gaps: Alaska, Connecticut, DC | https://github.com/jcalepos146/Electoral-Path-2026 |
 | civicAPI directly | Free, no key, attribution required. Does not state its own sources | https://civicapi.org |
 | `pushbuild/us-2026-election-results` | One CSV per state straight from state election offices, CC0, as of 6 Nov. 41 states listed; no county rows for AL, CA, DE, IL, MA, NE, NM, NV, NY, OK, SD, VT, WY and only a few counties for KS, MI, NJ, PA, WI. No FIPS column | https://github.com/pushbuild/us-2026-election-results |
 | MIT Election Data and Science Lab | Nothing for 2026 yet. Official precinct returns usually arrive months later (its 2024 repo was still being updated in May 2026) | https://github.com/MEDSL |
