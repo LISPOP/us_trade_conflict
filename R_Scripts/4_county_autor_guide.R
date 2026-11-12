@@ -23,7 +23,7 @@
 # INPUT   Data/county/adhm_2020/ADHM-PoliticalPolarization-FileArchive.zip
 #         Data/county/bbc_2019/Replication_BBC_15Oct19.zip
 #         Data/county/lake_nie_2023/estimationDataset.dta  (2016 controls)
-#         Data/county/results_2026_civicapi/counties.json
+#         Data/county/county_results_2026_combined.csv     (script 3b)
 #         Data/tariffedImportsByState.csv
 #         (the two zips are not in git; links in Data/county_data_sources.md)
 # OUTPUT  Output/county_models.md
@@ -92,11 +92,12 @@ names(table5) <- c("", "(1)", "(2) + industry", "(3) + region",
                    "(4) + demography", "(5) + past vote")
 
 # --- 2. Same design, 2026 -------------------------------------------
-res <- fromJSON(here("Data/county/results_2026_civicapi/counties.json")) %>%
-  transmute(fips, st,
-            rmargin24 = -m24, rmargin20 = -m20, votes24 = t24,
-            rmargin26_house  = ifelse(house26_r == 0 | house26_d == 0, NA, house26_r - house26_d),
-            rmargin26_senate = ifelse(sen26_r == 0 | sen26_d == 0, NA, sen26_r - sen26_d))
+# Cleaned county results from script 3b (Alaska, DC, uncontested races and
+# races with a strong independent are already removed there).
+res <- read.csv(here("Data/county/county_results_2026_combined.csv"),
+                colClasses = c(fips = "character")) %>%
+  transmute(fips, st = state, rmargin24, rmargin20, votes24,
+            rmargin26_house = house_rmargin, rmargin26_senate = senate_rmargin)
 
 tariff <- read.csv(here("Data/tariffedImportsByState.csv")) %>%
   mutate(State = ifelse(State == "Washington, State", "Washington", State),
@@ -175,7 +176,9 @@ out <- c(
   "",
   "Caveats: 2026 counts are unofficial. Neither exposure measure is the one we",
   "want: the first varies only across states, the second uses Canada's 2018",
-  "tariff list. House results exclude counties in uncontested districts."
+  "tariff list. Alaska, DC, uncontested races and races with a strong",
+  "independent are excluded (see `R_Scripts/3b_build_county_results_2026.R`).",
+  "California was still counting on 9 Nov, so its figures are incomplete."
 )
 writeLines(out, here("Output/county_models.md"))
 cat(out, sep = "\n")

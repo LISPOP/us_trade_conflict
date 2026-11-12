@@ -23,15 +23,17 @@ are per one standard deviation of exposure. Weighted by 2024 votes, SEs
 clustered by state. Controls: 2024 margin, 2020-2024 change in margin, and
 2016 college, white, manufacturing, agriculture/mining and age 65-74 shares.
 
-|Outcome                        |Exposure                                 |No controls  |With controls |Counties |States |
-|:------------------------------|:----------------------------------------|:------------|:-------------|:--------|:------|
-|House 2026 vs. president 2024  |State counter-tariff share (current)     |0.29 (0.66)  |-0.35 (0.55)  |3083     |48     |
-|Senate 2026 vs. president 2024 |State counter-tariff share (current)     |-0.09 (1.96) |-0.73 (0.90)  |2234     |31     |
-|House 2026 vs. president 2024  |County Canadian retaliation shock (2018) |0.28 (0.68)  |-0.71 (0.52)  |3083     |48     |
-|Senate 2026 vs. president 2024 |County Canadian retaliation shock (2018) |0.05 (0.89)  |-0.31 (0.37)  |2234     |31     |
+|Outcome                        |Exposure                                 |No controls |With controls |Counties |States |
+|:------------------------------|:----------------------------------------|:-----------|:-------------|:--------|:------|
+|House 2026 vs. president 2024  |State counter-tariff share (current)     |0.40 (0.61) |-0.22 (0.53)  |3052     |47     |
+|Senate 2026 vs. president 2024 |State counter-tariff share (current)     |0.34 (1.82) |-0.38 (0.80)  |2179     |30     |
+|House 2026 vs. president 2024  |County Canadian retaliation shock (2018) |0.17 (0.65) |-0.64 (0.47)  |3052     |47     |
+|Senate 2026 vs. president 2024 |County Canadian retaliation shock (2018) |0.16 (0.90) |-0.36 (0.37)  |2179     |30     |
 
 *+ p < 0.1, \* p < 0.05, \*\* p < 0.01, \*\*\* p < 0.001*
 
 Caveats: 2026 counts are unofficial. Neither exposure measure is the one we
 want: the first varies only across states, the second uses Canada's 2018
-tariff list. House results exclude counties in uncontested districts.
+tariff list. Alaska, DC, uncontested races and races with a strong
+independent are excluded (see `R_Scripts/3b_build_county_results_2026.R`).
+California was still counting on 9 Nov, so its figures are incomplete.
