@@ -62,7 +62,25 @@ House candidates lost support in counties more exposed to retaliation.
 Presidential Election and Trump's Wars on Trade and Health Insurance",
 European Journal of Political Economy.** County exposure to the 2018-19 trade
 war and Trump's 2020 vote. Per its abstract, US tariff protection raised
-Trump's support and foreign retaliation lowered it. Not yet downloaded or read.
+Trump's support and foreign retaliation lowered it. The paper itself has not
+been read.
+
+Downloaded to `Data/county/lake_nie_2023/` on 2026-11-11: `estimationDataset.dta`
+(3 MB) and `regressions_EJPE.do`. The package's other files (Covid mobility
+data, shapefiles, figures) were skipped. Checks on the dataset:
+
+- One row per county: 3,112 rows, no duplicate FIPS, 49 states plus DC
+  (Alaska is absent). 236 columns, no variable labels.
+- 2020 vote totals are 81.13 million Democratic and 74.03 million Republican,
+  which equals the official national totals minus Alaska.
+- County 2020 margins match an independent source (the 2020 margins in
+  `counties.json`, from the tonmcg dataset) within 1 point in 99.9% of counties.
+- Tariff exposure: `TS3_US` (US tariffs) and `TS3_R` (retaliation), with
+  China-only versions `chn_TS3_US` and `chn_TS3_R`, and farm subsidies
+  `agSubs_mfp_pw`. No missing values. `TS3_R` correlates 0.77-0.79 with the
+  Blanchard-Bown-Chor retaliation shock, and `TS3_US` 0.41-0.78 with their US
+  tariff shocks, so the two papers measure similar but not identical things.
+- No Canada-specific shock here; only the Blanchard-Bown-Chor file has one.
 
 - Paper: https://doi.org/10.1016/j.ejpoleco.2022.102338
 - Free working-paper version (CESifo WP 8856): https://www.cesifo.org/DocDL/cesifo1_wp8856.pdf
@@ -81,6 +99,11 @@ was found. Options, best first:
 | Autor et al. archive | County/commuting-zone China import exposure, 1990s-2000s | see above |
 | Washington Post map, 10 Mar 2025 | County jobs exposed to **Canadian and Chinese** counter-tariffs, built on Brookings data. Underlying file not located | https://www.washingtonpost.com/business/2025/03/10/canada-china-tariffs-american-jobs/ |
 | Richmond Fed WP 26-08 and Economic Brief 25-12 | County effective **US import** tariff rates for 2025 (protection side, not retaliation) | https://www.richmondfed.org/publications/research/working_papers/2026/wp_26-08 |
+
+**Caveat (2026-11-11):** the working paper draft dates Canada's counter-tariffs
+to 7 September 2026. The surtax orders listed in step 1 below are the 2025
+ones; the September 2026 list has not been located yet and is probably the
+one to use.
 
 **Building our own Canada measure** (the Blanchard-Bown-Chor recipe):
 
