@@ -58,6 +58,16 @@ House candidates lost support in counties more exposed to retaliation.
 - Method: tariff list (HS) -> industry (NAICS) -> county, weighted by County
   Business Patterns employment. County House vote from Dave Leip's Atlas.
 
+**Second candidate for "the paper": Lake and Nie (2023), "The 2020 US
+Presidential Election and Trump's Wars on Trade and Health Insurance",
+European Journal of Political Economy.** County exposure to the 2018-19 trade
+war and Trump's 2020 vote. Per its abstract, US tariff protection raised
+Trump's support and foreign retaliation lowered it. Not yet downloaded or read.
+
+- Paper: https://doi.org/10.1016/j.ejpoleco.2022.102338
+- Free working-paper version (CESifo WP 8856): https://www.cesifo.org/DocDL/cesifo1_wp8856.pdf
+- Replication package (Stata, CC BY 4.0): https://data.mendeley.com/datasets/33jbvtypvv/3
+
 ## 2. County-level trade exposure
 
 No ready-made county measure of exposure to **Canada's** 2025 counter-tariffs
