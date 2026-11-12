@@ -1,0 +1,1812 @@
+state,county,race,contest,r_votes,d_votes,r_share_2p,source_fetched_utc
+AK,District 1,senate,U.S. Senator,2519,1986,55.92,2026-11-07T04:32:07+00:00
+AK,District 10,senate,U.S. Senator,2269,2185,50.94,2026-11-07T04:32:07+00:00
+AK,District 11,senate,U.S. Senator,2611,2101,55.41,2026-11-07T04:32:07+00:00
+AK,District 12,senate,U.S. Senator,1954,2020,49.17,2026-11-07T04:32:07+00:00
+AK,District 13,senate,U.S. Senator,1596,1927,45.3,2026-11-07T04:32:07+00:00
+AK,District 14,senate,U.S. Senator,1180,1847,38.98,2026-11-07T04:32:07+00:00
+AK,District 15,senate,U.S. Senator,2407,2278,51.38,2026-11-07T04:32:07+00:00
+AK,District 16,senate,U.S. Senator,2023,2612,43.65,2026-11-07T04:32:07+00:00
+AK,District 17,senate,U.S. Senator,804,1772,31.21,2026-11-07T04:32:07+00:00
+AK,District 18,senate,U.S. Senator,572,692,45.25,2026-11-07T04:32:07+00:00
+AK,District 19,senate,U.S. Senator,816,1488,35.42,2026-11-07T04:32:07+00:00
+AK,District 2,senate,U.S. Senator,1786,2324,43.45,2026-11-07T04:32:07+00:00
+AK,District 20,senate,U.S. Senator,1261,1769,41.62,2026-11-07T04:32:07+00:00
+AK,District 21,senate,U.S. Senator,1909,2279,45.58,2026-11-07T04:32:07+00:00
+AK,District 22,senate,U.S. Senator,1077,1541,41.14,2026-11-07T04:32:07+00:00
+AK,District 23,senate,U.S. Senator,2255,1482,60.34,2026-11-07T04:32:07+00:00
+AK,District 24,senate,U.S. Senator,2797,1330,67.77,2026-11-07T04:32:07+00:00
+AK,District 25,senate,U.S. Senator,2960,1408,67.77,2026-11-07T04:32:07+00:00
+AK,District 26,senate,U.S. Senator,3084,1067,74.3,2026-11-07T04:32:07+00:00
+AK,District 27,senate,U.S. Senator,2390,750,76.11,2026-11-07T04:32:07+00:00
+AK,District 28,senate,U.S. Senator,2790,1034,72.96,2026-11-07T04:32:07+00:00
+AK,District 29,senate,U.S. Senator,3371,1380,70.95,2026-11-07T04:32:07+00:00
+AK,District 3,senate,U.S. Senator,1753,2212,44.21,2026-11-07T04:32:07+00:00
+AK,District 30,senate,U.S. Senator,3281,1273,72.05,2026-11-07T04:32:07+00:00
+AK,District 31,senate,U.S. Senator,1445,1571,47.91,2026-11-07T04:32:07+00:00
+AK,District 32,senate,U.S. Senator,1398,957,59.36,2026-11-07T04:32:07+00:00
+AK,District 33,senate,U.S. Senator,3531,1209,74.49,2026-11-07T04:32:07+00:00
+AK,District 34,senate,U.S. Senator,2655,1789,59.74,2026-11-07T04:32:07+00:00
+AK,District 35,senate,U.S. Senator,2163,2588,45.53,2026-11-07T04:32:07+00:00
+AK,District 36,senate,U.S. Senator,2927,2433,54.61,2026-11-07T04:32:07+00:00
+AK,District 37,senate,U.S. Senator,1083,1688,39.08,2026-11-07T04:32:07+00:00
+AK,District 38,senate,U.S. Senator,560,2145,20.7,2026-11-07T04:32:07+00:00
+AK,District 39,senate,U.S. Senator,774,2329,24.94,2026-11-07T04:32:07+00:00
+AK,District 4,senate,U.S. Senator,811,1885,30.08,2026-11-07T04:32:07+00:00
+AK,District 40,senate,U.S. Senator,907,1515,37.45,2026-11-07T04:32:07+00:00
+AK,District 5,senate,U.S. Senator,1889,1916,49.65,2026-11-07T04:32:07+00:00
+AK,District 6,senate,U.S. Senator,3141,2016,60.91,2026-11-07T04:32:07+00:00
+AK,District 7,senate,U.S. Senator,2844,1165,70.94,2026-11-07T04:32:07+00:00
+AK,District 8,senate,U.S. Senator,4120,1381,74.9,2026-11-07T04:32:07+00:00
+AK,District 9,senate,U.S. Senator,2971,2649,52.86,2026-11-07T04:32:07+00:00
+AK,District District 1 ,senate,U.S. Senator,16,25,39.02,2026-11-07T04:32:07+00:00
+AK,District District 10 ,senate,U.S. Senator,474,781,37.77,2026-11-07T04:32:07+00:00
+AK,District District 11 ,senate,U.S. Senator,582,879,39.84,2026-11-07T04:32:07+00:00
+AK,District District 12 ,senate,U.S. Senator,428,808,34.63,2026-11-07T04:32:07+00:00
+AK,District District 13 ,senate,U.S. Senator,364,728,33.33,2026-11-07T04:32:07+00:00
+AK,District District 14 ,senate,U.S. Senator,359,1079,24.97,2026-11-07T04:32:07+00:00
+AK,District District 15 ,senate,U.S. Senator,518,851,37.84,2026-11-07T04:32:07+00:00
+AK,District District 16 ,senate,U.S. Senator,404,1153,25.95,2026-11-07T04:32:07+00:00
+AK,District District 17 ,senate,U.S. Senator,496,1867,20.99,2026-11-07T04:32:07+00:00
+AK,District District 18 ,senate,U.S. Senator,98,239,29.08,2026-11-07T04:32:07+00:00
+AK,District District 19 ,senate,U.S. Senator,198,750,20.89,2026-11-07T04:32:07+00:00
+AK,District District 2 ,senate,U.S. Senator,42,97,30.22,2026-11-07T04:32:07+00:00
+AK,District District 20 ,senate,U.S. Senator,425,1023,29.35,2026-11-07T04:32:07+00:00
+AK,District District 21 ,senate,U.S. Senator,615,1275,32.54,2026-11-07T04:32:07+00:00
+AK,District District 22 ,senate,U.S. Senator,297,589,33.52,2026-11-07T04:32:07+00:00
+AK,District District 23 ,senate,U.S. Senator,1432,1542,48.15,2026-11-07T04:32:07+00:00
+AK,District District 24 ,senate,U.S. Senator,1336,1152,53.7,2026-11-07T04:32:07+00:00
+AK,District District 25 ,senate,U.S. Senator,1639,1377,54.34,2026-11-07T04:32:07+00:00
+AK,District District 26 ,senate,U.S. Senator,1641,710,69.8,2026-11-07T04:32:07+00:00
+AK,District District 27 ,senate,U.S. Senator,1699,793,68.18,2026-11-07T04:32:07+00:00
+AK,District District 28 ,senate,U.S. Senator,1496,815,64.73,2026-11-07T04:32:07+00:00
+AK,District District 29 ,senate,U.S. Senator,1142,630,64.45,2026-11-07T04:32:07+00:00
+AK,District District 3 ,senate,U.S. Senator,496,1608,23.57,2026-11-07T04:32:07+00:00
+AK,District District 30 ,senate,U.S. Senator,630,263,70.55,2026-11-07T04:32:07+00:00
+AK,District District 31 ,senate,U.S. Senator,505,923,35.36,2026-11-07T04:32:07+00:00
+AK,District District 32 ,senate,U.S. Senator,355,384,48.04,2026-11-07T04:32:07+00:00
+AK,District District 33 ,senate,U.S. Senator,614,478,56.23,2026-11-07T04:32:07+00:00
+AK,District District 34 ,senate,U.S. Senator,795,1196,39.93,2026-11-07T04:32:07+00:00
+AK,District District 35 ,senate,U.S. Senator,614,1419,30.2,2026-11-07T04:32:07+00:00
+AK,District District 36 ,senate,U.S. Senator,118,391,23.18,2026-11-07T04:32:07+00:00
+AK,District District 37 ,senate,U.S. Senator,33,47,41.25,2026-11-07T04:32:07+00:00
+AK,District District 38 ,senate,U.S. Senator,7,22,24.14,2026-11-07T04:32:07+00:00
+AK,District District 39 ,senate,U.S. Senator,75,226,24.92,2026-11-07T04:32:07+00:00
+AK,District District 4 ,senate,U.S. Senator,501,2461,16.91,2026-11-07T04:32:07+00:00
+AK,District District 40 ,senate,U.S. Senator,10,9,52.63,2026-11-07T04:32:07+00:00
+AK,District District 5 ,senate,U.S. Senator,25,50,33.33,2026-11-07T04:32:07+00:00
+AK,District District 6 ,senate,U.S. Senator,956,1649,36.7,2026-11-07T04:32:07+00:00
+AK,District District 7 ,senate,U.S. Senator,1354,935,59.15,2026-11-07T04:32:07+00:00
+AK,District District 8 ,senate,U.S. Senator,994,470,67.9,2026-11-07T04:32:07+00:00
+AK,District District 9 ,senate,U.S. Senator,699,1152,37.76,2026-11-07T04:32:07+00:00
+AR,Arkansas,senate,U.S. Senate,2504,1388,64.34,2026-11-07T04:32:10+00:00
+AR,Ashley,senate,U.S. Senate,3400,1589,68.15,2026-11-07T04:32:10+00:00
+AR,Baxter,senate,U.S. Senate,10230,3597,73.99,2026-11-07T04:32:10+00:00
+AR,Benton,senate,U.S. Senate,51024,44972,53.15,2026-11-07T04:32:10+00:00
+AR,Boone,senate,U.S. Senate,8298,2667,75.68,2026-11-07T04:32:10+00:00
+AR,Bradley,senate,U.S. Senate,1379,844,62.03,2026-11-07T04:32:10+00:00
+AR,Calhoun,senate,U.S. Senate,984,350,73.76,2026-11-07T04:32:10+00:00
+AR,Carroll,senate,U.S. Senate,4805,3675,56.66,2026-11-07T04:32:10+00:00
+AR,Chicot,senate,U.S. Senate,1182,1759,40.19,2026-11-07T04:32:10+00:00
+AR,Clark,senate,U.S. Senate,3025,2687,52.96,2026-11-07T04:32:10+00:00
+AR,Clay,senate,U.S. Senate,2421,837,74.31,2026-11-07T04:32:10+00:00
+AR,Cleburne,senate,U.S. Senate,7395,1840,80.08,2026-11-07T04:32:10+00:00
+AR,Cleveland,senate,U.S. Senate,1780,454,79.68,2026-11-07T04:32:10+00:00
+AR,Columbia,senate,U.S. Senate,3402,2130,61.5,2026-11-07T04:32:10+00:00
+AR,Conway,senate,U.S. Senate,4043,2306,63.68,2026-11-07T04:32:10+00:00
+AR,Craighead,senate,U.S. Senate,14416,10867,57.02,2026-11-07T04:32:10+00:00
+AR,Crawford,senate,U.S. Senate,11125,4351,71.89,2026-11-07T04:32:10+00:00
+AR,Crittenden,senate,U.S. Senate,4319,6368,40.41,2026-11-07T04:32:10+00:00
+AR,Cross,senate,U.S. Senate,2603,1472,63.88,2026-11-07T04:32:10+00:00
+AR,Dallas,senate,U.S. Senate,998,674,59.69,2026-11-07T04:32:10+00:00
+AR,Desha,senate,U.S. Senate,1219,1572,43.68,2026-11-07T04:32:10+00:00
+AR,Drew,senate,U.S. Senate,2906,1963,59.68,2026-11-07T04:32:10+00:00
+AR,Faulkner,senate,U.S. Senate,21990,17002,56.4,2026-11-07T04:32:10+00:00
+AR,Franklin,senate,U.S. Senate,3366,1348,71.4,2026-11-07T04:32:10+00:00
+AR,Fulton,senate,U.S. Senate,2496,878,73.98,2026-11-07T04:32:10+00:00
+AR,Garland,senate,U.S. Senate,18908,11646,61.88,2026-11-07T04:32:10+00:00
+AR,Grant,senate,U.S. Senate,3831,1149,76.93,2026-11-07T04:32:10+00:00
+AR,Greene,senate,U.S. Senate,7292,2894,71.59,2026-11-07T04:32:10+00:00
+AR,Hempstead,senate,U.S. Senate,2440,1515,61.69,2026-11-07T04:32:10+00:00
+AR,Hot Spring,senate,U.S. Senate,5628,2553,68.79,2026-11-07T04:32:10+00:00
+AR,Howard,senate,U.S. Senate,2043,1064,65.75,2026-11-07T04:32:10+00:00
+AR,Independence,senate,U.S. Senate,6390,2445,72.33,2026-11-07T04:32:10+00:00
+AR,Izard,senate,U.S. Senate,3322,951,77.74,2026-11-07T04:32:10+00:00
+AR,Jackson,senate,U.S. Senate,2089,1107,65.36,2026-11-07T04:32:10+00:00
+AR,Jefferson,senate,U.S. Senate,5823,10811,35.01,2026-11-07T04:32:10+00:00
+AR,Johnson,senate,U.S. Senate,4167,2155,65.91,2026-11-07T04:32:10+00:00
+AR,Lafayette,senate,U.S. Senate,1113,665,62.6,2026-11-07T04:32:10+00:00
+AR,Lawrence,senate,U.S. Senate,2757,907,75.25,2026-11-07T04:32:10+00:00
+AR,Lee,senate,U.S. Senate,807,1188,40.45,2026-11-07T04:32:10+00:00
+AR,Lincoln,senate,U.S. Senate,1609,762,67.86,2026-11-07T04:32:10+00:00
+AR,Little River,senate,U.S. Senate,2533,965,72.41,2026-11-07T04:32:10+00:00
+AR,Logan,senate,U.S. Senate,3893,1390,73.69,2026-11-07T04:32:10+00:00
+AR,Lonoke,senate,U.S. Senate,14990,6688,69.15,2026-11-07T04:32:10+00:00
+AR,Madison,senate,U.S. Senate,3467,1503,69.76,2026-11-07T04:32:10+00:00
+AR,Marion,senate,U.S. Senate,4107,1332,75.51,2026-11-07T04:32:10+00:00
+AR,Miller,senate,U.S. Senate,7276,3133,69.9,2026-11-07T04:32:10+00:00
+AR,Mississippi,senate,U.S. Senate,3985,3454,53.57,2026-11-07T04:32:10+00:00
+AR,Monroe,senate,U.S. Senate,1021,979,51.05,2026-11-07T04:32:10+00:00
+AR,Montgomery,senate,U.S. Senate,1902,554,77.44,2026-11-07T04:32:10+00:00
+AR,Nevada,senate,U.S. Senate,1319,722,64.63,2026-11-07T04:32:10+00:00
+AR,Newton,senate,U.S. Senate,2090,683,75.37,2026-11-07T04:32:10+00:00
+AR,Ouachita,senate,U.S. Senate,3363,2823,54.36,2026-11-07T04:32:10+00:00
+AR,Perry,senate,U.S. Senate,2246,879,71.87,2026-11-07T04:32:10+00:00
+AR,Phillips,senate,U.S. Senate,1518,2493,37.85,2026-11-07T04:32:10+00:00
+AR,Pike,senate,U.S. Senate,2214,570,79.53,2026-11-07T04:32:10+00:00
+AR,Poinsett,senate,U.S. Senate,3620,1350,72.84,2026-11-07T04:32:10+00:00
+AR,Polk,senate,U.S. Senate,4081,1025,79.93,2026-11-07T04:32:10+00:00
+AR,Pope,senate,U.S. Senate,10900,5175,67.81,2026-11-07T04:32:10+00:00
+AR,Prairie,senate,U.S. Senate,1736,510,77.29,2026-11-07T04:32:10+00:00
+AR,Pulaski,senate,U.S. Senate,40762,86568,32.01,2026-11-07T04:32:10+00:00
+AR,Randolph,senate,U.S. Senate,3122,1092,74.09,2026-11-07T04:32:10+00:00
+AR,Saline,senate,U.S. Senate,26100,15994,62.0,2026-11-07T04:32:10+00:00
+AR,Scott,senate,U.S. Senate,1983,387,83.67,2026-11-07T04:32:10+00:00
+AR,Searcy,senate,U.S. Senate,1869,528,77.97,2026-11-07T04:32:10+00:00
+AR,Sebastian,senate,U.S. Senate,19127,12721,60.06,2026-11-07T04:32:10+00:00
+AR,Sevier,senate,U.S. Senate,1941,999,66.02,2026-11-07T04:32:10+00:00
+AR,Sharp,senate,U.S. Senate,3977,1236,76.29,2026-11-07T04:32:10+00:00
+AR,St. Francis,senate,U.S. Senate,2032,2637,43.52,2026-11-07T04:32:10+00:00
+AR,Stone,senate,U.S. Senate,3104,1003,75.58,2026-11-07T04:32:10+00:00
+AR,Union,senate,U.S. Senate,6668,4427,60.1,2026-11-07T04:32:10+00:00
+AR,Van Buren,senate,U.S. Senate,3919,1306,75.0,2026-11-07T04:32:10+00:00
+AR,Washington,senate,U.S. Senate,30388,43713,41.01,2026-11-07T04:32:10+00:00
+AR,White,senate,U.S. Senate,15859,5593,73.93,2026-11-07T04:32:10+00:00
+AR,Woodruff,senate,U.S. Senate,1045,704,59.75,2026-11-07T04:32:10+00:00
+AR,Yell,senate,U.S. Senate,3114,1285,70.79,2026-11-07T04:32:10+00:00
+AR,Arkansas,governor,Governor,2407,1232,66.14,2026-11-07T04:32:10+00:00
+AR,Ashley,governor,Governor,3363,1461,69.71,2026-11-07T04:32:10+00:00
+AR,Baxter,governor,Governor,10331,3274,75.94,2026-11-07T04:32:10+00:00
+AR,Benton,governor,Governor,53256,41390,56.27,2026-11-07T04:32:10+00:00
+AR,Boone,governor,Governor,7673,2342,76.62,2026-11-07T04:32:10+00:00
+AR,Bradley,governor,Governor,1348,816,62.29,2026-11-07T04:32:10+00:00
+AR,Calhoun,governor,Governor,974,321,75.21,2026-11-07T04:32:10+00:00
+AR,Carroll,governor,Governor,4702,3458,57.62,2026-11-07T04:32:10+00:00
+AR,Chicot,governor,Governor,1196,1733,40.83,2026-11-07T04:32:10+00:00
+AR,Clark,governor,Governor,2823,2528,52.76,2026-11-07T04:32:10+00:00
+AR,Clay,governor,Governor,2417,701,77.52,2026-11-07T04:32:10+00:00
+AR,Cleburne,governor,Governor,7362,1544,82.66,2026-11-07T04:32:10+00:00
+AR,Cleveland,governor,Governor,1687,434,79.54,2026-11-07T04:32:10+00:00
+AR,Columbia,governor,Governor,3331,2054,61.86,2026-11-07T04:32:10+00:00
+AR,Conway,governor,Governor,3791,2053,64.87,2026-11-07T04:32:10+00:00
+AR,Craighead,governor,Governor,14693,9878,59.8,2026-11-07T04:32:10+00:00
+AR,Crawford,governor,Governor,10816,3777,74.12,2026-11-07T04:32:10+00:00
+AR,Crittenden,governor,Governor,4427,6142,41.89,2026-11-07T04:32:10+00:00
+AR,Cross,governor,Governor,2376,1291,64.79,2026-11-07T04:32:10+00:00
+AR,Dallas,governor,Governor,944,674,58.34,2026-11-07T04:32:10+00:00
+AR,Desha,governor,Governor,1178,1546,43.25,2026-11-07T04:32:10+00:00
+AR,Drew,governor,Governor,2814,1857,60.24,2026-11-07T04:32:10+00:00
+AR,Faulkner,governor,Governor,21921,15248,58.98,2026-11-07T04:32:10+00:00
+AR,Franklin,governor,Governor,2150,676,76.08,2026-11-07T04:32:10+00:00
+AR,Fulton,governor,Governor,2530,737,77.44,2026-11-07T04:32:10+00:00
+AR,Garland,governor,Governor,19068,10394,64.72,2026-11-07T04:32:10+00:00
+AR,Grant,governor,Governor,3655,858,80.99,2026-11-07T04:32:10+00:00
+AR,Greene,governor,Governor,7315,2535,74.26,2026-11-07T04:32:10+00:00
+AR,Hempstead,governor,Governor,2323,1443,61.68,2026-11-07T04:32:10+00:00
+AR,Hot Spring,governor,Governor,5441,2314,70.16,2026-11-07T04:32:10+00:00
+AR,Howard,governor,Governor,1858,996,65.1,2026-11-07T04:32:10+00:00
+AR,Independence,governor,Governor,6366,2133,74.9,2026-11-07T04:32:10+00:00
+AR,Izard,governor,Governor,3306,777,80.97,2026-11-07T04:32:10+00:00
+AR,Jackson,governor,Governor,2078,923,69.24,2026-11-07T04:32:10+00:00
+AR,Jefferson,governor,Governor,5780,10592,35.3,2026-11-07T04:32:10+00:00
+AR,Johnson,governor,Governor,3899,1801,68.4,2026-11-07T04:32:10+00:00
+AR,Lafayette,governor,Governor,1073,648,62.35,2026-11-07T04:32:10+00:00
+AR,Lawrence,governor,Governor,2727,734,78.79,2026-11-07T04:32:10+00:00
+AR,Lee,governor,Governor,778,1134,40.69,2026-11-07T04:32:10+00:00
+AR,Lincoln,governor,Governor,1460,702,67.53,2026-11-07T04:32:10+00:00
+AR,Little River,governor,Governor,2300,883,72.26,2026-11-07T04:32:10+00:00
+AR,Logan,governor,Governor,3284,942,77.71,2026-11-07T04:32:10+00:00
+AR,Lonoke,governor,Governor,14824,5705,72.21,2026-11-07T04:32:10+00:00
+AR,Madison,governor,Governor,3422,1295,72.55,2026-11-07T04:32:10+00:00
+AR,Marion,governor,Governor,4088,1184,77.54,2026-11-07T04:32:10+00:00
+AR,Miller,governor,Governor,7101,2931,70.78,2026-11-07T04:32:10+00:00
+AR,Mississippi,governor,Governor,4068,3279,55.37,2026-11-07T04:32:10+00:00
+AR,Monroe,governor,Governor,1008,925,52.15,2026-11-07T04:32:10+00:00
+AR,Montgomery,governor,Governor,1868,468,79.97,2026-11-07T04:32:10+00:00
+AR,Nevada,governor,Governor,1250,712,63.71,2026-11-07T04:32:10+00:00
+AR,Newton,governor,Governor,1759,611,74.22,2026-11-07T04:32:10+00:00
+AR,Ouachita,governor,Governor,3347,2758,54.82,2026-11-07T04:32:10+00:00
+AR,Perry,governor,Governor,2184,692,75.94,2026-11-07T04:32:10+00:00
+AR,Phillips,governor,Governor,1532,2484,38.15,2026-11-07T04:32:10+00:00
+AR,Pike,governor,Governor,2073,493,80.79,2026-11-07T04:32:10+00:00
+AR,Poinsett,governor,Governor,3488,1100,76.02,2026-11-07T04:32:10+00:00
+AR,Polk,governor,Governor,3964,919,81.18,2026-11-07T04:32:10+00:00
+AR,Pope,governor,Governor,10561,4549,69.89,2026-11-07T04:32:10+00:00
+AR,Prairie,governor,Governor,1667,429,79.53,2026-11-07T04:32:10+00:00
+AR,Pulaski,governor,Governor,42572,79944,34.75,2026-11-07T04:32:10+00:00
+AR,Randolph,governor,Governor,3106,873,78.06,2026-11-07T04:32:10+00:00
+AR,Saline,governor,Governor,26178,14232,64.78,2026-11-07T04:32:10+00:00
+AR,Scott,governor,Governor,1775,279,86.42,2026-11-07T04:32:10+00:00
+AR,Searcy,governor,Governor,1677,460,78.47,2026-11-07T04:32:10+00:00
+AR,Sebastian,governor,Governor,18370,11210,62.1,2026-11-07T04:32:10+00:00
+AR,Sevier,governor,Governor,1705,904,65.35,2026-11-07T04:32:10+00:00
+AR,Sharp,governor,Governor,4062,1052,79.43,2026-11-07T04:32:10+00:00
+AR,St. Francis,governor,Governor,1932,2634,42.31,2026-11-07T04:32:10+00:00
+AR,Stone,governor,Governor,3106,853,78.45,2026-11-07T04:32:10+00:00
+AR,Union,governor,Governor,6654,4242,61.07,2026-11-07T04:32:10+00:00
+AR,Van Buren,governor,Governor,3857,1081,78.11,2026-11-07T04:32:10+00:00
+AR,Washington,governor,Governor,31449,40327,43.82,2026-11-07T04:32:10+00:00
+AR,White,governor,Governor,15479,4616,77.03,2026-11-07T04:32:10+00:00
+AR,Woodruff,governor,Governor,1068,605,63.84,2026-11-07T04:32:10+00:00
+AR,Yell,governor,Governor,2888,1013,74.03,2026-11-07T04:32:10+00:00
+CO,Adams,senate,United States Senator,48892,97073,33.5,2026-11-07T04:32:20+00:00
+CO,Alamosa,senate,United States Senator,2639,3195,45.23,2026-11-07T04:32:20+00:00
+CO,Arapahoe,senate,United States Senator,57409,129767,30.67,2026-11-07T04:32:20+00:00
+CO,Archuleta,senate,United States Senator,1467,1913,43.4,2026-11-07T04:32:20+00:00
+CO,Baca,senate,United States Senator,1217,269,81.9,2026-11-07T04:32:20+00:00
+CO,Bent,senate,United States Senator,1040,534,66.07,2026-11-07T04:32:20+00:00
+CO,Boulder,senate,United States Senator,17242,95592,15.28,2026-11-07T04:32:20+00:00
+CO,Broomfield,senate,United States Senator,10872,27043,28.67,2026-11-07T04:32:20+00:00
+CO,Chaffee,senate,United States Senator,4540,7752,36.93,2026-11-07T04:32:20+00:00
+CO,Cheyenne,senate,United States Senator,685,112,85.95,2026-11-07T04:32:20+00:00
+CO,Clear Creek,senate,United States Senator,1637,3094,34.6,2026-11-07T04:32:20+00:00
+CO,Conejos,senate,United States Senator,1765,1597,52.5,2026-11-07T04:32:20+00:00
+CO,Costilla,senate,United States Senator,557,1223,31.29,2026-11-07T04:32:20+00:00
+CO,Crowley,senate,United States Senator,888,363,70.98,2026-11-07T04:32:20+00:00
+CO,Custer,senate,United States Senator,2015,1038,66.0,2026-11-07T04:32:20+00:00
+CO,Delta,senate,United States Senator,8739,5326,62.13,2026-11-07T04:32:20+00:00
+CO,Denver,senate,United States Senator,27136,182319,12.96,2026-11-07T04:32:20+00:00
+CO,Dolores,senate,United States Senator,866,298,74.4,2026-11-07T04:32:20+00:00
+CO,Douglas,senate,United States Senator,89165,97572,47.75,2026-11-07T04:32:20+00:00
+CO,Eagle,senate,United States Senator,5788,13507,30.0,2026-11-07T04:32:20+00:00
+CO,El Paso,senate,United States Senator,108361,122120,47.02,2026-11-07T04:32:20+00:00
+CO,Elbert,senate,United States Senator,10077,3972,71.73,2026-11-07T04:32:20+00:00
+CO,Fremont,senate,United States Senator,12335,6725,64.72,2026-11-07T04:32:20+00:00
+CO,Garfield,senate,United States Senator,8381,12227,40.67,2026-11-07T04:32:20+00:00
+CO,Gilpin,senate,United States Senator,1252,1939,39.24,2026-11-07T04:32:20+00:00
+CO,Grand,senate,United States Senator,3439,4196,45.04,2026-11-07T04:32:20+00:00
+CO,Gunnison,senate,United States Senator,2183,5603,28.04,2026-11-07T04:32:20+00:00
+CO,Hinsdale,senate,United States Senator,252,228,52.5,2026-11-07T04:32:20+00:00
+CO,Huerfano,senate,United States Senator,1698,1889,47.34,2026-11-07T04:32:20+00:00
+CO,Jackson,senate,United States Senator,455,158,74.23,2026-11-07T04:32:20+00:00
+CO,Jefferson,senate,United States Senator,79669,165666,32.47,2026-11-07T04:32:20+00:00
+CO,Kiowa,senate,United States Senator,592,87,87.19,2026-11-07T04:32:20+00:00
+CO,Kit Carson,senate,United States Senator,2269,533,80.98,2026-11-07T04:32:20+00:00
+CO,La Plata,senate,United States Senator,9884,19174,34.01,2026-11-07T04:32:20+00:00
+CO,Lake,senate,United States Senator,1029,2120,32.68,2026-11-07T04:32:20+00:00
+CO,Larimer,senate,United States Senator,48288,96362,33.38,2026-11-07T04:32:20+00:00
+CO,Las Animas,senate,United States Senator,3099,3166,49.47,2026-11-07T04:32:20+00:00
+CO,Lincoln,senate,United States Senator,1416,392,78.32,2026-11-07T04:32:20+00:00
+CO,Logan,senate,United States Senator,5493,1935,73.95,2026-11-07T04:32:20+00:00
+CO,Mesa,senate,United States Senator,34232,27938,55.06,2026-11-07T04:32:20+00:00
+CO,Mineral,senate,United States Senator,311,299,50.98,2026-11-07T04:32:20+00:00
+CO,Moffat,senate,United States Senator,3616,1117,76.4,2026-11-07T04:32:20+00:00
+CO,Montezuma,senate,United States Senator,5758,4612,55.53,2026-11-07T04:32:20+00:00
+CO,Montrose,senate,United States Senator,6194,4918,55.74,2026-11-07T04:32:20+00:00
+CO,Morgan,senate,United States Senator,6422,3346,65.75,2026-11-07T04:32:20+00:00
+CO,Otero,senate,United States Senator,3389,2423,58.31,2026-11-07T04:32:20+00:00
+CO,Ouray,senate,United States Senator,1210,2224,35.24,2026-11-07T04:32:20+00:00
+CO,Park,senate,United States Senator,4823,4215,53.36,2026-11-07T04:32:20+00:00
+CO,Phillips,senate,United States Senator,1376,435,75.98,2026-11-07T04:32:20+00:00
+CO,Pitkin,senate,United States Senator,1368,5707,19.34,2026-11-07T04:32:20+00:00
+CO,Prowers,senate,United States Senator,2649,1181,69.16,2026-11-07T04:32:20+00:00
+CO,Pueblo,senate,United States Senator,22419,29656,43.05,2026-11-07T04:32:20+00:00
+CO,Rio Blanco,senate,United States Senator,2132,531,80.06,2026-11-07T04:32:20+00:00
+CO,Rio Grande,senate,United States Senator,2517,2136,54.09,2026-11-07T04:32:20+00:00
+CO,Routt,senate,United States Senator,3889,9250,29.6,2026-11-07T04:32:20+00:00
+CO,Saguache,senate,United States Senator,1013,1617,38.52,2026-11-07T04:32:20+00:00
+CO,San Juan,senate,United States Senator,150,392,27.68,2026-11-07T04:32:20+00:00
+CO,San Miguel,senate,United States Senator,811,3110,20.68,2026-11-07T04:32:20+00:00
+CO,Sedgwick,senate,United States Senator,744,267,73.59,2026-11-07T04:32:20+00:00
+CO,Summit,senate,United States Senator,2799,9326,23.08,2026-11-07T04:32:20+00:00
+CO,Teller,senate,United States Senator,8024,4646,63.33,2026-11-07T04:32:20+00:00
+CO,Washington,senate,United States Senator,1794,342,83.99,2026-11-07T04:32:20+00:00
+CO,Weld,senate,United States Senator,55896,53645,51.03,2026-11-07T04:32:20+00:00
+CO,Yuma,senate,United States Senator,2788,768,78.4,2026-11-07T04:32:20+00:00
+FL,Alachua,senate,United States Senator,34832,69792,33.29,2026-11-07T04:32:26+00:00
+FL,Baker,senate,United States Senator,8171,1571,83.87,2026-11-07T04:32:26+00:00
+FL,Bay,senate,United States Senator,48764,20761,70.14,2026-11-07T04:32:26+00:00
+FL,Bradford,senate,United States Senator,7234,2386,75.2,2026-11-07T04:32:26+00:00
+FL,Brevard,senate,United States Senator,152473,113922,57.24,2026-11-07T04:32:26+00:00
+FL,Broward,senate,United States Senator,220254,433399,33.7,2026-11-07T04:32:26+00:00
+FL,Calhoun,senate,United States Senator,3441,810,80.95,2026-11-07T04:32:26+00:00
+FL,Charlotte,senate,United States Senator,66411,32839,66.91,2026-11-07T04:32:26+00:00
+FL,Citrus,senate,United States Senator,53340,20668,72.07,2026-11-07T04:32:26+00:00
+FL,Clay,senate,United States Senator,60161,32034,65.25,2026-11-07T04:32:26+00:00
+FL,Collier,senate,United States Senator,109789,60419,64.5,2026-11-07T04:32:26+00:00
+FL,Columbia,senate,United States Senator,16230,6510,71.37,2026-11-07T04:32:26+00:00
+FL,Desoto,senate,United States Senator,5865,3160,64.99,2026-11-07T04:32:26+00:00
+FL,Dixie,senate,United States Senator,4624,911,83.54,2026-11-07T04:32:26+00:00
+FL,Duval,senate,United States Senator,158144,197563,44.46,2026-11-07T04:32:26+00:00
+FL,Escambia,senate,United States Senator,63150,51906,54.89,2026-11-07T04:32:26+00:00
+FL,Flagler,senate,United States Senator,39538,23608,62.61,2026-11-07T04:32:26+00:00
+FL,Franklin,senate,United States Senator,3410,1591,68.19,2026-11-07T04:32:26+00:00
+FL,Gadsden,senate,United States Senator,5507,12224,31.06,2026-11-07T04:32:26+00:00
+FL,Gilchrist,senate,United States Senator,6356,1363,82.34,2026-11-07T04:32:26+00:00
+FL,Glades,senate,United States Senator,2688,1081,71.32,2026-11-07T04:32:26+00:00
+FL,Gulf,senate,United States Senator,5108,1509,77.2,2026-11-07T04:32:26+00:00
+FL,Hamilton,senate,United States Senator,2704,1426,65.47,2026-11-07T04:32:26+00:00
+FL,Hardee,senate,United States Senator,4104,1856,68.86,2026-11-07T04:32:26+00:00
+FL,Hendry,senate,United States Senator,5573,4402,55.87,2026-11-07T04:32:26+00:00
+FL,Hernando,senate,United States Senator,51295,27800,64.85,2026-11-07T04:32:26+00:00
+FL,Highlands,senate,United States Senator,26720,12596,67.96,2026-11-07T04:32:26+00:00
+FL,Hillsborough,senate,United States Senator,232111,278704,45.44,2026-11-07T04:32:26+00:00
+FL,Holmes,senate,United States Senator,5414,730,88.12,2026-11-07T04:32:26+00:00
+FL,Indian River,senate,United States Senator,47246,29489,61.57,2026-11-07T04:32:26+00:00
+FL,Jackson,senate,United States Senator,10851,4673,69.9,2026-11-07T04:32:26+00:00
+FL,Jefferson,senate,United States Senator,4018,2913,57.97,2026-11-07T04:32:26+00:00
+FL,Lafayette,senate,United States Senator,2247,349,86.56,2026-11-07T04:32:26+00:00
+FL,Lake,senate,United States Senator,104360,71579,59.32,2026-11-07T04:32:26+00:00
+FL,Lee,senate,United States Senator,182895,117928,60.8,2026-11-07T04:32:26+00:00
+FL,Leon,senate,United States Senator,42463,81907,34.14,2026-11-07T04:32:26+00:00
+FL,Levy,senate,United States Senator,12947,4966,72.28,2026-11-07T04:32:26+00:00
+FL,Liberty,senate,United States Senator,2113,504,80.74,2026-11-07T04:32:26+00:00
+FL,Madison,senate,United States Senator,4266,2689,61.34,2026-11-07T04:32:26+00:00
+FL,Manatee,senate,United States Senator,107664,72414,59.79,2026-11-07T04:32:26+00:00
+FL,Marion,senate,United States Senator,102184,59843,63.07,2026-11-07T04:32:26+00:00
+FL,Martin,senate,United States Senator,47878,27607,63.43,2026-11-07T04:32:26+00:00
+FL,Miami-Dade,senate,United States Senator,359981,415941,46.39,2026-11-07T04:32:26+00:00
+FL,Monroe,senate,United States Senator,17447,14583,54.47,2026-11-07T04:32:26+00:00
+FL,Nassau,senate,United States Senator,35537,14281,71.33,2026-11-07T04:32:26+00:00
+FL,Okaloosa,senate,United States Senator,51850,24680,67.75,2026-11-07T04:32:26+00:00
+FL,Okeechobee,senate,United States Senator,7758,3258,70.42,2026-11-07T04:32:26+00:00
+FL,Orange,senate,United States Senator,166337,300941,35.6,2026-11-07T04:32:26+00:00
+FL,Osceola,senate,United States Senator,53001,77312,40.67,2026-11-07T04:32:26+00:00
+FL,Palm Beach,senate,United States Senator,252999,311531,44.82,2026-11-07T04:32:26+00:00
+FL,Pasco,senate,United States Senator,135516,101306,57.22,2026-11-07T04:32:26+00:00
+FL,Pinellas,senate,United States Senator,197529,200154,49.67,2026-11-07T04:32:26+00:00
+FL,Polk,senate,United States Senator,136171,119075,53.35,2026-11-07T04:32:26+00:00
+FL,Putnam,senate,United States Senator,18272,7922,69.76,2026-11-07T04:32:26+00:00
+FL,Santa Rosa,senate,United States Senator,52870,20789,71.78,2026-11-07T04:32:26+00:00
+FL,Sarasota,senate,United States Senator,128786,91990,58.33,2026-11-07T04:32:26+00:00
+FL,Seminole,senate,United States Senator,90131,103317,46.59,2026-11-07T04:32:26+00:00
+FL,St. Johns,senate,United States Senator,97689,56730,63.26,2026-11-07T04:32:26+00:00
+FL,St. Lucie,senate,United States Senator,67115,70386,48.81,2026-11-07T04:32:26+00:00
+FL,Sumter,senate,United States Senator,67650,26566,71.8,2026-11-07T04:32:26+00:00
+FL,Suwannee,senate,United States Senator,12163,3550,77.41,2026-11-07T04:32:26+00:00
+FL,Taylor,senate,United States Senator,5311,1631,76.51,2026-11-07T04:32:26+00:00
+FL,Union,senate,United States Senator,3461,787,81.47,2026-11-07T04:32:26+00:00
+FL,Volusia,senate,United States Senator,135240,98314,57.91,2026-11-07T04:32:26+00:00
+FL,Wakulla,senate,United States Senator,10082,4877,67.4,2026-11-07T04:32:26+00:00
+FL,Walton,senate,United States Senator,26839,8055,76.92,2026-11-07T04:32:26+00:00
+FL,Washington,senate,United States Senator,7177,1770,80.22,2026-11-07T04:32:26+00:00
+GA,Appling County,senate,US Senate,4628,1548,74.94,2026-11-07T04:32:27+00:00
+GA,Atkinson County,senate,US Senate,1472,762,65.89,2026-11-07T04:32:27+00:00
+GA,Bacon County,senate,US Senate,2855,661,81.2,2026-11-07T04:32:27+00:00
+GA,Baker County,senate,US Senate,623,516,54.7,2026-11-07T04:32:27+00:00
+GA,Baldwin County,senate,US Senate,6660,8410,44.19,2026-11-07T04:32:27+00:00
+GA,Banks County,senate,US Senate,5927,1323,81.75,2026-11-07T04:32:27+00:00
+GA,Barrow County,senate,US Senate,18654,14171,56.83,2026-11-07T04:32:27+00:00
+GA,Bartow County,senate,US Senate,27257,14913,64.64,2026-11-07T04:32:27+00:00
+GA,Ben Hill County,senate,US Senate,2720,2163,55.7,2026-11-07T04:32:27+00:00
+GA,Berrien County,senate,US Senate,4497,1318,77.33,2026-11-07T04:32:27+00:00
+GA,Bibb County,senate,US Senate,17313,37850,31.39,2026-11-07T04:32:27+00:00
+GA,Bleckley County,senate,US Senate,3300,1341,71.11,2026-11-07T04:32:27+00:00
+GA,Brantley County,senate,US Senate,4717,771,85.95,2026-11-07T04:32:27+00:00
+GA,Brooks County,senate,US Senate,3085,2366,56.6,2026-11-07T04:32:27+00:00
+GA,Bryan County,senate,US Senate,10262,7751,56.97,2026-11-07T04:32:27+00:00
+GA,Bulloch County,senate,US Senate,13562,11052,55.1,2026-11-07T04:32:27+00:00
+GA,Burke County,senate,US Senate,3993,4677,46.06,2026-11-07T04:32:27+00:00
+GA,Butts County,senate,US Senate,6187,3388,64.62,2026-11-07T04:32:27+00:00
+GA,Calhoun County,senate,US Senate,636,999,38.9,2026-11-07T04:32:27+00:00
+GA,Camden County,senate,US Senate,11434,7581,60.13,2026-11-07T04:32:27+00:00
+GA,Candler County,senate,US Senate,2216,1176,65.33,2026-11-07T04:32:27+00:00
+GA,Carroll County,senate,US Senate,27075,17808,60.32,2026-11-07T04:32:27+00:00
+GA,Catoosa County,senate,US Senate,16195,7508,68.32,2026-11-07T04:32:27+00:00
+GA,Charlton County,senate,US Senate,2323,881,72.5,2026-11-07T04:32:27+00:00
+GA,Chatham County,senate,US Senate,36600,75230,32.73,2026-11-07T04:32:27+00:00
+GA,Chattahoochee County,senate,US Senate,514,575,47.2,2026-11-07T04:32:27+00:00
+GA,Chattooga County,senate,US Senate,5161,1897,73.12,2026-11-07T04:32:27+00:00
+GA,Cherokee County,senate,US Senate,76353,50263,60.3,2026-11-07T04:32:27+00:00
+GA,Clarke County,senate,US Senate,9173,33550,21.47,2026-11-07T04:32:27+00:00
+GA,Clay County,senate,US Senate,468,636,42.39,2026-11-07T04:32:27+00:00
+GA,Clayton County,senate,US Senate,8130,87689,8.48,2026-11-07T04:32:27+00:00
+GA,Clinch County,senate,US Senate,1381,579,70.46,2026-11-07T04:32:27+00:00
+GA,Cobb County,senate,US Senate,110573,225293,32.92,2026-11-07T04:32:27+00:00
+GA,Coffee County,senate,US Senate,7339,4486,62.06,2026-11-07T04:32:27+00:00
+GA,Colquitt County,senate,US Senate,8207,4212,66.08,2026-11-07T04:32:27+00:00
+GA,Columbia County,senate,US Senate,36186,31391,53.55,2026-11-07T04:32:27+00:00
+GA,Cook County,senate,US Senate,3497,1957,64.12,2026-11-07T04:32:27+00:00
+GA,Coweta County,senate,US Senate,38628,28085,57.9,2026-11-07T04:32:27+00:00
+GA,Crawford County,senate,US Senate,3165,1491,67.98,2026-11-07T04:32:27+00:00
+GA,Crisp County,senate,US Senate,3623,2668,57.59,2026-11-07T04:32:27+00:00
+GA,Dade County,senate,US Senate,4004,1385,74.3,2026-11-07T04:32:27+00:00
+GA,Dawson County,senate,US Senate,10754,3620,74.82,2026-11-07T04:32:27+00:00
+GA,DeKalb County,senate,US Senate,36253,285433,11.27,2026-11-07T04:32:27+00:00
+GA,Decatur County,senate,US Senate,4636,3837,54.71,2026-11-07T04:32:27+00:00
+GA,Dodge County,senate,US Senate,4246,2003,67.95,2026-11-07T04:32:27+00:00
+GA,Dooly County,senate,US Senate,1600,1704,48.43,2026-11-07T04:32:27+00:00
+GA,Dougherty County,senate,US Senate,6398,20798,23.53,2026-11-07T04:32:27+00:00
+GA,Douglas County,senate,US Senate,13922,45428,23.46,2026-11-07T04:32:27+00:00
+GA,Early County,senate,US Senate,1850,1735,51.6,2026-11-07T04:32:27+00:00
+GA,Echols County,senate,US Senate,787,158,83.28,2026-11-07T04:32:27+00:00
+GA,Effingham County,senate,US Senate,16476,8940,64.83,2026-11-07T04:32:27+00:00
+GA,Elbert County,senate,US Senate,4554,2496,64.6,2026-11-07T04:32:27+00:00
+GA,Emanuel County,senate,US Senate,4774,2525,65.41,2026-11-07T04:32:27+00:00
+GA,Evans County,senate,US Senate,2000,1109,64.33,2026-11-07T04:32:27+00:00
+GA,Fannin County,senate,US Senate,8817,2781,76.02,2026-11-07T04:32:27+00:00
+GA,Fayette County,senate,US Senate,26824,35434,43.09,2026-11-07T04:32:27+00:00
+GA,Floyd County,senate,US Senate,19420,12837,60.2,2026-11-07T04:32:27+00:00
+GA,Forsyth County,senate,US Senate,59584,47453,55.67,2026-11-07T04:32:27+00:00
+GA,Franklin County,senate,US Senate,6830,1650,80.54,2026-11-07T04:32:27+00:00
+GA,Fulton County,senate,US Senate,93123,363995,20.37,2026-11-07T04:32:27+00:00
+GA,Gilmer County,senate,US Senate,10334,3628,74.02,2026-11-07T04:32:27+00:00
+GA,Glascock County,senate,US Senate,1066,149,87.74,2026-11-07T04:32:27+00:00
+GA,Glynn County,senate,US Senate,18789,14694,56.12,2026-11-07T04:32:27+00:00
+GA,Gordon County,senate,US Senate,13283,5584,70.4,2026-11-07T04:32:27+00:00
+GA,Grady County,senate,US Senate,4918,3068,61.58,2026-11-07T04:32:27+00:00
+GA,Greene County,senate,US Senate,6814,4348,61.05,2026-11-07T04:32:27+00:00
+GA,Gwinnett County,senate,US Senate,98695,245140,28.7,2026-11-07T04:32:27+00:00
+GA,Habersham County,senate,US Senate,12949,4471,74.33,2026-11-07T04:32:27+00:00
+GA,Hall County,senate,US Senate,47592,31011,60.55,2026-11-07T04:32:27+00:00
+GA,Hancock County,senate,US Senate,975,2420,28.72,2026-11-07T04:32:27+00:00
+GA,Haralson County,senate,US Senate,9093,2207,80.47,2026-11-07T04:32:27+00:00
+GA,Harris County,senate,US Senate,11298,5848,65.89,2026-11-07T04:32:27+00:00
+GA,Hart County,senate,US Senate,7707,3069,71.52,2026-11-07T04:32:27+00:00
+GA,Heard County,senate,US Senate,3483,925,79.02,2026-11-07T04:32:27+00:00
+GA,Henry County,senate,US Senate,26102,83476,23.82,2026-11-07T04:32:27+00:00
+GA,Houston County,senate,US Senate,29590,35328,45.58,2026-11-07T04:32:27+00:00
+GA,Irwin County,senate,US Senate,2297,975,70.2,2026-11-07T04:32:27+00:00
+GA,Jackson County,senate,US Senate,24096,11780,67.16,2026-11-07T04:32:27+00:00
+GA,Jasper County,senate,US Senate,5000,1864,72.84,2026-11-07T04:32:27+00:00
+GA,Jeff Davis County,senate,US Senate,3114,1013,75.45,2026-11-07T04:32:27+00:00
+GA,Jefferson County,senate,US Senate,2672,3280,44.89,2026-11-07T04:32:27+00:00
+GA,Jenkins County,senate,US Senate,1441,1058,57.66,2026-11-07T04:32:27+00:00
+GA,Johnson County,senate,US Senate,2107,949,68.95,2026-11-07T04:32:27+00:00
+GA,Jones County,senate,US Senate,7201,4750,60.25,2026-11-07T04:32:27+00:00
+GA,Lamar County,senate,US Senate,5116,2730,65.21,2026-11-07T04:32:27+00:00
+GA,Lanier County,senate,US Senate,1721,933,64.85,2026-11-07T04:32:27+00:00
+GA,Laurens County,senate,US Senate,10751,7333,59.45,2026-11-07T04:32:27+00:00
+GA,Lee County,senate,US Senate,8318,4960,62.64,2026-11-07T04:32:27+00:00
+GA,Liberty County,senate,US Senate,5122,11800,30.27,2026-11-07T04:32:27+00:00
+GA,Lincoln County,senate,US Senate,2581,1278,66.88,2026-11-07T04:32:27+00:00
+GA,Long County,senate,US Senate,2520,2453,50.67,2026-11-07T04:32:27+00:00
+GA,Lowndes County,senate,US Senate,17755,17817,49.91,2026-11-07T04:32:27+00:00
+GA,Lumpkin County,senate,US Senate,9455,3428,73.39,2026-11-07T04:32:27+00:00
+GA,Macon County,senate,US Senate,1342,2385,36.01,2026-11-07T04:32:27+00:00
+GA,Madison County,senate,US Senate,8495,3947,68.28,2026-11-07T04:32:27+00:00
+GA,Marion County,senate,US Senate,1558,1194,56.61,2026-11-07T04:32:27+00:00
+GA,McDuffie County,senate,US Senate,4517,3754,54.61,2026-11-07T04:32:27+00:00
+GA,McIntosh County,senate,US Senate,3306,2391,58.03,2026-11-07T04:32:27+00:00
+GA,Meriwether County,senate,US Senate,5075,3916,56.45,2026-11-07T04:32:27+00:00
+GA,Miller County,senate,US Senate,1398,556,71.55,2026-11-07T04:32:27+00:00
+GA,Mitchell County,senate,US Senate,3434,3257,51.32,2026-11-07T04:32:27+00:00
+GA,Monroe County,senate,US Senate,9463,4617,67.21,2026-11-07T04:32:27+00:00
+GA,Montgomery County,senate,US Senate,2031,918,68.87,2026-11-07T04:32:27+00:00
+GA,Morgan County,senate,US Senate,6975,3509,66.53,2026-11-07T04:32:27+00:00
+GA,Murray County,senate,US Senate,8486,2836,74.95,2026-11-07T04:32:27+00:00
+GA,Muscogee County,senate,US Senate,18662,43644,29.95,2026-11-07T04:32:27+00:00
+GA,Newton County,senate,US Senate,14549,32467,30.94,2026-11-07T04:32:27+00:00
+GA,Oconee County,senate,US Senate,13797,8788,61.09,2026-11-07T04:32:27+00:00
+GA,Oglethorpe County,senate,US Senate,4233,2572,62.2,2026-11-07T04:32:27+00:00
+GA,Paulding County,senate,US Senate,37357,37089,50.18,2026-11-07T04:32:27+00:00
+GA,Peach County,senate,US Senate,4656,5980,43.78,2026-11-07T04:32:27+00:00
+GA,Pickens County,senate,US Senate,11547,3716,75.65,2026-11-07T04:32:27+00:00
+GA,Pierce County,senate,US Senate,5948,1074,84.71,2026-11-07T04:32:27+00:00
+GA,Pike County,senate,US Senate,7381,1703,81.25,2026-11-07T04:32:27+00:00
+GA,Polk County,senate,US Senate,9351,3910,70.52,2026-11-07T04:32:27+00:00
+GA,Pulaski County,senate,US Senate,2202,1131,66.07,2026-11-07T04:32:27+00:00
+GA,Putnam County,senate,US Senate,6985,3626,65.83,2026-11-07T04:32:27+00:00
+GA,Quitman County,senate,US Senate,470,398,54.15,2026-11-07T04:32:27+00:00
+GA,Rabun County,senate,US Senate,5492,2250,70.94,2026-11-07T04:32:27+00:00
+GA,Randolph County,senate,US Senate,998,1352,42.47,2026-11-07T04:32:27+00:00
+GA,Richmond County,senate,US Senate,16066,50562,24.11,2026-11-07T04:32:27+00:00
+GA,Rockdale County,senate,US Senate,6777,31988,17.48,2026-11-07T04:32:27+00:00
+GA,Schley County,senate,US Senate,1329,423,75.86,2026-11-07T04:32:27+00:00
+GA,Screven County,senate,US Senate,2879,2323,55.34,2026-11-07T04:32:27+00:00
+GA,Seminole County,senate,US Senate,1869,1021,64.67,2026-11-07T04:32:27+00:00
+GA,Spalding County,senate,US Senate,12362,13211,48.34,2026-11-07T04:32:27+00:00
+GA,Stephens County,senate,US Senate,6870,2429,73.88,2026-11-07T04:32:27+00:00
+GA,Stewart County,senate,US Senate,522,905,36.58,2026-11-07T04:32:27+00:00
+GA,Sumter County,senate,US Senate,4107,5504,42.73,2026-11-07T04:32:27+00:00
+GA,Talbot County,senate,US Senate,1077,1645,39.57,2026-11-07T04:32:27+00:00
+GA,Taliaferro County,senate,US Senate,306,493,38.3,2026-11-07T04:32:27+00:00
+GA,Tattnall County,senate,US Senate,4222,1992,67.94,2026-11-07T04:32:27+00:00
+GA,Taylor County,senate,US Senate,1774,1216,59.33,2026-11-07T04:32:27+00:00
+GA,Telfair County,senate,US Senate,2006,1146,63.64,2026-11-07T04:32:27+00:00
+GA,Terrell County,senate,US Senate,1508,1935,43.8,2026-11-07T04:32:27+00:00
+GA,Thomas County,senate,US Senate,9301,7525,55.28,2026-11-07T04:32:27+00:00
+GA,Tift County,senate,US Senate,7758,5520,58.43,2026-11-07T04:32:27+00:00
+GA,Toombs County,senate,US Senate,5152,2593,66.52,2026-11-07T04:32:27+00:00
+GA,Towns County,senate,US Senate,5366,1741,75.5,2026-11-07T04:32:27+00:00
+GA,Treutlen County,senate,US Senate,1453,780,65.07,2026-11-07T04:32:27+00:00
+GA,Troup County,senate,US Senate,12186,10961,52.65,2026-11-07T04:32:27+00:00
+GA,Turner County,senate,US Senate,1663,1305,56.03,2026-11-07T04:32:27+00:00
+GA,Twiggs County,senate,US Senate,1653,1705,49.23,2026-11-07T04:32:27+00:00
+GA,Union County,senate,US Senate,10829,3410,76.05,2026-11-07T04:32:27+00:00
+GA,Upson County,senate,US Senate,6104,3638,62.66,2026-11-07T04:32:27+00:00
+GA,Walker County,senate,US Senate,14976,6367,70.17,2026-11-07T04:32:27+00:00
+GA,Walton County,senate,US Senate,28355,16143,63.72,2026-11-07T04:32:27+00:00
+GA,Ware County,senate,US Senate,6689,3551,65.32,2026-11-07T04:32:27+00:00
+GA,Warren County,senate,US Senate,888,1190,42.73,2026-11-07T04:32:27+00:00
+GA,Washington County,senate,US Senate,3625,4258,45.99,2026-11-07T04:32:27+00:00
+GA,Wayne County,senate,US Senate,7059,2718,72.2,2026-11-07T04:32:27+00:00
+GA,Webster County,senate,US Senate,576,474,54.86,2026-11-07T04:32:27+00:00
+GA,Wheeler County,senate,US Senate,1207,583,67.43,2026-11-07T04:32:27+00:00
+GA,White County,senate,US Senate,9711,2849,77.32,2026-11-07T04:32:27+00:00
+GA,Whitfield County,senate,US Senate,16889,12943,56.61,2026-11-07T04:32:27+00:00
+GA,Wilcox County,senate,US Senate,1733,731,70.33,2026-11-07T04:32:27+00:00
+GA,Wilkes County,senate,US Senate,2115,1968,51.8,2026-11-07T04:32:27+00:00
+GA,Wilkinson County,senate,US Senate,1885,1809,51.03,2026-11-07T04:32:27+00:00
+GA,Worth County,senate,US Senate,4635,2136,68.45,2026-11-07T04:32:27+00:00
+GA,Appling County,governor,Governor,4819,1375,77.8,2026-11-07T04:32:27+00:00
+GA,Atkinson County,governor,Governor,1548,692,69.11,2026-11-07T04:32:27+00:00
+GA,Bacon County,governor,Governor,2967,554,84.27,2026-11-07T04:32:27+00:00
+GA,Baker County,governor,Governor,664,476,58.25,2026-11-07T04:32:27+00:00
+GA,Baldwin County,governor,Governor,7279,7806,48.25,2026-11-07T04:32:27+00:00
+GA,Banks County,governor,Governor,6289,1002,86.26,2026-11-07T04:32:27+00:00
+GA,Barrow County,governor,Governor,20493,12461,62.19,2026-11-07T04:32:27+00:00
+GA,Bartow County,governor,Governor,29478,12835,69.67,2026-11-07T04:32:27+00:00
+GA,Ben Hill County,governor,Governor,2957,1950,60.26,2026-11-07T04:32:27+00:00
+GA,Berrien County,governor,Governor,4754,1071,81.61,2026-11-07T04:32:27+00:00
+GA,Bibb County,governor,Governor,19221,36082,34.76,2026-11-07T04:32:27+00:00
+GA,Bleckley County,governor,Governor,3530,1122,75.88,2026-11-07T04:32:27+00:00
+GA,Brantley County,governor,Governor,4928,570,89.63,2026-11-07T04:32:27+00:00
+GA,Brooks County,governor,Governor,3252,2203,59.62,2026-11-07T04:32:27+00:00
+GA,Bryan County,governor,Governor,11215,6778,62.33,2026-11-07T04:32:27+00:00
+GA,Bulloch County,governor,Governor,14646,9958,59.53,2026-11-07T04:32:27+00:00
+GA,Burke County,governor,Governor,4281,4398,49.33,2026-11-07T04:32:27+00:00
+GA,Butts County,governor,Governor,6513,3082,67.88,2026-11-07T04:32:27+00:00
+GA,Calhoun County,governor,Governor,677,956,41.46,2026-11-07T04:32:27+00:00
+GA,Camden County,governor,Governor,12104,6880,63.76,2026-11-07T04:32:27+00:00
+GA,Candler County,governor,Governor,2335,1061,68.76,2026-11-07T04:32:27+00:00
+GA,Carroll County,governor,Governor,29279,15703,65.09,2026-11-07T04:32:27+00:00
+GA,Catoosa County,governor,Governor,17530,6100,74.19,2026-11-07T04:32:27+00:00
+GA,Charlton County,governor,Governor,2419,804,75.05,2026-11-07T04:32:27+00:00
+GA,Chatham County,governor,Governor,41326,70190,37.06,2026-11-07T04:32:27+00:00
+GA,Chattahoochee County,governor,Governor,554,533,50.97,2026-11-07T04:32:27+00:00
+GA,Chattooga County,governor,Governor,5519,1556,78.01,2026-11-07T04:32:27+00:00
+GA,Cherokee County,governor,Governor,84255,42690,66.37,2026-11-07T04:32:27+00:00
+GA,Clarke County,governor,Governor,11178,31479,26.2,2026-11-07T04:32:27+00:00
+GA,Clay County,governor,Governor,489,618,44.17,2026-11-07T04:32:27+00:00
+GA,Clayton County,governor,Governor,9945,85913,10.37,2026-11-07T04:32:27+00:00
+GA,Clinch County,governor,Governor,1459,519,73.76,2026-11-07T04:32:27+00:00
+GA,Cobb County,governor,Governor,130388,205577,38.81,2026-11-07T04:32:27+00:00
+GA,Coffee County,governor,Governor,7744,4119,65.28,2026-11-07T04:32:27+00:00
+GA,Colquitt County,governor,Governor,8647,3787,69.54,2026-11-07T04:32:27+00:00
+GA,Columbia County,governor,Governor,39573,27965,58.59,2026-11-07T04:32:27+00:00
+GA,Cook County,governor,Governor,3730,1742,68.17,2026-11-07T04:32:27+00:00
+GA,Coweta County,governor,Governor,42106,24732,63.0,2026-11-07T04:32:27+00:00
+GA,Crawford County,governor,Governor,3337,1328,71.53,2026-11-07T04:32:27+00:00
+GA,Crisp County,governor,Governor,3889,2433,61.52,2026-11-07T04:32:27+00:00
+GA,Dade County,governor,Governor,4297,1086,79.83,2026-11-07T04:32:27+00:00
+GA,Dawson County,governor,Governor,11551,2885,80.02,2026-11-07T04:32:27+00:00
+GA,DeKalb County,governor,Governor,48834,271921,15.22,2026-11-07T04:32:27+00:00
+GA,Decatur County,governor,Governor,4908,3586,57.78,2026-11-07T04:32:27+00:00
+GA,Dodge County,governor,Governor,4490,1776,71.66,2026-11-07T04:32:27+00:00
+GA,Dooly County,governor,Governor,1730,1578,52.3,2026-11-07T04:32:27+00:00
+GA,Dougherty County,governor,Governor,7069,20141,25.98,2026-11-07T04:32:27+00:00
+GA,Douglas County,governor,Governor,15761,43638,26.53,2026-11-07T04:32:27+00:00
+GA,Early County,governor,Governor,1922,1663,53.61,2026-11-07T04:32:27+00:00
+GA,Echols County,governor,Governor,814,131,86.14,2026-11-07T04:32:27+00:00
+GA,Effingham County,governor,Governor,17549,7871,69.04,2026-11-07T04:32:27+00:00
+GA,Elbert County,governor,Governor,4739,2340,66.94,2026-11-07T04:32:27+00:00
+GA,Emanuel County,governor,Governor,5011,2317,68.38,2026-11-07T04:32:27+00:00
+GA,Evans County,governor,Governor,2139,980,68.58,2026-11-07T04:32:27+00:00
+GA,Fannin County,governor,Governor,9373,2236,80.74,2026-11-07T04:32:27+00:00
+GA,Fayette County,governor,Governor,30032,32246,48.22,2026-11-07T04:32:27+00:00
+GA,Floyd County,governor,Governor,21144,11132,65.51,2026-11-07T04:32:27+00:00
+GA,Forsyth County,governor,Governor,68091,39041,63.56,2026-11-07T04:32:27+00:00
+GA,Franklin County,governor,Governor,7141,1364,83.96,2026-11-07T04:32:27+00:00
+GA,Fulton County,governor,Governor,119027,337159,26.09,2026-11-07T04:32:27+00:00
+GA,Gilmer County,governor,Governor,11073,2926,79.1,2026-11-07T04:32:27+00:00
+GA,Glascock County,governor,Governor,1117,100,91.78,2026-11-07T04:32:27+00:00
+GA,Glynn County,governor,Governor,20387,13062,60.95,2026-11-07T04:32:27+00:00
+GA,Gordon County,governor,Governor,14341,4579,75.8,2026-11-07T04:32:27+00:00
+GA,Grady County,governor,Governor,5245,2769,65.45,2026-11-07T04:32:27+00:00
+GA,Greene County,governor,Governor,7490,3687,67.01,2026-11-07T04:32:27+00:00
+GA,Gwinnett County,governor,Governor,116048,227898,33.74,2026-11-07T04:32:27+00:00
+GA,Habersham County,governor,Governor,13804,3643,79.12,2026-11-07T04:32:27+00:00
+GA,Hall County,governor,Governor,52196,26638,66.21,2026-11-07T04:32:27+00:00
+GA,Hancock County,governor,Governor,1061,2348,31.12,2026-11-07T04:32:27+00:00
+GA,Haralson County,governor,Governor,9664,1669,85.27,2026-11-07T04:32:27+00:00
+GA,Harris County,governor,Governor,11966,5164,69.85,2026-11-07T04:32:27+00:00
+GA,Hart County,governor,Governor,8057,2757,74.51,2026-11-07T04:32:27+00:00
+GA,Heard County,governor,Governor,3694,738,83.35,2026-11-07T04:32:27+00:00
+GA,Henry County,governor,Governor,29426,80272,26.82,2026-11-07T04:32:27+00:00
+GA,Houston County,governor,Governor,32193,32731,49.59,2026-11-07T04:32:27+00:00
+GA,Irwin County,governor,Governor,2501,789,76.02,2026-11-07T04:32:27+00:00
+GA,Jackson County,governor,Governor,26131,9847,72.63,2026-11-07T04:32:27+00:00
+GA,Jasper County,governor,Governor,5285,1603,76.73,2026-11-07T04:32:27+00:00
+GA,Jeff Davis County,governor,Governor,3299,869,79.15,2026-11-07T04:32:27+00:00
+GA,Jefferson County,governor,Governor,2864,3131,47.77,2026-11-07T04:32:27+00:00
+GA,Jenkins County,governor,Governor,1554,965,61.69,2026-11-07T04:32:27+00:00
+GA,Johnson County,governor,Governor,2174,880,71.19,2026-11-07T04:32:27+00:00
+GA,Jones County,governor,Governor,7675,4302,64.08,2026-11-07T04:32:27+00:00
+GA,Lamar County,governor,Governor,5433,2441,69.0,2026-11-07T04:32:27+00:00
+GA,Lanier County,governor,Governor,1836,823,69.05,2026-11-07T04:32:27+00:00
+GA,Laurens County,governor,Governor,11309,6811,62.41,2026-11-07T04:32:27+00:00
+GA,Lee County,governor,Governor,8789,4486,66.21,2026-11-07T04:32:27+00:00
+GA,Liberty County,governor,Governor,5698,11239,33.64,2026-11-07T04:32:27+00:00
+GA,Lincoln County,governor,Governor,2723,1138,70.53,2026-11-07T04:32:27+00:00
+GA,Long County,governor,Governor,2706,2273,54.35,2026-11-07T04:32:27+00:00
+GA,Lowndes County,governor,Governor,18991,16596,53.36,2026-11-07T04:32:27+00:00
+GA,Lumpkin County,governor,Governor,10198,2731,78.88,2026-11-07T04:32:27+00:00
+GA,Macon County,governor,Governor,1460,2286,38.97,2026-11-07T04:32:27+00:00
+GA,Madison County,governor,Governor,9134,3353,73.15,2026-11-07T04:32:27+00:00
+GA,Marion County,governor,Governor,1695,1076,61.17,2026-11-07T04:32:27+00:00
+GA,McDuffie County,governor,Governor,4801,3469,58.05,2026-11-07T04:32:27+00:00
+GA,McIntosh County,governor,Governor,3541,2163,62.08,2026-11-07T04:32:27+00:00
+GA,Meriwether County,governor,Governor,5424,3603,60.09,2026-11-07T04:32:27+00:00
+GA,Miller County,governor,Governor,1474,492,74.97,2026-11-07T04:32:27+00:00
+GA,Mitchell County,governor,Governor,3666,3055,54.55,2026-11-07T04:32:27+00:00
+GA,Monroe County,governor,Governor,10031,4087,71.05,2026-11-07T04:32:27+00:00
+GA,Montgomery County,governor,Governor,2164,805,72.89,2026-11-07T04:32:27+00:00
+GA,Morgan County,governor,Governor,7532,2989,71.59,2026-11-07T04:32:27+00:00
+GA,Murray County,governor,Governor,9135,2225,80.41,2026-11-07T04:32:27+00:00
+GA,Muscogee County,governor,Governor,20763,41439,33.38,2026-11-07T04:32:27+00:00
+GA,Newton County,governor,Governor,15971,31179,33.87,2026-11-07T04:32:27+00:00
+GA,Oconee County,governor,Governor,15470,7208,68.22,2026-11-07T04:32:27+00:00
+GA,Oglethorpe County,governor,Governor,4542,2292,66.46,2026-11-07T04:32:27+00:00
+GA,Paulding County,governor,Governor,40670,33910,54.53,2026-11-07T04:32:27+00:00
+GA,Peach County,governor,Governor,5069,5585,47.58,2026-11-07T04:32:27+00:00
+GA,Pickens County,governor,Governor,12499,2848,81.44,2026-11-07T04:32:27+00:00
+GA,Pierce County,governor,Governor,6107,917,86.94,2026-11-07T04:32:27+00:00
+GA,Pike County,governor,Governor,7721,1390,84.74,2026-11-07T04:32:27+00:00
+GA,Polk County,governor,Governor,9968,3312,75.06,2026-11-07T04:32:27+00:00
+GA,Pulaski County,governor,Governor,2315,1026,69.29,2026-11-07T04:32:27+00:00
+GA,Putnam County,governor,Governor,7527,3106,70.79,2026-11-07T04:32:27+00:00
+GA,Quitman County,governor,Governor,495,377,56.77,2026-11-07T04:32:27+00:00
+GA,Rabun County,governor,Governor,5946,1799,76.77,2026-11-07T04:32:27+00:00
+GA,Randolph County,governor,Governor,1087,1273,46.06,2026-11-07T04:32:27+00:00
+GA,Richmond County,governor,Governor,18262,48358,27.41,2026-11-07T04:32:27+00:00
+GA,Rockdale County,governor,Governor,7906,30895,20.38,2026-11-07T04:32:27+00:00
+GA,Schley County,governor,Governor,1389,359,79.46,2026-11-07T04:32:27+00:00
+GA,Screven County,governor,Governor,3079,2120,59.22,2026-11-07T04:32:27+00:00
+GA,Seminole County,governor,Governor,1953,939,67.53,2026-11-07T04:32:27+00:00
+GA,Spalding County,governor,Governor,13474,12208,52.46,2026-11-07T04:32:27+00:00
+GA,Stephens County,governor,Governor,7301,2003,78.47,2026-11-07T04:32:27+00:00
+GA,Stewart County,governor,Governor,564,875,39.19,2026-11-07T04:32:27+00:00
+GA,Sumter County,governor,Governor,4423,5192,46.0,2026-11-07T04:32:27+00:00
+GA,Talbot County,governor,Governor,1145,1584,41.96,2026-11-07T04:32:27+00:00
+GA,Taliaferro County,governor,Governor,324,480,40.3,2026-11-07T04:32:27+00:00
+GA,Tattnall County,governor,Governor,4551,1693,72.89,2026-11-07T04:32:27+00:00
+GA,Taylor County,governor,Governor,1881,1116,62.76,2026-11-07T04:32:27+00:00
+GA,Telfair County,governor,Governor,2112,1055,66.69,2026-11-07T04:32:27+00:00
+GA,Terrell County,governor,Governor,1601,1844,46.47,2026-11-07T04:32:27+00:00
+GA,Thomas County,governor,Governor,10002,6882,59.24,2026-11-07T04:32:27+00:00
+GA,Tift County,governor,Governor,8485,4837,63.69,2026-11-07T04:32:27+00:00
+GA,Toombs County,governor,Governor,5470,2297,70.43,2026-11-07T04:32:27+00:00
+GA,Towns County,governor,Governor,5794,1328,81.35,2026-11-07T04:32:27+00:00
+GA,Treutlen County,governor,Governor,1518,720,67.83,2026-11-07T04:32:27+00:00
+GA,Troup County,governor,Governor,13093,10113,56.42,2026-11-07T04:32:27+00:00
+GA,Turner County,governor,Governor,1766,1208,59.38,2026-11-07T04:32:27+00:00
+GA,Twiggs County,governor,Governor,1738,1628,51.63,2026-11-07T04:32:27+00:00
+GA,Union County,governor,Governor,11647,2631,81.57,2026-11-07T04:32:27+00:00
+GA,Upson County,governor,Governor,6472,3321,66.09,2026-11-07T04:32:27+00:00
+GA,Walker County,governor,Governor,16212,5072,76.17,2026-11-07T04:32:27+00:00
+GA,Walton County,governor,Governor,30588,14135,68.39,2026-11-07T04:32:27+00:00
+GA,Ware County,governor,Governor,6948,3284,67.9,2026-11-07T04:32:27+00:00
+GA,Warren County,governor,Governor,947,1146,45.25,2026-11-07T04:32:27+00:00
+GA,Washington County,governor,Governor,3904,4041,49.14,2026-11-07T04:32:27+00:00
+GA,Wayne County,governor,Governor,7398,2397,75.53,2026-11-07T04:32:27+00:00
+GA,Webster County,governor,Governor,610,444,57.87,2026-11-07T04:32:27+00:00
+GA,Wheeler County,governor,Governor,1266,534,70.33,2026-11-07T04:32:27+00:00
+GA,White County,governor,Governor,10459,2129,83.09,2026-11-07T04:32:27+00:00
+GA,Whitfield County,governor,Governor,18421,11454,61.66,2026-11-07T04:32:27+00:00
+GA,Wilcox County,governor,Governor,1790,686,72.29,2026-11-07T04:32:27+00:00
+GA,Wilkes County,governor,Governor,2241,1854,54.73,2026-11-07T04:32:27+00:00
+GA,Wilkinson County,governor,Governor,2024,1690,54.5,2026-11-07T04:32:27+00:00
+GA,Worth County,governor,Governor,4894,1904,71.99,2026-11-07T04:32:27+00:00
+IA,Adair,senate,United States Senator,1920,1066,64.3,2026-11-07T04:32:39+00:00
+IA,Adams,senate,United States Senator,1001,541,64.92,2026-11-07T04:32:39+00:00
+IA,Allamakee,senate,United States Senator,3273,2227,59.51,2026-11-07T04:32:39+00:00
+IA,Appanoose,senate,United States Senator,2881,1738,62.37,2026-11-07T04:32:39+00:00
+IA,Audubon,senate,United States Senator,1428,907,61.16,2026-11-07T04:32:39+00:00
+IA,Benton,senate,United States Senator,6834,4696,59.27,2026-11-07T04:32:39+00:00
+IA,Black Hawk,senate,United States Senator,20805,30630,40.45,2026-11-07T04:32:39+00:00
+IA,Boone,senate,United States Senator,6046,5782,51.12,2026-11-07T04:32:39+00:00
+IA,Bremer,senate,United States Senator,6266,5228,54.52,2026-11-07T04:32:39+00:00
+IA,Buchanan,senate,United States Senator,4662,3674,55.93,2026-11-07T04:32:39+00:00
+IA,Buena Vista,senate,United States Senator,3156,2546,55.35,2026-11-07T04:32:39+00:00
+IA,Butler,senate,United States Senator,3996,2095,65.6,2026-11-07T04:32:39+00:00
+IA,Calhoun,senate,United States Senator,2318,1248,65.0,2026-11-07T04:32:39+00:00
+IA,Carroll,senate,United States Senator,5369,3134,63.14,2026-11-07T04:32:39+00:00
+IA,Cass,senate,United States Senator,3252,1829,64.0,2026-11-07T04:32:39+00:00
+IA,Cedar,senate,United States Senator,4444,3960,52.88,2026-11-07T04:32:39+00:00
+IA,Cerro Gordo,senate,United States Senator,8631,9285,48.17,2026-11-07T04:32:39+00:00
+IA,Cherokee,senate,United States Senator,2973,1594,65.1,2026-11-07T04:32:39+00:00
+IA,Chickasaw,senate,United States Senator,2874,1876,60.51,2026-11-07T04:32:39+00:00
+IA,Clarke,senate,United States Senator,2071,1312,61.22,2026-11-07T04:32:39+00:00
+IA,Clay,senate,United States Senator,3987,2333,63.09,2026-11-07T04:32:39+00:00
+IA,Clayton,senate,United States Senator,4262,2874,59.73,2026-11-07T04:32:39+00:00
+IA,Clinton,senate,United States Senator,9062,8699,51.02,2026-11-07T04:32:39+00:00
+IA,Crawford,senate,United States Senator,2799,1946,58.99,2026-11-07T04:32:39+00:00
+IA,Dallas,senate,United States Senator,22509,27243,45.24,2026-11-07T04:32:39+00:00
+IA,Davis,senate,United States Senator,1916,897,68.11,2026-11-07T04:32:39+00:00
+IA,Decatur,senate,United States Senator,1721,972,63.91,2026-11-07T04:32:39+00:00
+IA,Delaware,senate,United States Senator,4916,2872,63.12,2026-11-07T04:32:39+00:00
+IA,Des Moines,senate,United States Senator,6967,7134,49.41,2026-11-07T04:32:39+00:00
+IA,Dickinson,senate,United States Senator,5896,3295,64.15,2026-11-07T04:32:39+00:00
+IA,Dubuque,senate,United States Senator,20147,22472,47.27,2026-11-07T04:32:39+00:00
+IA,Emmet,senate,United States Senator,2122,1240,63.12,2026-11-07T04:32:39+00:00
+IA,Fayette,senate,United States Senator,4318,3261,56.97,2026-11-07T04:32:39+00:00
+IA,Floyd,senate,United States Senator,3180,2625,54.78,2026-11-07T04:32:39+00:00
+IA,Franklin,senate,United States Senator,2317,1333,63.48,2026-11-07T04:32:39+00:00
+IA,Fremont,senate,United States Senator,1559,927,62.71,2026-11-07T04:32:39+00:00
+IA,Greene,senate,United States Senator,1814,1288,58.48,2026-11-07T04:32:39+00:00
+IA,Grundy,senate,United States Senator,3640,1952,65.09,2026-11-07T04:32:39+00:00
+IA,Guthrie,senate,United States Senator,3083,1853,62.46,2026-11-07T04:32:39+00:00
+IA,Hamilton,senate,United States Senator,3215,2416,57.09,2026-11-07T04:32:39+00:00
+IA,Hancock,senate,United States Senator,2925,1410,67.47,2026-11-07T04:32:39+00:00
+IA,Hardin,senate,United States Senator,3931,2506,61.07,2026-11-07T04:32:39+00:00
+IA,Harrison,senate,United States Senator,3325,2114,61.13,2026-11-07T04:32:39+00:00
+IA,Henry,senate,United States Senator,4234,2889,59.44,2026-11-07T04:32:39+00:00
+IA,Howard,senate,United States Senator,2132,1476,59.09,2026-11-07T04:32:39+00:00
+IA,Humboldt,senate,United States Senator,2514,1165,68.33,2026-11-07T04:32:39+00:00
+IA,Ida,senate,United States Senator,1862,803,69.87,2026-11-07T04:32:39+00:00
+IA,Iowa,senate,United States Senator,4364,3225,57.5,2026-11-07T04:32:39+00:00
+IA,Jackson,senate,United States Senator,4832,3334,59.17,2026-11-07T04:32:39+00:00
+IA,Jasper,senate,United States Senator,8684,7004,55.35,2026-11-07T04:32:39+00:00
+IA,Jefferson,senate,United States Senator,2952,3630,44.85,2026-11-07T04:32:39+00:00
+IA,Johnson,senate,United States Senator,17111,56463,23.26,2026-11-07T04:32:39+00:00
+IA,Jones,senate,United States Senator,4700,3648,56.3,2026-11-07T04:32:39+00:00
+IA,Keokuk,senate,United States Senator,2510,1232,67.08,2026-11-07T04:32:39+00:00
+IA,Kossuth,senate,United States Senator,4285,2167,66.41,2026-11-07T04:32:39+00:00
+IA,Lee,senate,United States Senator,6087,5324,53.34,2026-11-07T04:32:39+00:00
+IA,Linn,senate,United States Senator,39372,64872,37.77,2026-11-07T04:32:39+00:00
+IA,Louisa,senate,United States Senator,2245,1456,60.66,2026-11-07T04:32:39+00:00
+IA,Lucas,senate,United States Senator,2236,1120,66.63,2026-11-07T04:32:39+00:00
+IA,Lyon,senate,United States Senator,4221,983,81.11,2026-11-07T04:32:39+00:00
+IA,Madison,senate,United States Senator,3248,1586,67.19,2026-11-07T04:32:39+00:00
+IA,Mahaska,senate,United States Senator,5516,2524,68.61,2026-11-07T04:32:39+00:00
+IA,Marion,senate,United States Senator,9645,5775,62.55,2026-11-07T04:32:39+00:00
+IA,Marshall,senate,United States Senator,6734,7334,47.87,2026-11-07T04:32:39+00:00
+IA,Mills,senate,United States Senator,3617,2275,61.39,2026-11-07T04:32:39+00:00
+IA,Mitchell,senate,United States Senator,2498,1767,58.57,2026-11-07T04:32:39+00:00
+IA,Monona,senate,United States Senator,2071,1156,64.18,2026-11-07T04:32:39+00:00
+IA,Monroe,senate,United States Senator,1951,990,66.34,2026-11-07T04:32:39+00:00
+IA,Montgomery,senate,United States Senator,2199,1342,62.1,2026-11-07T04:32:39+00:00
+IA,Muscatine,senate,United States Senator,6981,8020,46.54,2026-11-07T04:32:39+00:00
+IA,O'Brien,senate,United States Senator,3966,1371,74.31,2026-11-07T04:32:39+00:00
+IA,Osceola,senate,United States Senator,1766,522,77.19,2026-11-07T04:32:39+00:00
+IA,Page,senate,United States Senator,3164,1872,62.83,2026-11-07T04:32:39+00:00
+IA,Palo Alto,senate,United States Senator,2505,1369,64.66,2026-11-07T04:32:39+00:00
+IA,Plymouth,senate,United States Senator,7356,3165,69.92,2026-11-07T04:32:39+00:00
+IA,Pocahontas,senate,United States Senator,1825,822,68.95,2026-11-07T04:32:39+00:00
+IA,Polk,senate,United States Senator,78156,136934,36.34,2026-11-07T04:32:39+00:00
+IA,Pottawattamie,senate,United States Senator,16179,16261,49.87,2026-11-07T04:32:39+00:00
+IA,Poweshiek,senate,United States Senator,3912,3821,50.59,2026-11-07T04:32:39+00:00
+IA,Ringgold,senate,United States Senator,1350,674,66.7,2026-11-07T04:32:39+00:00
+IA,Sac,senate,United States Senator,2768,1326,67.61,2026-11-07T04:32:39+00:00
+IA,Scott,senate,United States Senator,31148,40158,43.68,2026-11-07T04:32:39+00:00
+IA,Shelby,senate,United States Senator,3034,1681,64.35,2026-11-07T04:32:39+00:00
+IA,Sioux,senate,United States Senator,12111,2769,81.39,2026-11-07T04:32:39+00:00
+IA,Story,senate,United States Senator,14511,26388,35.48,2026-11-07T04:32:39+00:00
+IA,Tama,senate,United States Senator,3802,3035,55.61,2026-11-07T04:32:39+00:00
+IA,Taylor,senate,United States Senator,1467,630,69.96,2026-11-07T04:32:39+00:00
+IA,Union,senate,United States Senator,2586,1895,57.71,2026-11-07T04:32:39+00:00
+IA,Van Buren,senate,United States Senator,1878,758,71.24,2026-11-07T04:32:39+00:00
+IA,Wapello,senate,United States Senator,5671,4961,53.34,2026-11-07T04:32:39+00:00
+IA,Warren,senate,United States Senator,13890,12851,51.94,2026-11-07T04:32:39+00:00
+IA,Washington,senate,United States Senator,5211,4112,55.89,2026-11-07T04:32:39+00:00
+IA,Wayne,senate,United States Senator,1483,692,68.18,2026-11-07T04:32:39+00:00
+IA,Webster,senate,United States Senator,6768,5461,55.34,2026-11-07T04:32:39+00:00
+IA,Winnebago,senate,United States Senator,2501,1716,59.31,2026-11-07T04:32:39+00:00
+IA,Winneshiek,senate,United States Senator,4843,5219,48.13,2026-11-07T04:32:39+00:00
+IA,Woodbury,senate,United States Senator,16672,15945,51.11,2026-11-07T04:32:39+00:00
+IA,Worth,senate,United States Senator,1826,1393,56.73,2026-11-07T04:32:39+00:00
+IA,Wright,senate,United States Senator,2502,1704,59.49,2026-11-07T04:32:39+00:00
+IA,Adair,governor,Governor and Lt. Governor,1809,1383,56.67,2026-11-07T04:32:39+00:00
+IA,Adams,governor,Governor and Lt. Governor,960,681,58.5,2026-11-07T04:32:39+00:00
+IA,Allamakee,governor,Governor and Lt. Governor,3242,2569,55.79,2026-11-07T04:32:39+00:00
+IA,Appanoose,governor,Governor and Lt. Governor,2858,2032,58.45,2026-11-07T04:32:39+00:00
+IA,Audubon,governor,Governor and Lt. Governor,1403,1088,56.32,2026-11-07T04:32:39+00:00
+IA,Benton,governor,Governor and Lt. Governor,6456,5478,54.1,2026-11-07T04:32:39+00:00
+IA,Black Hawk,governor,Governor and Lt. Governor,19325,33454,36.61,2026-11-07T04:32:39+00:00
+IA,Boone,governor,Governor and Lt. Governor,5926,6742,46.78,2026-11-07T04:32:39+00:00
+IA,Bremer,governor,Governor and Lt. Governor,5856,6199,48.58,2026-11-07T04:32:39+00:00
+IA,Buchanan,governor,Governor and Lt. Governor,4200,4448,48.57,2026-11-07T04:32:39+00:00
+IA,Buena Vista,governor,Governor and Lt. Governor,3146,2916,51.9,2026-11-07T04:32:39+00:00
+IA,Butler,governor,Governor and Lt. Governor,3792,2581,59.5,2026-11-07T04:32:39+00:00
+IA,Calhoun,governor,Governor and Lt. Governor,2318,1513,60.51,2026-11-07T04:32:39+00:00
+IA,Carroll,governor,Governor and Lt. Governor,5314,3759,58.57,2026-11-07T04:32:39+00:00
+IA,Cass,governor,Governor and Lt. Governor,3273,2111,60.79,2026-11-07T04:32:39+00:00
+IA,Cedar,governor,Governor and Lt. Governor,4232,4476,48.6,2026-11-07T04:32:39+00:00
+IA,Cerro Gordo,governor,Governor and Lt. Governor,8725,9788,47.13,2026-11-07T04:32:39+00:00
+IA,Cherokee,governor,Governor and Lt. Governor,2978,1845,61.75,2026-11-07T04:32:39+00:00
+IA,Chickasaw,governor,Governor and Lt. Governor,2649,2274,53.81,2026-11-07T04:32:39+00:00
+IA,Clarke,governor,Governor and Lt. Governor,1962,1543,55.98,2026-11-07T04:32:39+00:00
+IA,Clay,governor,Governor and Lt. Governor,4050,2690,60.09,2026-11-07T04:32:39+00:00
+IA,Clayton,governor,Governor and Lt. Governor,4025,3326,54.75,2026-11-07T04:32:39+00:00
+IA,Clinton,governor,Governor and Lt. Governor,8766,9604,47.72,2026-11-07T04:32:39+00:00
+IA,Crawford,governor,Governor and Lt. Governor,2863,2184,56.73,2026-11-07T04:32:39+00:00
+IA,Dallas,governor,Governor and Lt. Governor,20958,30032,41.1,2026-11-07T04:32:39+00:00
+IA,Davis,governor,Governor and Lt. Governor,1832,1145,61.54,2026-11-07T04:32:39+00:00
+IA,Decatur,governor,Governor and Lt. Governor,1688,1129,59.92,2026-11-07T04:32:39+00:00
+IA,Delaware,governor,Governor and Lt. Governor,4578,3434,57.14,2026-11-07T04:32:39+00:00
+IA,Des Moines,governor,Governor and Lt. Governor,6893,8088,46.01,2026-11-07T04:32:39+00:00
+IA,Dickinson,governor,Governor and Lt. Governor,5824,3704,61.13,2026-11-07T04:32:39+00:00
+IA,Dubuque,governor,Governor and Lt. Governor,18979,24674,43.48,2026-11-07T04:32:39+00:00
+IA,Emmet,governor,Governor and Lt. Governor,2193,1441,60.35,2026-11-07T04:32:39+00:00
+IA,Fayette,governor,Governor and Lt. Governor,3980,3891,50.57,2026-11-07T04:32:39+00:00
+IA,Floyd,governor,Governor and Lt. Governor,3144,2939,51.69,2026-11-07T04:32:39+00:00
+IA,Franklin,governor,Governor and Lt. Governor,2284,1582,59.08,2026-11-07T04:32:39+00:00
+IA,Fremont,governor,Governor and Lt. Governor,1636,1045,61.02,2026-11-07T04:32:39+00:00
+IA,Greene,governor,Governor and Lt. Governor,1966,1804,52.15,2026-11-07T04:32:39+00:00
+IA,Grundy,governor,Governor and Lt. Governor,3429,2371,59.12,2026-11-07T04:32:39+00:00
+IA,Guthrie,governor,Governor and Lt. Governor,2982,2293,56.53,2026-11-07T04:32:39+00:00
+IA,Hamilton,governor,Governor and Lt. Governor,3102,2827,52.32,2026-11-07T04:32:39+00:00
+IA,Hancock,governor,Governor and Lt. Governor,3067,1580,66.0,2026-11-07T04:32:39+00:00
+IA,Hardin,governor,Governor and Lt. Governor,3709,2975,55.49,2026-11-07T04:32:39+00:00
+IA,Harrison,governor,Governor and Lt. Governor,3617,2246,61.69,2026-11-07T04:32:39+00:00
+IA,Henry,governor,Governor and Lt. Governor,4243,3408,55.46,2026-11-07T04:32:39+00:00
+IA,Howard,governor,Governor and Lt. Governor,2062,1689,54.97,2026-11-07T04:32:39+00:00
+IA,Humboldt,governor,Governor and Lt. Governor,2501,1354,64.88,2026-11-07T04:32:39+00:00
+IA,Ida,governor,Governor and Lt. Governor,1857,931,66.61,2026-11-07T04:32:39+00:00
+IA,Iowa,governor,Governor and Lt. Governor,4125,3764,52.29,2026-11-07T04:32:39+00:00
+IA,Jackson,governor,Governor and Lt. Governor,4541,3975,53.32,2026-11-07T04:32:39+00:00
+IA,Jasper,governor,Governor and Lt. Governor,8172,8198,49.92,2026-11-07T04:32:39+00:00
+IA,Jefferson,governor,Governor and Lt. Governor,3009,4001,42.92,2026-11-07T04:32:39+00:00
+IA,Johnson,governor,Governor and Lt. Governor,15976,59064,21.29,2026-11-07T04:32:39+00:00
+IA,Jones,governor,Governor and Lt. Governor,4326,4306,50.12,2026-11-07T04:32:39+00:00
+IA,Keokuk,governor,Governor and Lt. Governor,2408,1544,60.93,2026-11-07T04:32:39+00:00
+IA,Kossuth,governor,Governor and Lt. Governor,4213,2458,63.15,2026-11-07T04:32:39+00:00
+IA,Lee,governor,Governor and Lt. Governor,6008,6035,49.89,2026-11-07T04:32:39+00:00
+IA,Linn,governor,Governor and Lt. Governor,36597,70086,34.3,2026-11-07T04:32:39+00:00
+IA,Louisa,governor,Governor and Lt. Governor,2214,1719,56.29,2026-11-07T04:32:39+00:00
+IA,Lucas,governor,Governor and Lt. Governor,2123,1342,61.27,2026-11-07T04:32:39+00:00
+IA,Lyon,governor,Governor and Lt. Governor,4324,1083,79.97,2026-11-07T04:32:39+00:00
+IA,Madison,governor,Governor and Lt. Governor,3035,2063,59.53,2026-11-07T04:32:39+00:00
+IA,Mahaska,governor,Governor and Lt. Governor,5457,2977,64.7,2026-11-07T04:32:39+00:00
+IA,Marion,governor,Governor and Lt. Governor,9374,6865,57.73,2026-11-07T04:32:39+00:00
+IA,Marshall,governor,Governor and Lt. Governor,6332,8259,43.4,2026-11-07T04:32:39+00:00
+IA,Mills,governor,Governor and Lt. Governor,3785,2450,60.71,2026-11-07T04:32:39+00:00
+IA,Mitchell,governor,Governor and Lt. Governor,2430,2011,54.72,2026-11-07T04:32:39+00:00
+IA,Monona,governor,Governor and Lt. Governor,2117,1350,61.06,2026-11-07T04:32:39+00:00
+IA,Monroe,governor,Governor and Lt. Governor,1892,1243,60.35,2026-11-07T04:32:39+00:00
+IA,Montgomery,governor,Governor and Lt. Governor,2265,1488,60.35,2026-11-07T04:32:39+00:00
+IA,Muscatine,governor,Governor and Lt. Governor,6828,8763,43.79,2026-11-07T04:32:39+00:00
+IA,O'Brien,governor,Governor and Lt. Governor,3982,1638,70.85,2026-11-07T04:32:39+00:00
+IA,Osceola,governor,Governor and Lt. Governor,1763,612,74.23,2026-11-07T04:32:39+00:00
+IA,Page,governor,Governor and Lt. Governor,3205,2060,60.87,2026-11-07T04:32:39+00:00
+IA,Palo Alto,governor,Governor and Lt. Governor,2516,1514,62.43,2026-11-07T04:32:39+00:00
+IA,Plymouth,governor,Governor and Lt. Governor,7413,3610,67.25,2026-11-07T04:32:39+00:00
+IA,Pocahontas,governor,Governor and Lt. Governor,1785,973,64.72,2026-11-07T04:32:39+00:00
+IA,Polk,governor,Governor and Lt. Governor,72324,147973,32.83,2026-11-07T04:32:39+00:00
+IA,Pottawattamie,governor,Governor and Lt. Governor,16838,16714,50.18,2026-11-07T04:32:39+00:00
+IA,Poweshiek,governor,Governor and Lt. Governor,3756,4352,46.32,2026-11-07T04:32:39+00:00
+IA,Ringgold,governor,Governor and Lt. Governor,1329,806,62.25,2026-11-07T04:32:39+00:00
+IA,Sac,governor,Governor and Lt. Governor,2725,1568,63.48,2026-11-07T04:32:39+00:00
+IA,Scott,governor,Governor and Lt. Governor,30705,42959,41.68,2026-11-07T04:32:39+00:00
+IA,Shelby,governor,Governor and Lt. Governor,3151,1832,63.23,2026-11-07T04:32:39+00:00
+IA,Sioux,governor,Governor and Lt. Governor,12305,3092,79.92,2026-11-07T04:32:39+00:00
+IA,Story,governor,Governor and Lt. Governor,13801,28386,32.71,2026-11-07T04:32:39+00:00
+IA,Tama,governor,Governor and Lt. Governor,3516,3599,49.42,2026-11-07T04:32:39+00:00
+IA,Taylor,governor,Governor and Lt. Governor,1447,768,65.33,2026-11-07T04:32:39+00:00
+IA,Union,governor,Governor and Lt. Governor,2493,2230,52.78,2026-11-07T04:32:39+00:00
+IA,Van Buren,governor,Governor and Lt. Governor,1852,963,65.79,2026-11-07T04:32:39+00:00
+IA,Wapello,governor,Governor and Lt. Governor,5592,5591,50.0,2026-11-07T04:32:39+00:00
+IA,Warren,governor,Governor and Lt. Governor,13070,14649,47.15,2026-11-07T04:32:39+00:00
+IA,Washington,governor,Governor and Lt. Governor,5022,4626,52.05,2026-11-07T04:32:39+00:00
+IA,Wayne,governor,Governor and Lt. Governor,1449,845,63.16,2026-11-07T04:32:39+00:00
+IA,Webster,governor,Governor and Lt. Governor,6563,6121,51.74,2026-11-07T04:32:39+00:00
+IA,Winnebago,governor,Governor and Lt. Governor,2619,1871,58.33,2026-11-07T04:32:39+00:00
+IA,Winneshiek,governor,Governor and Lt. Governor,4272,6137,41.04,2026-11-07T04:32:39+00:00
+IA,Woodbury,governor,Governor and Lt. Governor,16467,17205,48.9,2026-11-07T04:32:39+00:00
+IA,Worth,governor,Governor and Lt. Governor,1879,1542,54.93,2026-11-07T04:32:39+00:00
+IA,Wright,governor,Governor and Lt. Governor,2464,2002,55.17,2026-11-07T04:32:39+00:00
+ID,Ada County,senate,United States Senator,99414,0,100.0,2026-11-07T04:32:29+00:00
+ID,Adams County,senate,United States Senator,1483,0,100.0,2026-11-07T04:32:29+00:00
+ID,Bannock County,senate,United States Senator,15063,0,100.0,2026-11-07T04:32:29+00:00
+ID,Bear Lake County,senate,United States Senator,1945,0,100.0,2026-11-07T04:32:29+00:00
+ID,Benewah County,senate,United States Senator,3017,0,100.0,2026-11-07T04:32:29+00:00
+ID,Bingham County,senate,United States Senator,10147,0,100.0,2026-11-07T04:32:29+00:00
+ID,Blaine County,senate,United States Senator,2884,0,100.0,2026-11-07T04:32:29+00:00
+ID,Boise County,senate,United States Senator,2612,0,100.0,2026-11-07T04:32:29+00:00
+ID,Bonner County,senate,United States Senator,15260,0,100.0,2026-11-07T04:32:29+00:00
+ID,Bonneville County,senate,United States Senator,24924,0,100.0,2026-11-07T04:32:29+00:00
+ID,Boundary County,senate,United States Senator,4173,0,100.0,2026-11-07T04:32:29+00:00
+ID,Butte County,senate,United States Senator,856,0,100.0,2026-11-07T04:32:29+00:00
+ID,Camas County,senate,United States Senator,342,0,100.0,2026-11-07T04:32:29+00:00
+ID,Canyon County,senate,United States Senator,46624,0,100.0,2026-11-07T04:32:29+00:00
+ID,Caribou County,senate,United States Senator,1881,0,100.0,2026-11-07T04:32:29+00:00
+ID,Cassia County,senate,United States Senator,4908,0,100.0,2026-11-07T04:32:29+00:00
+ID,Clark County,senate,United States Senator,190,0,100.0,2026-11-07T04:32:29+00:00
+ID,Clearwater County,senate,United States Senator,2391,0,100.0,2026-11-07T04:32:29+00:00
+ID,Custer County,senate,United States Senator,1369,0,100.0,2026-11-07T04:32:29+00:00
+ID,Elmore County,senate,United States Senator,4657,0,100.0,2026-11-07T04:32:29+00:00
+ID,Franklin County,senate,United States Senator,3557,0,100.0,2026-11-07T04:32:29+00:00
+ID,Fremont County,senate,United States Senator,3551,0,100.0,2026-11-07T04:32:29+00:00
+ID,Gem County,senate,United States Senator,6079,0,100.0,2026-11-07T04:32:29+00:00
+ID,Gooding County,senate,United States Senator,2966,0,100.0,2026-11-07T04:32:29+00:00
+ID,Idaho County,senate,United States Senator,6080,0,100.0,2026-11-07T04:32:29+00:00
+ID,Jefferson County,senate,United States Senator,8593,0,100.0,2026-11-07T04:32:29+00:00
+ID,Jerome County,senate,United States Senator,3797,0,100.0,2026-11-07T04:32:29+00:00
+ID,Kootenai County,senate,United States Senator,50677,0,100.0,2026-11-07T04:32:29+00:00
+ID,Latah County,senate,United States Senator,7231,0,100.0,2026-11-07T04:32:29+00:00
+ID,Lemhi County,senate,United States Senator,2589,0,100.0,2026-11-07T04:32:29+00:00
+ID,Lewis County,senate,United States Senator,1110,0,100.0,2026-11-07T04:32:29+00:00
+ID,Lincoln County,senate,United States Senator,884,0,100.0,2026-11-07T04:32:29+00:00
+ID,Madison County,senate,United States Senator,7957,0,100.0,2026-11-07T04:32:29+00:00
+ID,Minidoka County,senate,United States Senator,4016,0,100.0,2026-11-07T04:32:29+00:00
+ID,Nez Perce County,senate,United States Senator,8887,0,100.0,2026-11-07T04:32:29+00:00
+ID,Oneida County,senate,United States Senator,1281,0,100.0,2026-11-07T04:32:29+00:00
+ID,Owyhee County,senate,United States Senator,2621,0,100.0,2026-11-07T04:32:29+00:00
+ID,Payette County,senate,United States Senator,6187,0,100.0,2026-11-07T04:32:29+00:00
+ID,Power County,senate,United States Senator,1504,0,100.0,2026-11-07T04:32:29+00:00
+ID,Shoshone County,senate,United States Senator,2943,0,100.0,2026-11-07T04:32:29+00:00
+ID,Teton County,senate,United States Senator,2177,0,100.0,2026-11-07T04:32:29+00:00
+ID,Twin Falls County,senate,United States Senator,16809,0,100.0,2026-11-07T04:32:29+00:00
+ID,Valley County,senate,United States Senator,2957,0,100.0,2026-11-07T04:32:29+00:00
+ID,Washington County,senate,United States Senator,3185,0,100.0,2026-11-07T04:32:29+00:00
+ID,Ada County,governor,Governor,104235,98492,51.42,2026-11-07T04:32:29+00:00
+ID,Adams County,governor,Governor,1442,461,75.78,2026-11-07T04:32:29+00:00
+ID,Bannock County,governor,Governor,14933,13345,52.81,2026-11-07T04:32:29+00:00
+ID,Bear Lake County,governor,Governor,1937,310,86.2,2026-11-07T04:32:29+00:00
+ID,Benewah County,governor,Governor,2934,661,81.61,2026-11-07T04:32:29+00:00
+ID,Bingham County,governor,Governor,10184,3659,73.57,2026-11-07T04:32:29+00:00
+ID,Blaine County,governor,Governor,3232,7127,31.2,2026-11-07T04:32:29+00:00
+ID,Boise County,governor,Governor,2556,890,74.17,2026-11-07T04:32:29+00:00
+ID,Bonner County,governor,Governor,15283,5813,72.45,2026-11-07T04:32:29+00:00
+ID,Bonneville County,governor,Governor,25421,13224,65.78,2026-11-07T04:32:29+00:00
+ID,Boundary County,governor,Governor,4039,797,83.52,2026-11-07T04:32:29+00:00
+ID,Butte County,governor,Governor,860,172,83.33,2026-11-07T04:32:29+00:00
+ID,Camas County,governor,Governor,359,121,74.79,2026-11-07T04:32:29+00:00
+ID,Canyon County,governor,Governor,46495,23594,66.34,2026-11-07T04:32:29+00:00
+ID,Caribou County,governor,Governor,1910,382,83.33,2026-11-07T04:32:29+00:00
+ID,Cassia County,governor,Governor,4896,1363,78.22,2026-11-07T04:32:29+00:00
+ID,Clark County,governor,Governor,175,53,76.75,2026-11-07T04:32:29+00:00
+ID,Clearwater County,governor,Governor,2334,536,81.32,2026-11-07T04:32:29+00:00
+ID,Custer County,governor,Governor,1352,439,75.49,2026-11-07T04:32:29+00:00
+ID,Elmore County,governor,Governor,4700,2167,68.44,2026-11-07T04:32:29+00:00
+ID,Franklin County,governor,Governor,3610,575,86.26,2026-11-07T04:32:29+00:00
+ID,Fremont County,governor,Governor,3542,831,81.0,2026-11-07T04:32:29+00:00
+ID,Gem County,governor,Governor,5890,1431,80.45,2026-11-07T04:32:29+00:00
+ID,Gooding County,governor,Governor,2903,1058,73.29,2026-11-07T04:32:29+00:00
+ID,Idaho County,governor,Governor,5674,938,85.81,2026-11-07T04:32:29+00:00
+ID,Jefferson County,governor,Governor,8592,1796,82.71,2026-11-07T04:32:29+00:00
+ID,Jerome County,governor,Governor,3760,1843,67.11,2026-11-07T04:32:29+00:00
+ID,Kootenai County,governor,Governor,51560,16571,75.68,2026-11-07T04:32:29+00:00
+ID,Latah County,governor,Governor,7120,4767,59.9,2026-11-07T04:32:29+00:00
+ID,Lemhi County,governor,Governor,2416,819,74.68,2026-11-07T04:32:29+00:00
+ID,Lewis County,governor,Governor,1081,179,85.79,2026-11-07T04:32:29+00:00
+ID,Lincoln County,governor,Governor,886,395,69.16,2026-11-07T04:32:29+00:00
+ID,Madison County,governor,Governor,8246,1930,81.03,2026-11-07T04:32:29+00:00
+ID,Minidoka County,governor,Governor,3998,1497,72.76,2026-11-07T04:32:29+00:00
+ID,Nez Perce County,governor,Governor,8684,3761,69.78,2026-11-07T04:32:29+00:00
+ID,Oneida County,governor,Governor,1254,188,86.96,2026-11-07T04:32:29+00:00
+ID,Owyhee County,governor,Governor,2553,669,79.24,2026-11-07T04:32:29+00:00
+ID,Payette County,governor,Governor,6175,1713,78.28,2026-11-07T04:32:29+00:00
+ID,Power County,governor,Governor,1450,788,64.79,2026-11-07T04:32:29+00:00
+ID,Shoshone County,governor,Governor,2947,1262,70.02,2026-11-07T04:32:29+00:00
+ID,Teton County,governor,Governor,2257,3394,39.94,2026-11-07T04:32:29+00:00
+ID,Twin Falls County,governor,Governor,17082,7806,68.64,2026-11-07T04:32:29+00:00
+ID,Valley County,governor,Governor,3145,2159,59.29,2026-11-07T04:32:29+00:00
+ID,Washington County,governor,Governor,3151,784,80.08,2026-11-07T04:32:29+00:00
+KS,Harvey,senate,UNITED STATES SENATOR,6950,6413,52.01,2026-11-07T04:32:41+00:00
+KS,Harvey,governor,GOVERNOR/LT GOVERNOR,7347,6306,53.81,2026-11-07T04:32:41+00:00
+MD,Allegany County,governor,Governor / Lt. Governor,13534,6519,67.49,2026-11-07T04:32:55+00:00
+MD,Anne Arundel County,governor,Governor / Lt. Governor,84947,115023,42.48,2026-11-07T04:32:55+00:00
+MD,Baltimore City,governor,Governor / Lt. Governor,13446,117404,10.28,2026-11-07T04:32:55+00:00
+MD,Baltimore County,governor,Governor / Lt. Governor,93118,154051,37.67,2026-11-07T04:32:55+00:00
+MD,Calvert County,governor,Governor / Lt. Governor,20024,16242,55.21,2026-11-07T04:32:55+00:00
+MD,Caroline County,governor,Governor / Lt. Governor,7759,3319,70.04,2026-11-07T04:32:55+00:00
+MD,Carroll County,governor,Governor / Lt. Governor,43484,24392,64.06,2026-11-07T04:32:55+00:00
+MD,Cecil County,governor,Governor / Lt. Governor,19923,10399,65.7,2026-11-07T04:32:55+00:00
+MD,Charles County,governor,Governor / Lt. Governor,15872,48153,24.79,2026-11-07T04:32:55+00:00
+MD,Dorchester County,governor,Governor / Lt. Governor,7159,4785,59.94,2026-11-07T04:32:55+00:00
+MD,Frederick County,governor,Governor / Lt. Governor,43661,62494,41.13,2026-11-07T04:32:55+00:00
+MD,Garrett County,governor,Governor / Lt. Governor,7909,2432,76.48,2026-11-07T04:32:55+00:00
+MD,Harford County,governor,Governor / Lt. Governor,57874,44102,56.75,2026-11-07T04:32:55+00:00
+MD,Howard County,governor,Governor / Lt. Governor,33015,95030,25.78,2026-11-07T04:32:55+00:00
+MD,Kent County,governor,Governor / Lt. Governor,4214,3698,53.26,2026-11-07T04:32:55+00:00
+MD,Montgomery County,governor,Governor / Lt. Governor,55992,262549,17.58,2026-11-07T04:32:55+00:00
+MD,Prince George's County,governor,Governor / Lt. Governor,18007,228680,7.3,2026-11-07T04:32:55+00:00
+MD,Queen Anne's County,governor,Governor / Lt. Governor,14980,8178,64.69,2026-11-07T04:32:55+00:00
+MD,Saint Mary's County,governor,Governor / Lt. Governor,22452,16597,57.5,2026-11-07T04:32:55+00:00
+MD,Somerset County,governor,Governor / Lt. Governor,4224,2598,61.92,2026-11-07T04:32:55+00:00
+MD,Talbot County,governor,Governor / Lt. Governor,8924,8523,51.15,2026-11-07T04:32:55+00:00
+MD,Washington County,governor,Governor / Lt. Governor,26887,19865,57.51,2026-11-07T04:32:55+00:00
+MD,Wicomico County,governor,Governor / Lt. Governor,15799,14715,51.78,2026-11-07T04:32:55+00:00
+MD,Worcester County,governor,Governor / Lt. Governor,13906,8370,62.43,2026-11-07T04:32:55+00:00
+MI,Ottawa,senate,United States Senator,91408,66215,57.99,2026-11-07T04:32:59+00:00
+MI,Roscommon,senate,United States Senator,8406,4494,65.16,2026-11-07T04:32:59+00:00
+MN,Aitkin,senate,U.S. Senator,5690,2964,65.75,2026-11-07T04:33:01+00:00
+MN,Anoka,senate,U.S. Senator,86553,90026,49.02,2026-11-07T04:33:01+00:00
+MN,Becker,senate,U.S. Senator,10671,5548,65.79,2026-11-07T04:33:01+00:00
+MN,Beltrami,senate,U.S. Senator,9881,9670,50.54,2026-11-07T04:33:01+00:00
+MN,Benton,senate,U.S. Senator,11954,6105,66.19,2026-11-07T04:33:01+00:00
+MN,Big Stone,senate,U.S. Senator,1520,816,65.07,2026-11-07T04:33:01+00:00
+MN,Blue Earth,senate,U.S. Senator,13372,15455,46.39,2026-11-07T04:33:01+00:00
+MN,Brown,senate,U.S. Senator,7568,3808,66.53,2026-11-07T04:33:01+00:00
+MN,Carlton,senate,U.S. Senator,8058,8764,47.9,2026-11-07T04:33:01+00:00
+MN,Carver,senate,U.S. Senator,32260,27941,53.59,2026-11-07T04:33:01+00:00
+MN,Cass,senate,U.S. Senator,10857,5343,67.02,2026-11-07T04:33:01+00:00
+MN,Chippewa,senate,U.S. Senator,3233,1690,65.67,2026-11-07T04:33:01+00:00
+MN,Chisago,senate,U.S. Senator,18255,10100,64.38,2026-11-07T04:33:01+00:00
+MN,Clay,senate,U.S. Senator,11467,14469,44.21,2026-11-07T04:33:01+00:00
+MN,Clearwater,senate,U.S. Senator,2822,1035,73.17,2026-11-07T04:33:01+00:00
+MN,Cook,senate,U.S. Senator,968,2330,29.35,2026-11-07T04:33:01+00:00
+MN,Cottonwood,senate,U.S. Senator,3229,1423,69.41,2026-11-07T04:33:01+00:00
+MN,Crow Wing,senate,U.S. Senator,22464,12070,65.05,2026-11-07T04:33:01+00:00
+MN,Dakota,senate,U.S. Senator,92314,132809,41.01,2026-11-07T04:33:01+00:00
+MN,Dodge,senate,U.S. Senator,6434,3557,64.4,2026-11-07T04:33:01+00:00
+MN,Douglas,senate,U.S. Senator,14063,6720,67.67,2026-11-07T04:33:01+00:00
+MN,Faribault,senate,U.S. Senator,4133,2017,67.2,2026-11-07T04:33:01+00:00
+MN,Fillmore,senate,U.S. Senator,5931,3893,60.37,2026-11-07T04:33:01+00:00
+MN,Freeborn,senate,U.S. Senator,7392,5622,56.8,2026-11-07T04:33:01+00:00
+MN,Goodhue,senate,U.S. Senator,13570,10073,57.4,2026-11-07T04:33:01+00:00
+MN,Grant,senate,U.S. Senator,1953,1002,66.09,2026-11-07T04:33:01+00:00
+MN,Hennepin,senate,U.S. Senator,172527,477416,26.54,2026-11-07T04:33:01+00:00
+MN,Houston,senate,U.S. Senator,4981,4012,55.39,2026-11-07T04:33:01+00:00
+MN,Hubbard,senate,U.S. Senator,7329,4045,64.44,2026-11-07T04:33:01+00:00
+MN,Isanti,senate,U.S. Senator,13751,6327,68.49,2026-11-07T04:33:01+00:00
+MN,Itasca,senate,U.S. Senator,12232,8940,57.77,2026-11-07T04:33:01+00:00
+MN,Jackson,senate,U.S. Senator,3327,1352,71.1,2026-11-07T04:33:01+00:00
+MN,Kanabec,senate,U.S. Senator,5049,2295,68.75,2026-11-07T04:33:01+00:00
+MN,Kandiyohi,senate,U.S. Senator,12130,6879,63.81,2026-11-07T04:33:01+00:00
+MN,Kittson,senate,U.S. Senator,1177,809,59.26,2026-11-07T04:33:01+00:00
+MN,Koochiching,senate,U.S. Senator,3253,2030,61.57,2026-11-07T04:33:01+00:00
+MN,Lac qui Parle,senate,U.S. Senator,2136,1139,65.22,2026-11-07T04:33:01+00:00
+MN,Lake,senate,U.S. Senator,2565,3235,44.22,2026-11-07T04:33:01+00:00
+MN,Lake of the Woods,senate,U.S. Senator,1317,487,73.0,2026-11-07T04:33:01+00:00
+MN,Le Sueur,senate,U.S. Senator,9285,4572,67.01,2026-11-07T04:33:01+00:00
+MN,Lincoln,senate,U.S. Senator,1638,795,67.32,2026-11-07T04:33:01+00:00
+MN,Lyon,senate,U.S. Senator,6438,3667,63.71,2026-11-07T04:33:01+00:00
+MN,Mahnomen,senate,U.S. Senator,1009,895,52.99,2026-11-07T04:33:01+00:00
+MN,Marshall,senate,U.S. Senator,3130,1080,74.35,2026-11-07T04:33:01+00:00
+MN,Martin,senate,U.S. Senator,5841,2476,70.23,2026-11-07T04:33:01+00:00
+MN,McLeod,senate,U.S. Senator,11332,5357,67.9,2026-11-07T04:33:01+00:00
+MN,Meeker,senate,U.S. Senator,7855,3112,71.62,2026-11-07T04:33:01+00:00
+MN,Mille Lacs,senate,U.S. Senator,8044,3576,69.23,2026-11-07T04:33:01+00:00
+MN,Morrison,senate,U.S. Senator,12363,3414,78.36,2026-11-07T04:33:01+00:00
+MN,Mower,senate,U.S. Senator,7605,7522,50.27,2026-11-07T04:33:01+00:00
+MN,Murray,senate,U.S. Senator,2751,1111,71.23,2026-11-07T04:33:01+00:00
+MN,Nicollet,senate,U.S. Senator,7828,8243,48.71,2026-11-07T04:33:01+00:00
+MN,Nobles,senate,U.S. Senator,3908,2515,60.84,2026-11-07T04:33:01+00:00
+MN,Norman,senate,U.S. Senator,1488,1035,58.98,2026-11-07T04:33:01+00:00
+MN,Olmsted,senate,U.S. Senator,31012,45906,40.32,2026-11-07T04:33:01+00:00
+MN,Otter Tail,senate,U.S. Senator,20086,10075,66.6,2026-11-07T04:33:01+00:00
+MN,Pennington,senate,U.S. Senator,3336,1970,62.87,2026-11-07T04:33:01+00:00
+MN,Pine,senate,U.S. Senator,8889,4659,65.61,2026-11-07T04:33:01+00:00
+MN,Pipestone,senate,U.S. Senator,2859,1060,72.95,2026-11-07T04:33:01+00:00
+MN,Polk,senate,U.S. Senator,7403,4156,64.05,2026-11-07T04:33:01+00:00
+MN,Pope,senate,U.S. Senator,3881,1994,66.06,2026-11-07T04:33:01+00:00
+MN,Ramsey,senate,U.S. Senator,57335,185997,23.56,2026-11-07T04:33:01+00:00
+MN,Red Lake,senate,U.S. Senator,1206,607,66.52,2026-11-07T04:33:01+00:00
+MN,Redwood,senate,U.S. Senator,4629,1868,71.25,2026-11-07T04:33:01+00:00
+MN,Renville,senate,U.S. Senator,4383,1841,70.42,2026-11-07T04:33:01+00:00
+MN,Rice,senate,U.S. Senator,14643,15686,48.28,2026-11-07T04:33:01+00:00
+MN,Rock,senate,U.S. Senator,2910,1399,67.53,2026-11-07T04:33:01+00:00
+MN,Roseau,senate,U.S. Senator,4762,1672,74.01,2026-11-07T04:33:01+00:00
+MN,Scott,senate,U.S. Senator,40991,36393,52.97,2026-11-07T04:33:01+00:00
+MN,Sherburne,senate,U.S. Senator,30178,15649,65.85,2026-11-07T04:33:01+00:00
+MN,Sibley,senate,U.S. Senator,4995,1970,71.72,2026-11-07T04:33:01+00:00
+MN,St. Louis,senate,U.S. Senator,37254,59589,38.47,2026-11-07T04:33:01+00:00
+MN,Stearns,senate,U.S. Senator,43723,28945,60.17,2026-11-07T04:33:01+00:00
+MN,Steele,senate,U.S. Senator,10379,7021,59.65,2026-11-07T04:33:01+00:00
+MN,Stevens,senate,U.S. Senator,2690,1562,63.26,2026-11-07T04:33:01+00:00
+MN,Swift,senate,U.S. Senator,2924,1418,67.34,2026-11-07T04:33:01+00:00
+MN,Todd,senate,U.S. Senator,8102,2696,75.03,2026-11-07T04:33:01+00:00
+MN,Traverse,senate,U.S. Senator,1001,492,67.05,2026-11-07T04:33:01+00:00
+MN,Wabasha,senate,U.S. Senator,6816,4040,62.79,2026-11-07T04:33:01+00:00
+MN,Wadena,senate,U.S. Senator,4700,1554,75.15,2026-11-07T04:33:01+00:00
+MN,Waseca,senate,U.S. Senator,5297,2805,65.38,2026-11-07T04:33:01+00:00
+MN,Washington,senate,U.S. Senator,63846,81779,43.84,2026-11-07T04:33:01+00:00
+MN,Watonwan,senate,U.S. Senator,2385,1537,60.81,2026-11-07T04:33:01+00:00
+MN,Wilkin,senate,U.S. Senator,1694,775,68.61,2026-11-07T04:33:01+00:00
+MN,Winona,senate,U.S. Senator,10639,11616,47.8,2026-11-07T04:33:01+00:00
+MN,Wright,senate,U.S. Senator,46518,26926,63.34,2026-11-07T04:33:01+00:00
+MN,Yellow Medicine,senate,U.S. Senator,3098,1328,70.0,2026-11-07T04:33:01+00:00
+MN,Aitkin,governor,Governor & Lt Governor,5625,3194,63.78,2026-11-07T04:33:01+00:00
+MN,Anoka,governor,Governor & Lt Governor,84683,93834,47.44,2026-11-07T04:33:01+00:00
+MN,Becker,governor,Governor & Lt Governor,10601,5892,64.28,2026-11-07T04:33:01+00:00
+MN,Beltrami,governor,Governor & Lt Governor,9881,9931,49.87,2026-11-07T04:33:01+00:00
+MN,Benton,governor,Governor & Lt Governor,11933,6381,65.16,2026-11-07T04:33:01+00:00
+MN,Big Stone,governor,Governor & Lt Governor,1485,887,62.61,2026-11-07T04:33:01+00:00
+MN,Blue Earth,governor,Governor & Lt Governor,13129,15952,45.15,2026-11-07T04:33:01+00:00
+MN,Brown,governor,Governor & Lt Governor,7446,4123,64.36,2026-11-07T04:33:01+00:00
+MN,Carlton,governor,Governor & Lt Governor,8039,9096,46.92,2026-11-07T04:33:01+00:00
+MN,Carver,governor,Governor & Lt Governor,31098,29716,51.14,2026-11-07T04:33:01+00:00
+MN,Cass,governor,Governor & Lt Governor,10753,5619,65.68,2026-11-07T04:33:01+00:00
+MN,Chippewa,governor,Governor & Lt Governor,3183,1800,63.88,2026-11-07T04:33:01+00:00
+MN,Chisago,governor,Governor & Lt Governor,18115,10722,62.82,2026-11-07T04:33:01+00:00
+MN,Clay,governor,Governor & Lt Governor,11302,14907,43.12,2026-11-07T04:33:01+00:00
+MN,Clearwater,governor,Governor & Lt Governor,2806,1081,72.19,2026-11-07T04:33:01+00:00
+MN,Cook,governor,Governor & Lt Governor,955,2362,28.79,2026-11-07T04:33:01+00:00
+MN,Cottonwood,governor,Governor & Lt Governor,3209,1519,67.87,2026-11-07T04:33:01+00:00
+MN,Crow Wing,governor,Governor & Lt Governor,22232,12832,63.4,2026-11-07T04:33:01+00:00
+MN,Dakota,governor,Governor & Lt Governor,89052,137677,39.28,2026-11-07T04:33:01+00:00
+MN,Dodge,governor,Governor & Lt Governor,6393,3732,63.14,2026-11-07T04:33:01+00:00
+MN,Douglas,governor,Governor & Lt Governor,13897,7244,65.73,2026-11-07T04:33:01+00:00
+MN,Faribault,governor,Governor & Lt Governor,4094,2183,65.22,2026-11-07T04:33:01+00:00
+MN,Fillmore,governor,Governor & Lt Governor,5903,4064,59.23,2026-11-07T04:33:01+00:00
+MN,Freeborn,governor,Governor & Lt Governor,7354,5794,55.93,2026-11-07T04:33:01+00:00
+MN,Goodhue,governor,Governor & Lt Governor,13314,10663,55.53,2026-11-07T04:33:01+00:00
+MN,Grant,governor,Governor & Lt Governor,1931,1083,64.07,2026-11-07T04:33:01+00:00
+MN,Hennepin,governor,Governor & Lt Governor,162260,487284,24.98,2026-11-07T04:33:01+00:00
+MN,Houston,governor,Governor & Lt Governor,5052,4059,55.45,2026-11-07T04:33:01+00:00
+MN,Hubbard,governor,Governor & Lt Governor,7303,4259,63.16,2026-11-07T04:33:01+00:00
+MN,Isanti,governor,Governor & Lt Governor,13731,6699,67.21,2026-11-07T04:33:01+00:00
+MN,Itasca,governor,Governor & Lt Governor,12251,9342,56.74,2026-11-07T04:33:01+00:00
+MN,Jackson,governor,Governor & Lt Governor,3304,1473,69.16,2026-11-07T04:33:01+00:00
+MN,Kanabec,governor,Governor & Lt Governor,5034,2407,67.65,2026-11-07T04:33:01+00:00
+MN,Kandiyohi,governor,Governor & Lt Governor,12012,7288,62.24,2026-11-07T04:33:01+00:00
+MN,Kittson,governor,Governor & Lt Governor,1193,847,58.48,2026-11-07T04:33:01+00:00
+MN,Koochiching,governor,Governor & Lt Governor,3263,2071,61.17,2026-11-07T04:33:01+00:00
+MN,Lac qui Parle,governor,Governor & Lt Governor,2106,1235,63.04,2026-11-07T04:33:01+00:00
+MN,Lake,governor,Governor & Lt Governor,2575,3297,43.85,2026-11-07T04:33:01+00:00
+MN,Lake of the Woods,governor,Governor & Lt Governor,1311,517,71.72,2026-11-07T04:33:01+00:00
+MN,Le Sueur,governor,Governor & Lt Governor,9132,4933,64.93,2026-11-07T04:33:01+00:00
+MN,Lincoln,governor,Governor & Lt Governor,1677,822,67.11,2026-11-07T04:33:01+00:00
+MN,Lyon,governor,Governor & Lt Governor,6428,3815,62.76,2026-11-07T04:33:01+00:00
+MN,Mahnomen,governor,Governor & Lt Governor,997,925,51.87,2026-11-07T04:33:01+00:00
+MN,Marshall,governor,Governor & Lt Governor,3126,1146,73.17,2026-11-07T04:33:01+00:00
+MN,Martin,governor,Governor & Lt Governor,5751,2733,67.79,2026-11-07T04:33:01+00:00
+MN,McLeod,governor,Governor & Lt Governor,11168,5804,65.8,2026-11-07T04:33:01+00:00
+MN,Meeker,governor,Governor & Lt Governor,7826,3363,69.94,2026-11-07T04:33:01+00:00
+MN,Mille Lacs,governor,Governor & Lt Governor,8014,3781,67.94,2026-11-07T04:33:01+00:00
+MN,Morrison,governor,Governor & Lt Governor,12405,3621,77.41,2026-11-07T04:33:01+00:00
+MN,Mower,governor,Governor & Lt Governor,7629,7729,49.67,2026-11-07T04:33:01+00:00
+MN,Murray,governor,Governor & Lt Governor,2755,1161,70.35,2026-11-07T04:33:01+00:00
+MN,Nicollet,governor,Governor & Lt Governor,7645,8640,46.95,2026-11-07T04:33:01+00:00
+MN,Nobles,governor,Governor & Lt Governor,3966,2523,61.12,2026-11-07T04:33:01+00:00
+MN,Norman,governor,Governor & Lt Governor,1432,1142,55.63,2026-11-07T04:33:01+00:00
+MN,Olmsted,governor,Governor & Lt Governor,30616,46857,39.52,2026-11-07T04:33:01+00:00
+MN,Otter Tail,governor,Governor & Lt Governor,19846,10795,64.77,2026-11-07T04:33:01+00:00
+MN,Pennington,governor,Governor & Lt Governor,3314,2044,61.85,2026-11-07T04:33:01+00:00
+MN,Pine,governor,Governor & Lt Governor,8869,4857,64.61,2026-11-07T04:33:01+00:00
+MN,Pipestone,governor,Governor & Lt Governor,2900,1103,72.45,2026-11-07T04:33:01+00:00
+MN,Polk,governor,Governor & Lt Governor,7335,4378,62.62,2026-11-07T04:33:01+00:00
+MN,Pope,governor,Governor & Lt Governor,3839,2149,64.11,2026-11-07T04:33:01+00:00
+MN,Ramsey,governor,Governor & Lt Governor,55044,187910,22.66,2026-11-07T04:33:01+00:00
+MN,Red Lake,governor,Governor & Lt Governor,1237,644,65.76,2026-11-07T04:33:01+00:00
+MN,Redwood,governor,Governor & Lt Governor,4640,1981,70.08,2026-11-07T04:33:01+00:00
+MN,Renville,governor,Governor & Lt Governor,4294,2022,67.99,2026-11-07T04:33:01+00:00
+MN,Rice,governor,Governor & Lt Governor,14440,16080,47.31,2026-11-07T04:33:01+00:00
+MN,Rock,governor,Governor & Lt Governor,2946,1457,66.91,2026-11-07T04:33:01+00:00
+MN,Roseau,governor,Governor & Lt Governor,4761,1767,72.93,2026-11-07T04:33:01+00:00
+MN,Scott,governor,Governor & Lt Governor,39895,38619,50.81,2026-11-07T04:33:01+00:00
+MN,Sherburne,governor,Governor & Lt Governor,29978,16502,64.5,2026-11-07T04:33:01+00:00
+MN,Sibley,governor,Governor & Lt Governor,4914,2180,69.27,2026-11-07T04:33:01+00:00
+MN,St. Louis,governor,Governor & Lt Governor,37158,60793,37.94,2026-11-07T04:33:01+00:00
+MN,Stearns,governor,Governor & Lt Governor,43817,29783,59.53,2026-11-07T04:33:01+00:00
+MN,Steele,governor,Governor & Lt Governor,10273,7383,58.18,2026-11-07T04:33:01+00:00
+MN,Stevens,governor,Governor & Lt Governor,2686,1633,62.19,2026-11-07T04:33:01+00:00
+MN,Swift,governor,Governor & Lt Governor,2874,1542,65.08,2026-11-07T04:33:01+00:00
+MN,Todd,governor,Governor & Lt Governor,8163,2888,73.87,2026-11-07T04:33:01+00:00
+MN,Traverse,governor,Governor & Lt Governor,986,525,65.25,2026-11-07T04:33:01+00:00
+MN,Wabasha,governor,Governor & Lt Governor,6752,4245,61.4,2026-11-07T04:33:01+00:00
+MN,Wadena,governor,Governor & Lt Governor,4720,1641,74.2,2026-11-07T04:33:01+00:00
+MN,Waseca,governor,Governor & Lt Governor,5233,2973,63.77,2026-11-07T04:33:01+00:00
+MN,Washington,governor,Governor & Lt Governor,61509,85593,41.81,2026-11-07T04:33:01+00:00
+MN,Watonwan,governor,Governor & Lt Governor,2376,1615,59.53,2026-11-07T04:33:01+00:00
+MN,Wilkin,governor,Governor & Lt Governor,1684,845,66.59,2026-11-07T04:33:01+00:00
+MN,Winona,governor,Governor & Lt Governor,10674,11709,47.69,2026-11-07T04:33:01+00:00
+MN,Wright,governor,Governor & Lt Governor,45987,28550,61.7,2026-11-07T04:33:01+00:00
+MN,Yellow Medicine,governor,Governor & Lt Governor,3057,1447,67.87,2026-11-07T04:33:01+00:00
+NC,Alamance,senate,US SENATE,28138,38109,42.47,2026-11-07T04:34:27+00:00
+NC,Alexander,senate,US SENATE,9405,3723,71.64,2026-11-07T04:34:27+00:00
+NC,Alleghany,senate,US SENATE,2960,1588,65.08,2026-11-07T04:34:27+00:00
+NC,Anson,senate,US SENATE,3468,4373,44.23,2026-11-07T04:34:27+00:00
+NC,Ashe,senate,US SENATE,6951,4464,60.89,2026-11-07T04:34:27+00:00
+NC,Avery,senate,US SENATE,4381,2128,67.31,2026-11-07T04:34:27+00:00
+NC,Beaufort,senate,US SENATE,11281,8107,58.19,2026-11-07T04:34:27+00:00
+NC,Bertie,senate,US SENATE,2362,4227,35.85,2026-11-07T04:34:27+00:00
+NC,Bladen,senate,US SENATE,6084,5568,52.21,2026-11-07T04:34:27+00:00
+NC,Brunswick,senate,US SENATE,44936,39795,53.03,2026-11-07T04:34:27+00:00
+NC,Buncombe,senate,US SENATE,33675,94346,26.3,2026-11-07T04:34:27+00:00
+NC,Burke,senate,US SENATE,17401,11987,59.21,2026-11-07T04:34:27+00:00
+NC,Cabarrus,senate,US SENATE,34910,50024,41.1,2026-11-07T04:34:27+00:00
+NC,Caldwell,senate,US SENATE,17474,9021,65.95,2026-11-07T04:34:27+00:00
+NC,Camden,senate,US SENATE,2932,1425,67.29,2026-11-07T04:34:27+00:00
+NC,Carteret,senate,US SENATE,22019,12166,64.41,2026-11-07T04:34:27+00:00
+NC,Caswell,senate,US SENATE,4503,4004,52.93,2026-11-07T04:34:27+00:00
+NC,Catawba,senate,US SENATE,33896,24808,57.74,2026-11-07T04:34:27+00:00
+NC,Chatham,senate,US SENATE,14075,28235,33.27,2026-11-07T04:34:27+00:00
+NC,Cherokee,senate,US SENATE,8638,3371,71.93,2026-11-07T04:34:27+00:00
+NC,Chowan,senate,US SENATE,3240,2578,55.69,2026-11-07T04:34:27+00:00
+NC,Clay,senate,US SENATE,3787,1844,67.25,2026-11-07T04:34:27+00:00
+NC,Cleveland,senate,US SENATE,19208,14588,56.84,2026-11-07T04:34:27+00:00
+NC,Columbus,senate,US SENATE,9449,7160,56.89,2026-11-07T04:34:27+00:00
+NC,Craven,senate,US SENATE,21194,19656,51.88,2026-11-07T04:34:27+00:00
+NC,Cumberland,senate,US SENATE,29744,63170,32.01,2026-11-07T04:34:27+00:00
+NC,Currituck,senate,US SENATE,8260,4114,66.75,2026-11-07T04:34:27+00:00
+NC,Dare,senate,US SENATE,9430,9211,50.59,2026-11-07T04:34:27+00:00
+NC,Davidson,senate,US SENATE,36305,22864,61.36,2026-11-07T04:34:27+00:00
+NC,Davie,senate,US SENATE,11349,6691,62.91,2026-11-07T04:34:27+00:00
+NC,Duplin,senate,US SENATE,8718,6933,55.7,2026-11-07T04:34:27+00:00
+NC,Durham,senate,US SENATE,17168,131025,11.58,2026-11-07T04:34:27+00:00
+NC,Edgecombe,senate,US SENATE,5312,12391,30.01,2026-11-07T04:34:27+00:00
+NC,Forsyth,senate,US SENATE,47533,101631,31.87,2026-11-07T04:34:27+00:00
+NC,Franklin,senate,US SENATE,15072,17367,46.46,2026-11-07T04:34:27+00:00
+NC,Gaston,senate,US SENATE,40447,40427,50.01,2026-11-07T04:34:27+00:00
+NC,Gates,senate,US SENATE,2125,1956,52.07,2026-11-07T04:34:27+00:00
+NC,Graham,senate,US SENATE,2606,976,72.75,2026-11-07T04:34:27+00:00
+NC,Granville,senate,US SENATE,10778,13220,44.91,2026-11-07T04:34:27+00:00
+NC,Greene,senate,US SENATE,3055,3080,49.8,2026-11-07T04:34:27+00:00
+NC,Guilford,senate,US SENATE,60844,152260,28.55,2026-11-07T04:34:27+00:00
+NC,Halifax,senate,US SENATE,5812,11584,33.41,2026-11-07T04:34:27+00:00
+NC,Harnett,senate,US SENATE,21748,22011,49.7,2026-11-07T04:34:27+00:00
+NC,Haywood,senate,US SENATE,13640,13776,49.75,2026-11-07T04:34:27+00:00
+NC,Henderson,senate,US SENATE,26056,29477,46.92,2026-11-07T04:34:27+00:00
+NC,Hertford,senate,US SENATE,2071,4913,29.65,2026-11-07T04:34:27+00:00
+NC,Hoke,senate,US SENATE,5108,10390,32.96,2026-11-07T04:34:27+00:00
+NC,Hyde,senate,US SENATE,1016,896,53.14,2026-11-07T04:34:27+00:00
+NC,Iredell,senate,US SENATE,40997,32955,55.44,2026-11-07T04:34:27+00:00
+NC,Jackson,senate,US SENATE,6373,9171,41.0,2026-11-07T04:34:27+00:00
+NC,Johnston,senate,US SENATE,40703,46068,46.91,2026-11-07T04:34:27+00:00
+NC,Jones,senate,US SENATE,2140,1677,56.06,2026-11-07T04:34:27+00:00
+NC,Lee,senate,US SENATE,9228,11368,44.8,2026-11-07T04:34:27+00:00
+NC,Lenoir,senate,US SENATE,8727,10459,45.49,2026-11-07T04:34:27+00:00
+NC,Lincoln,senate,US SENATE,23688,13707,63.35,2026-11-07T04:34:27+00:00
+NC,Macon,senate,US SENATE,4862,5239,48.13,2026-11-07T04:34:27+00:00
+NC,Madison,senate,US SENATE,4160,4803,46.41,2026-11-07T04:34:27+00:00
+NC,Martin,senate,US SENATE,10103,5794,63.55,2026-11-07T04:34:27+00:00
+NC,McDowell,senate,US SENATE,9234,6513,58.64,2026-11-07T04:34:27+00:00
+NC,Mecklenburg,senate,US SENATE,97841,333549,22.68,2026-11-07T04:34:27+00:00
+NC,Mitchell,senate,US SENATE,4054,2009,66.86,2026-11-07T04:34:27+00:00
+NC,Montgomery,senate,US SENATE,5046,3759,57.31,2026-11-07T04:34:27+00:00
+NC,Moore,senate,US SENATE,24092,19719,54.99,2026-11-07T04:34:27+00:00
+NC,Nash,senate,US SENATE,16883,23362,41.95,2026-11-07T04:34:27+00:00
+NC,New Hanover,senate,US SENATE,38636,61640,38.53,2026-11-07T04:34:27+00:00
+NC,Northampton,senate,US SENATE,2479,4392,36.08,2026-11-07T04:34:27+00:00
+NC,Onslow,senate,US SENATE,27531,21129,56.58,2026-11-07T04:34:27+00:00
+NC,Orange,senate,US SENATE,10980,60050,15.46,2026-11-07T04:34:27+00:00
+NC,Pamlico,senate,US SENATE,3513,2479,58.63,2026-11-07T04:34:27+00:00
+NC,Pasquotank,senate,US SENATE,6317,8239,43.4,2026-11-07T04:34:27+00:00
+NC,Pender,senate,US SENATE,14051,10898,56.32,2026-11-07T04:34:27+00:00
+NC,Perquimans,senate,US SENATE,3488,2000,63.56,2026-11-07T04:34:27+00:00
+NC,Person,senate,US SENATE,8130,7398,52.36,2026-11-07T04:34:27+00:00
+NC,Pitt,senate,US SENATE,22958,38259,37.5,2026-11-07T04:34:27+00:00
+NC,Polk,senate,US SENATE,5198,4667,52.69,2026-11-07T04:34:27+00:00
+NC,Randolph,senate,US SENATE,31328,15203,67.33,2026-11-07T04:34:27+00:00
+NC,Richmond,senate,US SENATE,6436,6659,49.15,2026-11-07T04:34:27+00:00
+NC,Robeson,senate,US SENATE,14492,14306,50.32,2026-11-07T04:34:27+00:00
+NC,Rockingham,senate,US SENATE,19032,14099,57.44,2026-11-07T04:34:27+00:00
+NC,Rowan,senate,US SENATE,28158,21378,56.84,2026-11-07T04:34:27+00:00
+NC,Rutherford,senate,US SENATE,14320,8011,64.13,2026-11-07T04:34:27+00:00
+NC,Sampson,senate,US SENATE,9636,8484,53.18,2026-11-07T04:34:27+00:00
+NC,Scotland,senate,US SENATE,4445,5738,43.65,2026-11-07T04:34:27+00:00
+NC,Stanly,senate,US SENATE,15743,8034,66.21,2026-11-07T04:34:27+00:00
+NC,Stokes,senate,US SENATE,11591,5286,68.68,2026-11-07T04:34:27+00:00
+NC,Surry,senate,US SENATE,14988,8539,63.71,2026-11-07T04:34:27+00:00
+NC,Swain,senate,US SENATE,2497,2455,50.42,2026-11-07T04:34:27+00:00
+NC,Transylvania,senate,US SENATE,7078,8705,44.85,2026-11-07T04:34:27+00:00
+NC,Tyrrell,senate,US SENATE,690,613,52.95,2026-11-07T04:34:27+00:00
+NC,Union,senate,US SENATE,50622,47765,51.45,2026-11-07T04:34:27+00:00
+NC,Vance,senate,US SENATE,4998,9442,34.61,2026-11-07T04:34:27+00:00
+NC,Wake,senate,US SENATE,132965,380365,25.9,2026-11-07T04:34:27+00:00
+NC,Warren,senate,US SENATE,2690,5247,33.89,2026-11-07T04:34:27+00:00
+NC,Washington,senate,US SENATE,1738,2707,39.1,2026-11-07T04:34:27+00:00
+NC,Watauga,senate,US SENATE,8279,14877,35.75,2026-11-07T04:34:27+00:00
+NC,Wayne,senate,US SENATE,18406,19498,48.56,2026-11-07T04:34:27+00:00
+NC,Wilkes,senate,US SENATE,15881,6939,69.59,2026-11-07T04:34:27+00:00
+NC,Wilson,senate,US SENATE,11500,17063,40.26,2026-11-07T04:34:27+00:00
+NC,Yadkin,senate,US SENATE,9324,3827,70.9,2026-11-07T04:34:27+00:00
+NC,Yancey,senate,US SENATE,4301,3771,53.28,2026-11-07T04:34:27+00:00
+NJ,Cumberland,senate,United States Senator,15671,21496,42.16,2026-11-07T04:34:10+00:00
+NJ,Essex,senate,United States Senator,38498,177540,17.82,2026-11-07T04:34:10+00:00
+OH,Adams,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,6099,2123,74.18,2026-11-07T04:34:39+00:00
+OH,Allen,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,21992,11066,66.53,2026-11-07T04:34:39+00:00
+OH,Ashland,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,12685,5850,68.44,2026-11-07T04:34:39+00:00
+OH,Ashtabula,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,16910,13879,54.92,2026-11-07T04:34:39+00:00
+OH,Athens,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,6508,12700,33.88,2026-11-07T04:34:39+00:00
+OH,Auglaize,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,14223,3950,78.26,2026-11-07T04:34:39+00:00
+OH,Belmont,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,13263,7479,63.94,2026-11-07T04:34:39+00:00
+OH,Brown,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,10189,3791,72.88,2026-11-07T04:34:39+00:00
+OH,Butler,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,77463,62334,55.41,2026-11-07T04:34:39+00:00
+OH,Carroll,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,6720,2789,70.67,2026-11-07T04:34:39+00:00
+OH,Champaign,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,9623,4670,67.33,2026-11-07T04:34:39+00:00
+OH,Clark,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,26179,19722,57.03,2026-11-07T04:34:39+00:00
+OH,Clermont,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,51134,33442,60.46,2026-11-07T04:34:39+00:00
+OH,Clinton,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,10056,4242,70.33,2026-11-07T04:34:39+00:00
+OH,Columbiana,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,21637,10928,66.44,2026-11-07T04:34:39+00:00
+OH,Coshocton,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,7466,3439,68.46,2026-11-07T04:34:39+00:00
+OH,Crawford,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,9505,4217,69.27,2026-11-07T04:34:39+00:00
+OH,Cuyahoga,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,125283,333139,27.33,2026-11-07T04:34:39+00:00
+OH,Darke,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,14682,4169,77.88,2026-11-07T04:34:39+00:00
+OH,Defiance,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,8592,4974,63.33,2026-11-07T04:34:39+00:00
+OH,Delaware,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,54128,59368,47.69,2026-11-07T04:34:39+00:00
+OH,Erie,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,15021,15343,49.47,2026-11-07T04:34:39+00:00
+OH,Fairfield,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,34785,30259,53.48,2026-11-07T04:34:39+00:00
+OH,Fayette,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,6083,2485,71.0,2026-11-07T04:34:39+00:00
+OH,Franklin,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,136999,349983,28.13,2026-11-07T04:34:39+00:00
+OH,Fulton,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,10632,5743,64.93,2026-11-07T04:34:39+00:00
+OH,Gallia,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,5812,2328,71.4,2026-11-07T04:34:39+00:00
+OH,Geauga,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,24531,19173,56.13,2026-11-07T04:34:39+00:00
+OH,Greene,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,38276,32693,53.93,2026-11-07T04:34:39+00:00
+OH,Guernsey,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,7959,3845,67.43,2026-11-07T04:34:39+00:00
+OH,Hamilton,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,120368,207080,36.76,2026-11-07T04:34:39+00:00
+OH,Hancock,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,16996,10193,62.51,2026-11-07T04:34:39+00:00
+OH,Hardin,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,5886,2519,70.03,2026-11-07T04:34:39+00:00
+OH,Harrison,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,3155,1433,68.77,2026-11-07T04:34:39+00:00
+OH,Henry,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,7062,3420,67.37,2026-11-07T04:34:39+00:00
+OH,Highland,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,9792,3520,73.56,2026-11-07T04:34:39+00:00
+OH,Hocking,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,5766,3348,63.27,2026-11-07T04:34:39+00:00
+OH,Holmes,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,6764,1684,80.07,2026-11-07T04:34:39+00:00
+OH,Huron,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,11372,6826,62.49,2026-11-07T04:34:39+00:00
+OH,Jackson,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,6353,2846,69.06,2026-11-07T04:34:39+00:00
+OH,Jefferson,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,13049,7680,62.95,2026-11-07T04:34:39+00:00
+OH,Knox,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,15218,7632,66.6,2026-11-07T04:34:39+00:00
+OH,Lake,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,49617,51326,49.15,2026-11-07T04:34:39+00:00
+OH,Lawrence,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,11023,5961,64.9,2026-11-07T04:34:39+00:00
+OH,Licking,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,39622,30611,56.42,2026-11-07T04:34:39+00:00
+OH,Logan,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,11929,4647,71.97,2026-11-07T04:34:39+00:00
+OH,Lorain,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,54610,69179,44.12,2026-11-07T04:34:39+00:00
+OH,Lucas,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,52982,92287,36.47,2026-11-07T04:34:39+00:00
+OH,Madison,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,9934,5411,64.74,2026-11-07T04:34:39+00:00
+OH,Mahoning,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,39192,45595,46.22,2026-11-07T04:34:39+00:00
+OH,Marion,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,11480,7076,61.87,2026-11-07T04:34:39+00:00
+OH,Medina,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,44892,36900,54.89,2026-11-07T04:34:39+00:00
+OH,Meigs,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,4877,2159,69.31,2026-11-07T04:34:39+00:00
+OH,Mercer,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,13755,3489,79.77,2026-11-07T04:34:39+00:00
+OH,Miami,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,28590,14473,66.39,2026-11-07T04:34:39+00:00
+OH,Monroe,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,3141,1311,70.55,2026-11-07T04:34:39+00:00
+OH,Montgomery,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,81630,111957,42.17,2026-11-07T04:34:39+00:00
+OH,Morgan,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,3125,1408,68.94,2026-11-07T04:34:39+00:00
+OH,Morrow,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,9362,3772,71.28,2026-11-07T04:34:39+00:00
+OH,Muskingum,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,17403,9642,64.35,2026-11-07T04:34:39+00:00
+OH,Noble,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,3114,1049,74.8,2026-11-07T04:34:39+00:00
+OH,Ottawa,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,10362,7932,56.64,2026-11-07T04:34:39+00:00
+OH,Paulding,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,5879,2459,70.51,2026-11-07T04:34:39+00:00
+OH,Perry,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,8020,3654,68.7,2026-11-07T04:34:39+00:00
+OH,Pickaway,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,13926,7031,66.45,2026-11-07T04:34:39+00:00
+OH,Pike,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,5348,2683,66.59,2026-11-07T04:34:39+00:00
+OH,Portage,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,30196,31974,48.57,2026-11-07T04:34:39+00:00
+OH,Preble,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,10453,3893,72.86,2026-11-07T04:34:39+00:00
+OH,Putnam,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,11891,2767,81.12,2026-11-07T04:34:39+00:00
+OH,Richland,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,26596,15058,63.85,2026-11-07T04:34:39+00:00
+OH,Ross,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,14390,9097,61.27,2026-11-07T04:34:39+00:00
+OH,Sandusky,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,11982,9034,57.01,2026-11-07T04:34:39+00:00
+OH,Scioto,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,12944,7464,63.43,2026-11-07T04:34:39+00:00
+OH,Seneca,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,10500,6912,60.3,2026-11-07T04:34:39+00:00
+OH,Shelby,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,13993,3928,78.08,2026-11-07T04:34:39+00:00
+OH,Stark,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,72025,64324,52.82,2026-11-07T04:34:39+00:00
+OH,Summit,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,82026,132890,38.17,2026-11-07T04:34:39+00:00
+OH,Trumbull,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,34046,35990,48.61,2026-11-07T04:34:39+00:00
+OH,Tuscarawas,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,18735,11221,62.54,2026-11-07T04:34:39+00:00
+OH,Union,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,17020,12758,57.16,2026-11-07T04:34:39+00:00
+OH,Van Wert,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,7213,2547,73.9,2026-11-07T04:34:39+00:00
+OH,Vinton,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,2526,1096,69.74,2026-11-07T04:34:39+00:00
+OH,Warren,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,64230,43962,59.37,2026-11-07T04:34:39+00:00
+OH,Washington,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,13423,7788,63.28,2026-11-07T04:34:39+00:00
+OH,Wayne,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,24699,14278,63.37,2026-11-07T04:34:39+00:00
+OH,Williams,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,8619,3968,68.48,2026-11-07T04:34:39+00:00
+OH,Wood,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,24602,27102,47.58,2026-11-07T04:34:39+00:00
+OH,Wyandot,senate,U.S. Senator - Unexpired Term Ending 01/03/2029,5610,2675,67.71,2026-11-07T04:34:39+00:00
+PA,Adams,governor,Governor,22761,19071,54.41,2026-11-07T04:35:15+00:00
+PA,Allegheny,governor,Governor,142682,368577,27.91,2026-11-07T04:35:15+00:00
+PA,Armstrong,governor,Governor,15401,8124,65.47,2026-11-07T04:35:15+00:00
+PA,Beaver,governor,Governor,29864,33827,46.89,2026-11-07T04:35:15+00:00
+PA,Bedford,governor,Governor,14075,4570,75.49,2026-11-07T04:35:15+00:00
+PA,Berks,governor,Governor,61518,79238,43.71,2026-11-07T04:35:15+00:00
+PA,Blair,governor,Governor,26880,16539,61.91,2026-11-07T04:35:15+00:00
+PA,Bradford,governor,Governor,13651,7050,65.94,2026-11-07T04:35:15+00:00
+PA,Bucks,governor,Governor,111093,189221,36.99,2026-11-07T04:35:15+00:00
+PA,Butler,governor,Governor,45214,38955,53.72,2026-11-07T04:35:15+00:00
+PA,Cambria,governor,Governor,27077,20575,56.82,2026-11-07T04:35:15+00:00
+PA,Cameron,governor,Governor,1043,536,66.05,2026-11-07T04:35:15+00:00
+PA,Carbon,governor,Governor,12812,11135,53.5,2026-11-07T04:35:15+00:00
+PA,Centre,governor,Governor,21614,34292,38.66,2026-11-07T04:35:15+00:00
+PA,Chester,governor,Governor,75744,164083,31.58,2026-11-07T04:35:15+00:00
+PA,Clarion,governor,Governor,8280,4377,65.42,2026-11-07T04:35:15+00:00
+PA,Clearfield,governor,Governor,17242,9246,65.09,2026-11-07T04:35:15+00:00
+PA,Clinton,governor,Governor,7374,5108,59.08,2026-11-07T04:35:15+00:00
+PA,Columbia,governor,Governor,11795,10377,53.2,2026-11-07T04:35:15+00:00
+PA,Crawford,governor,Governor,17098,11236,60.34,2026-11-07T04:35:15+00:00
+PA,Cumberland,governor,Governor,47879,64557,42.58,2026-11-07T04:35:15+00:00
+PA,Dauphin,governor,Governor,40183,72361,35.7,2026-11-07T04:35:15+00:00
+PA,Delaware,governor,Governor,62219,169689,26.83,2026-11-07T04:35:15+00:00
+PA,Elk,governor,Governor,7184,4290,62.61,2026-11-07T04:35:15+00:00
+PA,Erie,governor,Governor,35344,57925,37.89,2026-11-07T04:35:15+00:00
+PA,Fayette,governor,Governor,21238,16831,55.79,2026-11-07T04:35:15+00:00
+PA,Forest,governor,Governor,1123,718,61.0,2026-11-07T04:35:15+00:00
+PA,Franklin,governor,Governor,34768,21601,61.68,2026-11-07T04:35:15+00:00
+PA,Fulton,governor,Governor,3939,1002,79.72,2026-11-07T04:35:15+00:00
+PA,Greene,governor,Governor,6171,4566,57.47,2026-11-07T04:35:15+00:00
+PA,Huntingdon,governor,Governor,10613,5086,67.6,2026-11-07T04:35:15+00:00
+PA,Indiana,governor,Governor,15601,11838,56.86,2026-11-07T04:35:15+00:00
+PA,Jefferson,governor,Governor,10072,4720,68.09,2026-11-07T04:35:15+00:00
+PA,Juniata,governor,Governor,5679,2389,70.39,2026-11-07T04:35:15+00:00
+PA,Lackawanna,governor,Governor,28279,56482,33.36,2026-11-07T04:35:15+00:00
+PA,Lancaster,governor,Governor,101368,110885,47.76,2026-11-07T04:35:15+00:00
+PA,Lawrence,governor,Governor,16518,14219,53.74,2026-11-07T04:35:15+00:00
+PA,Lebanon,governor,Governor,27031,23168,53.85,2026-11-07T04:35:15+00:00
+PA,Lehigh,governor,Governor,47482,87417,35.2,2026-11-07T04:35:15+00:00
+PA,Luzerne,governor,Governor,50067,60171,45.42,2026-11-07T04:35:15+00:00
+PA,Lycoming,governor,Governor,24482,15385,61.41,2026-11-07T04:35:15+00:00
+PA,Mckean,governor,Governor,7943,4275,65.01,2026-11-07T04:35:15+00:00
+PA,Mercer,governor,Governor,20752,17380,54.42,2026-11-07T04:35:15+00:00
+PA,Mifflin,governor,Governor,9379,4619,67.0,2026-11-07T04:35:15+00:00
+PA,Monroe,governor,Governor,22857,37229,38.04,2026-11-07T04:35:15+00:00
+PA,Montgomery,governor,Governor,103298,283249,26.72,2026-11-07T04:35:15+00:00
+PA,Montour,governor,Governor,3291,3532,48.23,2026-11-07T04:35:15+00:00
+PA,Northampton,governor,Governor,47252,78288,37.64,2026-11-07T04:35:15+00:00
+PA,Northumberland,governor,Governor,15975,11686,57.75,2026-11-07T04:35:15+00:00
+PA,Perry,governor,Governor,11105,6417,63.38,2026-11-07T04:35:15+00:00
+PA,Philadelphia,governor,Governor,49821,436266,10.25,2026-11-07T04:35:15+00:00
+PA,Pike,governor,Governor,12200,11690,51.07,2026-11-07T04:35:15+00:00
+PA,Potter,governor,Governor,4510,1594,73.89,2026-11-07T04:35:15+00:00
+PA,Schuylkill,governor,Governor,26812,20248,56.97,2026-11-07T04:35:15+00:00
+PA,Snyder,governor,Governor,8526,4863,63.68,2026-11-07T04:35:15+00:00
+PA,Somerset,governor,Governor,17758,8594,67.39,2026-11-07T04:35:15+00:00
+PA,Sullivan,governor,Governor,1628,993,62.11,2026-11-07T04:35:15+00:00
+PA,Susquehanna,governor,Governor,9364,5617,62.51,2026-11-07T04:35:15+00:00
+PA,Tioga,governor,Governor,9861,4602,68.18,2026-11-07T04:35:15+00:00
+PA,Union,governor,Governor,7152,6893,50.92,2026-11-07T04:35:15+00:00
+PA,Venango,governor,Governor,10862,6905,61.14,2026-11-07T04:35:15+00:00
+PA,Warren,governor,Governor,8230,5390,60.43,2026-11-07T04:35:15+00:00
+PA,Washington,governor,Governor,39363,41341,48.77,2026-11-07T04:35:15+00:00
+PA,Wayne,governor,Governor,12200,8975,57.62,2026-11-07T04:35:15+00:00
+PA,Westmoreland,governor,Governor,72611,68925,51.3,2026-11-07T04:35:15+00:00
+PA,Wyoming,governor,Governor,5829,4407,56.95,2026-11-07T04:35:15+00:00
+PA,York,governor,Governor,89476,86912,50.73,2026-11-07T04:35:15+00:00
+TX,Anderson,governor,GOVERNOR,11254,3882,74.35,2026-11-07T04:35:29+00:00
+TX,Andrews,governor,GOVERNOR,3024,1060,74.05,2026-11-07T04:35:29+00:00
+TX,Angelina,governor,GOVERNOR,18203,8772,67.48,2026-11-07T04:35:29+00:00
+TX,Aransas,governor,GOVERNOR,7778,2688,74.32,2026-11-07T04:35:29+00:00
+TX,Archer,governor,GOVERNOR,3394,542,86.23,2026-11-07T04:35:29+00:00
+TX,Armstrong,governor,GOVERNOR,767,89,89.6,2026-11-07T04:35:29+00:00
+TX,Atascosa,governor,GOVERNOR,8594,5780,59.79,2026-11-07T04:35:29+00:00
+TX,Austin,governor,GOVERNOR,9493,3177,74.93,2026-11-07T04:35:29+00:00
+TX,Bailey,governor,GOVERNOR,974,430,69.37,2026-11-07T04:35:29+00:00
+TX,Bandera,governor,GOVERNOR,7911,2155,78.59,2026-11-07T04:35:29+00:00
+TX,Bastrop,governor,GOVERNOR,17253,19268,47.24,2026-11-07T04:35:29+00:00
+TX,Baylor,governor,GOVERNOR,1002,176,85.06,2026-11-07T04:35:29+00:00
+TX,Bee,governor,GOVERNOR,4157,2906,58.86,2026-11-07T04:35:29+00:00
+TX,Bell,governor,GOVERNOR,54723,54047,50.31,2026-11-07T04:35:29+00:00
+TX,Bexar,governor,GOVERNOR,223071,427403,34.29,2026-11-07T04:35:29+00:00
+TX,Blanco,governor,GOVERNOR,5487,2016,73.13,2026-11-07T04:35:29+00:00
+TX,Borden,governor,GOVERNOR,285,15,95.0,2026-11-07T04:35:29+00:00
+TX,Bosque,governor,GOVERNOR,6034,1572,79.33,2026-11-07T04:35:29+00:00
+TX,Bowie,governor,GOVERNOR,18575,8689,68.13,2026-11-07T04:35:29+00:00
+TX,Brazoria,governor,GOVERNOR,68486,70949,49.12,2026-11-07T04:35:29+00:00
+TX,Brazos,governor,GOVERNOR,38883,39475,49.62,2026-11-07T04:35:29+00:00
+TX,Brewster,governor,GOVERNOR,1710,2017,45.88,2026-11-07T04:35:29+00:00
+TX,Briscoe,governor,GOVERNOR,504,87,85.28,2026-11-07T04:35:29+00:00
+TX,Brooks,governor,GOVERNOR,590,1214,32.71,2026-11-07T04:35:29+00:00
+TX,Brown,governor,GOVERNOR,10498,2260,82.29,2026-11-07T04:35:29+00:00
+TX,Burleson,governor,GOVERNOR,5904,1779,76.84,2026-11-07T04:35:29+00:00
+TX,Burnet,governor,GOVERNOR,17329,6692,72.14,2026-11-07T04:35:29+00:00
+TX,Caldwell,governor,GOVERNOR,6457,8147,44.21,2026-11-07T04:35:29+00:00
+TX,Calhoun,governor,GOVERNOR,4223,2039,67.44,2026-11-07T04:35:29+00:00
+TX,Callahan,governor,GOVERNOR,4445,820,84.43,2026-11-07T04:35:29+00:00
+TX,Cameron,governor,GOVERNOR,33101,68613,32.54,2026-11-07T04:35:29+00:00
+TX,Camp,governor,GOVERNOR,2916,1314,68.94,2026-11-07T04:35:29+00:00
+TX,Carson,governor,GOVERNOR,2006,330,85.87,2026-11-07T04:35:29+00:00
+TX,Cass,governor,GOVERNOR,8529,2191,79.56,2026-11-07T04:35:29+00:00
+TX,Castro,governor,GOVERNOR,1098,432,71.76,2026-11-07T04:35:29+00:00
+TX,Chambers,governor,GOVERNOR,14282,4871,74.57,2026-11-07T04:35:29+00:00
+TX,Cherokee,governor,GOVERNOR,12117,4241,74.07,2026-11-07T04:35:29+00:00
+TX,Childress,governor,GOVERNOR,1340,301,81.66,2026-11-07T04:35:29+00:00
+TX,Clay,governor,GOVERNOR,3911,650,85.75,2026-11-07T04:35:29+00:00
+TX,Cochran,governor,GOVERNOR,482,199,70.78,2026-11-07T04:35:29+00:00
+TX,Coke,governor,GOVERNOR,1135,192,85.53,2026-11-07T04:35:29+00:00
+TX,Coleman,governor,GOVERNOR,2774,428,86.63,2026-11-07T04:35:29+00:00
+TX,Collin,governor,GOVERNOR,215566,236034,47.73,2026-11-07T04:35:29+00:00
+TX,Collingsworth,governor,GOVERNOR,807,142,85.04,2026-11-07T04:35:29+00:00
+TX,Colorado,governor,GOVERNOR,6090,2199,73.47,2026-11-07T04:35:29+00:00
+TX,Comal,governor,GOVERNOR,58818,28967,67.0,2026-11-07T04:35:29+00:00
+TX,Comanche,governor,GOVERNOR,4067,987,80.47,2026-11-07T04:35:29+00:00
+TX,Concho,governor,GOVERNOR,798,182,81.43,2026-11-07T04:35:29+00:00
+TX,Cooke,governor,GOVERNOR,13167,3805,77.58,2026-11-07T04:35:29+00:00
+TX,Coryell,governor,GOVERNOR,11562,6861,62.76,2026-11-07T04:35:29+00:00
+TX,Cottle,governor,GOVERNOR,436,97,81.8,2026-11-07T04:35:29+00:00
+TX,Crane,governor,GOVERNOR,733,270,73.08,2026-11-07T04:35:29+00:00
+TX,Crockett,governor,GOVERNOR,660,321,67.28,2026-11-07T04:35:29+00:00
+TX,Crosby,governor,GOVERNOR,975,494,66.37,2026-11-07T04:35:29+00:00
+TX,Culberson,governor,GOVERNOR,363,506,41.77,2026-11-07T04:35:29+00:00
+TX,Dallam,governor,GOVERNOR,774,233,76.86,2026-11-07T04:35:29+00:00
+TX,Dallas,governor,GOVERNOR,231770,539682,30.04,2026-11-07T04:35:29+00:00
+TX,Dawson,governor,GOVERNOR,1849,688,72.88,2026-11-07T04:35:29+00:00
+TX,Deaf Smith,governor,GOVERNOR,2086,1407,59.72,2026-11-07T04:35:29+00:00
+TX,Delta,governor,GOVERNOR,1572,401,79.68,2026-11-07T04:35:29+00:00
+TX,Denton,governor,GOVERNOR,191413,199625,48.95,2026-11-07T04:35:29+00:00
+TX,Dewitt,governor,GOVERNOR,4881,1309,78.85,2026-11-07T04:35:29+00:00
+TX,Dickens,governor,GOVERNOR,607,137,81.59,2026-11-07T04:35:29+00:00
+TX,Dimmit,governor,GOVERNOR,863,1823,32.13,2026-11-07T04:35:29+00:00
+TX,Donley,governor,GOVERNOR,1082,178,85.87,2026-11-07T04:35:29+00:00
+TX,Duval,governor,GOVERNOR,1174,2117,35.67,2026-11-07T04:35:29+00:00
+TX,Eastland,governor,GOVERNOR,5170,1046,83.17,2026-11-07T04:35:29+00:00
+TX,Ector,governor,GOVERNOR,17905,11160,61.6,2026-11-07T04:35:29+00:00
+TX,Edwards,governor,GOVERNOR,650,152,81.05,2026-11-07T04:35:29+00:00
+TX,El Paso,governor,GOVERNOR,61410,153639,28.56,2026-11-07T04:35:29+00:00
+TX,Ellis,governor,GOVERNOR,47284,39908,54.23,2026-11-07T04:35:29+00:00
+TX,Erath,governor,GOVERNOR,10434,3446,75.17,2026-11-07T04:35:29+00:00
+TX,Falls,governor,GOVERNOR,3241,1624,66.62,2026-11-07T04:35:29+00:00
+TX,Fannin,governor,GOVERNOR,9952,2788,78.12,2026-11-07T04:35:29+00:00
+TX,Fayette,governor,GOVERNOR,8381,2743,75.34,2026-11-07T04:35:29+00:00
+TX,Fisher,governor,GOVERNOR,1077,305,77.93,2026-11-07T04:35:29+00:00
+TX,Floyd,governor,GOVERNOR,1172,445,72.48,2026-11-07T04:35:29+00:00
+TX,Foard,governor,GOVERNOR,318,85,78.91,2026-11-07T04:35:29+00:00
+TX,Fort Bend,governor,GOVERNOR,126055,200996,38.54,2026-11-07T04:35:29+00:00
+TX,Franklin,governor,GOVERNOR,3381,835,80.19,2026-11-07T04:35:29+00:00
+TX,Freestone,governor,GOVERNOR,5532,1690,76.6,2026-11-07T04:35:29+00:00
+TX,Frio,governor,GOVERNOR,1792,1981,47.5,2026-11-07T04:35:29+00:00
+TX,Gaines,governor,GOVERNOR,3925,788,83.28,2026-11-07T04:35:29+00:00
+TX,Galveston,governor,GOVERNOR,72745,59716,54.92,2026-11-07T04:35:29+00:00
+TX,Garza,governor,GOVERNOR,896,233,79.36,2026-11-07T04:35:29+00:00
+TX,Gillespie,governor,GOVERNOR,11021,3413,76.35,2026-11-07T04:35:29+00:00
+TX,Glasscock,governor,GOVERNOR,503,51,90.79,2026-11-07T04:35:29+00:00
+TX,Goliad,governor,GOVERNOR,2500,842,74.81,2026-11-07T04:35:29+00:00
+TX,Gonzales,governor,GOVERNOR,4447,2147,67.44,2026-11-07T04:35:29+00:00
+TX,Gray,governor,GOVERNOR,4410,979,81.83,2026-11-07T04:35:29+00:00
+TX,Grayson,governor,GOVERNOR,37644,15327,71.07,2026-11-07T04:35:29+00:00
+TX,Gregg,governor,GOVERNOR,23347,14179,62.22,2026-11-07T04:35:29+00:00
+TX,Grimes,governor,GOVERNOR,8484,3001,73.87,2026-11-07T04:35:29+00:00
+TX,Guadalupe,governor,GOVERNOR,38597,31478,55.08,2026-11-07T04:35:29+00:00
+TX,Hale,governor,GOVERNOR,4967,2452,66.95,2026-11-07T04:35:29+00:00
+TX,Hall,governor,GOVERNOR,656,152,81.19,2026-11-07T04:35:29+00:00
+TX,Hamilton,governor,GOVERNOR,2889,623,82.26,2026-11-07T04:35:29+00:00
+TX,Hansford,governor,GOVERNOR,1229,253,82.93,2026-11-07T04:35:29+00:00
+TX,Hardeman,governor,GOVERNOR,777,181,81.11,2026-11-07T04:35:29+00:00
+TX,Hardin,governor,GOVERNOR,17088,3607,82.57,2026-11-07T04:35:29+00:00
+TX,Harris,governor,GOVERNOR,483850,879134,35.5,2026-11-07T04:35:29+00:00
+TX,Harrison,governor,GOVERNOR,16405,7308,69.18,2026-11-07T04:35:29+00:00
+TX,Hartley,governor,GOVERNOR,1302,216,85.77,2026-11-07T04:35:29+00:00
+TX,Haskell,governor,GOVERNOR,1287,301,81.05,2026-11-07T04:35:29+00:00
+TX,Hays,governor,GOVERNOR,42903,75219,36.32,2026-11-07T04:35:29+00:00
+TX,Hemphill,governor,GOVERNOR,959,251,79.26,2026-11-07T04:35:29+00:00
+TX,Henderson,governor,GOVERNOR,23212,7536,75.49,2026-11-07T04:35:29+00:00
+TX,Hidalgo,governor,GOVERNOR,57948,143417,28.78,2026-11-07T04:35:29+00:00
+TX,Hill,governor,GOVERNOR,9741,3222,75.14,2026-11-07T04:35:29+00:00
+TX,Hockley,governor,GOVERNOR,4698,1656,73.94,2026-11-07T04:35:29+00:00
+TX,Hood,governor,GOVERNOR,23380,6515,78.21,2026-11-07T04:35:29+00:00
+TX,Hopkins,governor,GOVERNOR,9825,3277,74.99,2026-11-07T04:35:29+00:00
+TX,Houston,governor,GOVERNOR,5525,1866,74.75,2026-11-07T04:35:29+00:00
+TX,Howard,governor,GOVERNOR,5046,1900,72.65,2026-11-07T04:35:29+00:00
+TX,Hudspeth,governor,GOVERNOR,479,312,60.56,2026-11-07T04:35:29+00:00
+TX,Hunt,governor,GOVERNOR,25526,11390,69.15,2026-11-07T04:35:29+00:00
+TX,Hutchinson,governor,GOVERNOR,4937,1035,82.67,2026-11-07T04:35:29+00:00
+TX,Irion,governor,GOVERNOR,539,93,85.28,2026-11-07T04:35:29+00:00
+TX,Jack,governor,GOVERNOR,2852,495,85.21,2026-11-07T04:35:29+00:00
+TX,Jackson,governor,GOVERNOR,3934,1042,79.06,2026-11-07T04:35:29+00:00
+TX,Jasper,governor,GOVERNOR,9367,2589,78.35,2026-11-07T04:35:29+00:00
+TX,Jeff Davis,governor,GOVERNOR,549,444,55.29,2026-11-07T04:35:29+00:00
+TX,Jefferson,governor,GOVERNOR,32737,39380,45.39,2026-11-07T04:35:29+00:00
+TX,Jim Hogg,governor,GOVERNOR,372,987,27.37,2026-11-07T04:35:29+00:00
+TX,Jim Wells,governor,GOVERNOR,4750,5818,44.95,2026-11-07T04:35:29+00:00
+TX,Johnson,governor,GOVERNOR,45154,23673,65.61,2026-11-07T04:35:29+00:00
+TX,Jones,governor,GOVERNOR,4113,1015,80.21,2026-11-07T04:35:29+00:00
+TX,Karnes,governor,GOVERNOR,2851,1155,71.17,2026-11-07T04:35:29+00:00
+TX,Kaufman,governor,GOVERNOR,31451,29874,51.29,2026-11-07T04:35:29+00:00
+TX,Kendall,governor,GOVERNOR,19152,6654,74.22,2026-11-07T04:35:29+00:00
+TX,Kenedy,governor,GOVERNOR,93,65,58.86,2026-11-07T04:35:29+00:00
+TX,Kent,governor,GOVERNOR,304,69,81.5,2026-11-07T04:35:29+00:00
+TX,Kerr,governor,GOVERNOR,16638,6479,71.97,2026-11-07T04:35:29+00:00
+TX,Kimble,governor,GOVERNOR,1639,300,84.53,2026-11-07T04:35:29+00:00
+TX,King,governor,GOVERNOR,109,7,93.97,2026-11-07T04:35:29+00:00
+TX,Kinney,governor,GOVERNOR,817,411,66.53,2026-11-07T04:35:29+00:00
+TX,Kleberg,governor,GOVERNOR,3661,4458,45.09,2026-11-07T04:35:29+00:00
+TX,Knox,governor,GOVERNOR,754,236,76.16,2026-11-07T04:35:29+00:00
+TX,Lamar,governor,GOVERNOR,11954,4234,73.84,2026-11-07T04:35:29+00:00
+TX,Lamb,governor,GOVERNOR,2399,839,74.09,2026-11-07T04:35:29+00:00
+TX,Lampasas,governor,GOVERNOR,6806,2244,75.2,2026-11-07T04:35:29+00:00
+TX,Lasalle,governor,GOVERNOR,886,998,47.03,2026-11-07T04:35:29+00:00
+TX,Lavaca,governor,GOVERNOR,7182,1328,84.39,2026-11-07T04:35:29+00:00
+TX,Lee,governor,GOVERNOR,5053,1819,73.53,2026-11-07T04:35:29+00:00
+TX,Leon,governor,GOVERNOR,5894,1079,84.53,2026-11-07T04:35:29+00:00
+TX,Liberty,governor,GOVERNOR,16459,8694,65.44,2026-11-07T04:35:29+00:00
+TX,Limestone,governor,GOVERNOR,5057,2110,70.56,2026-11-07T04:35:29+00:00
+TX,Lipscomb,governor,GOVERNOR,784,126,86.15,2026-11-07T04:35:29+00:00
+TX,Live Oak,governor,GOVERNOR,3083,732,80.81,2026-11-07T04:35:29+00:00
+TX,Llano,governor,GOVERNOR,9025,2514,78.21,2026-11-07T04:35:29+00:00
+TX,Loving,governor,GOVERNOR,56,9,86.15,2026-11-07T04:35:29+00:00
+TX,Lubbock,governor,GOVERNOR,61949,40574,60.42,2026-11-07T04:35:29+00:00
+TX,Lynn,governor,GOVERNOR,1648,442,78.85,2026-11-07T04:35:29+00:00
+TX,Madison,governor,GOVERNOR,3221,1007,76.18,2026-11-07T04:35:29+00:00
+TX,Marion,governor,GOVERNOR,2736,1010,73.04,2026-11-07T04:35:29+00:00
+TX,Martin,governor,GOVERNOR,1157,290,79.96,2026-11-07T04:35:29+00:00
+TX,Mason,governor,GOVERNOR,1666,451,78.7,2026-11-07T04:35:29+00:00
+TX,Matagorda,governor,GOVERNOR,7128,3587,66.52,2026-11-07T04:35:29+00:00
+TX,Maverick,governor,GOVERNOR,4111,8651,32.21,2026-11-07T04:35:29+00:00
+TX,Mcculloch,governor,GOVERNOR,2142,481,81.66,2026-11-07T04:35:29+00:00
+TX,Mclennan,governor,GOVERNOR,46939,35156,57.18,2026-11-07T04:35:29+00:00
+TX,Mcmullen,governor,GOVERNOR,324,54,85.71,2026-11-07T04:35:29+00:00
+TX,Medina,governor,GOVERNOR,13178,7772,62.9,2026-11-07T04:35:29+00:00
+TX,Menard,governor,GOVERNOR,599,175,77.39,2026-11-07T04:35:29+00:00
+TX,Midland,governor,GOVERNOR,30904,12480,71.23,2026-11-07T04:35:29+00:00
+TX,Milam,governor,GOVERNOR,6144,2350,72.33,2026-11-07T04:35:29+00:00
+TX,Mills,governor,GOVERNOR,1777,326,84.5,2026-11-07T04:35:29+00:00
+TX,Mitchell,governor,GOVERNOR,1500,330,81.97,2026-11-07T04:35:29+00:00
+TX,Montague,governor,GOVERNOR,7292,1259,85.28,2026-11-07T04:35:29+00:00
+TX,Montgomery,governor,GOVERNOR,162154,93047,63.54,2026-11-07T04:35:29+00:00
+TX,Moore,governor,GOVERNOR,2735,1329,67.3,2026-11-07T04:35:29+00:00
+TX,Morris,governor,GOVERNOR,2932,1230,70.45,2026-11-07T04:35:29+00:00
+TX,Motley,governor,GOVERNOR,465,38,92.45,2026-11-07T04:35:29+00:00
+TX,Nacogdoches,governor,GOVERNOR,12444,8785,58.62,2026-11-07T04:35:29+00:00
+TX,Navarro,governor,GOVERNOR,10576,5364,66.35,2026-11-07T04:35:29+00:00
+TX,Newton,governor,GOVERNOR,3379,862,79.67,2026-11-07T04:35:29+00:00
+TX,Nolan,governor,GOVERNOR,2665,999,72.73,2026-11-07T04:35:29+00:00
+TX,Nueces,governor,GOVERNOR,45463,52568,46.38,2026-11-07T04:35:29+00:00
+TX,Ochiltree,governor,GOVERNOR,1790,515,77.66,2026-11-07T04:35:29+00:00
+TX,Oldham,governor,GOVERNOR,640,90,87.67,2026-11-07T04:35:29+00:00
+TX,Orange,governor,GOVERNOR,20096,6012,76.97,2026-11-07T04:35:29+00:00
+TX,Palo Pinto,governor,GOVERNOR,7663,2524,75.22,2026-11-07T04:35:29+00:00
+TX,Panola,governor,GOVERNOR,6607,1859,78.04,2026-11-07T04:35:29+00:00
+TX,Parker,governor,GOVERNOR,58039,16879,77.47,2026-11-07T04:35:29+00:00
+TX,Parmer,governor,GOVERNOR,1433,509,73.79,2026-11-07T04:35:29+00:00
+TX,Pecos,governor,GOVERNOR,1934,1384,58.29,2026-11-07T04:35:29+00:00
+TX,Polk,governor,GOVERNOR,12952,4345,74.88,2026-11-07T04:35:29+00:00
+TX,Potter,governor,GOVERNOR,15743,9605,62.11,2026-11-07T04:35:29+00:00
+TX,Presidio,governor,GOVERNOR,437,1477,22.83,2026-11-07T04:35:29+00:00
+TX,Rains,governor,GOVERNOR,4143,860,82.81,2026-11-07T04:35:29+00:00
+TX,Randall,governor,GOVERNOR,38301,14179,72.98,2026-11-07T04:35:29+00:00
+TX,Reagan,governor,GOVERNOR,482,199,70.78,2026-11-07T04:35:29+00:00
+TX,Real,governor,GOVERNOR,1193,279,81.05,2026-11-07T04:35:29+00:00
+TX,Red River,governor,GOVERNOR,3106,1051,74.72,2026-11-07T04:35:29+00:00
+TX,Reeves,governor,GOVERNOR,1604,1483,51.96,2026-11-07T04:35:29+00:00
+TX,Refugio,governor,GOVERNOR,1532,856,64.15,2026-11-07T04:35:29+00:00
+TX,Roberts,governor,GOVERNOR,428,22,95.11,2026-11-07T04:35:29+00:00
+TX,Robertson,governor,GOVERNOR,4766,2117,69.24,2026-11-07T04:35:29+00:00
+TX,Rockwall,governor,GOVERNOR,33515,19309,63.45,2026-11-07T04:35:29+00:00
+TX,Runnels,governor,GOVERNOR,2622,506,83.82,2026-11-07T04:35:29+00:00
+TX,Rusk,governor,GOVERNOR,12306,4795,71.96,2026-11-07T04:35:29+00:00
+TX,Sabine,governor,GOVERNOR,3653,576,86.38,2026-11-07T04:35:29+00:00
+TX,San Augustine,governor,GOVERNOR,2208,845,72.32,2026-11-07T04:35:29+00:00
+TX,San Jacinto,governor,GOVERNOR,7887,2354,77.01,2026-11-07T04:35:29+00:00
+TX,San Patricio,governor,GOVERNOR,11634,8178,58.72,2026-11-07T04:35:29+00:00
+TX,San Saba,governor,GOVERNOR,1810,356,83.56,2026-11-07T04:35:29+00:00
+TX,Schleicher,governor,GOVERNOR,673,236,74.04,2026-11-07T04:35:29+00:00
+TX,Scurry,governor,GOVERNOR,3329,789,80.84,2026-11-07T04:35:29+00:00
+TX,Shackelford,governor,GOVERNOR,1109,149,88.16,2026-11-07T04:35:29+00:00
+TX,Shelby,governor,GOVERNOR,5603,1830,75.38,2026-11-07T04:35:29+00:00
+TX,Sherman,governor,GOVERNOR,568,122,82.32,2026-11-07T04:35:29+00:00
+TX,Smith,governor,GOVERNOR,56878,31022,64.71,2026-11-07T04:35:29+00:00
+TX,Somervell,governor,GOVERNOR,3426,822,80.65,2026-11-07T04:35:29+00:00
+TX,Starr,governor,GOVERNOR,3435,10091,25.4,2026-11-07T04:35:29+00:00
+TX,Stephens,governor,GOVERNOR,2297,452,83.56,2026-11-07T04:35:29+00:00
+TX,Sterling,governor,GOVERNOR,365,64,85.08,2026-11-07T04:35:29+00:00
+TX,Stonewall,governor,GOVERNOR,407,103,79.8,2026-11-07T04:35:29+00:00
+TX,Sutton,governor,GOVERNOR,824,262,75.87,2026-11-07T04:35:29+00:00
+TX,Swisher,governor,GOVERNOR,1256,420,74.94,2026-11-07T04:35:29+00:00
+TX,Tarrant,governor,GOVERNOR,307297,410931,42.79,2026-11-07T04:35:29+00:00
+TX,Taylor,governor,GOVERNOR,28362,13494,67.76,2026-11-07T04:35:29+00:00
+TX,Terrell,governor,GOVERNOR,252,90,73.68,2026-11-07T04:35:29+00:00
+TX,Terry,governor,GOVERNOR,1896,680,73.6,2026-11-07T04:35:29+00:00
+TX,Throckmorton,governor,GOVERNOR,526,84,86.23,2026-11-07T04:35:29+00:00
+TX,Titus,governor,GOVERNOR,5534,3082,64.23,2026-11-07T04:35:29+00:00
+TX,Tom Green,governor,GOVERNOR,23333,12204,65.66,2026-11-07T04:35:29+00:00
+TX,Travis,governor,GOVERNOR,127275,415011,23.47,2026-11-07T04:35:29+00:00
+TX,Trinity,governor,GOVERNOR,4480,1210,78.73,2026-11-07T04:35:29+00:00
+TX,Tyler,governor,GOVERNOR,5967,1171,83.59,2026-11-07T04:35:29+00:00
+TX,Upshur,governor,GOVERNOR,12228,3054,80.02,2026-11-07T04:35:29+00:00
+TX,Upton,governor,GOVERNOR,672,182,78.69,2026-11-07T04:35:29+00:00
+TX,Uvalde,governor,GOVERNOR,4420,3832,53.56,2026-11-07T04:35:29+00:00
+TX,Val Verde,governor,GOVERNOR,5565,6025,48.02,2026-11-07T04:35:29+00:00
+TX,Van Zandt,governor,GOVERNOR,17973,3888,82.21,2026-11-07T04:35:29+00:00
+TX,Victoria,governor,GOVERNOR,17869,10148,63.78,2026-11-07T04:35:29+00:00
+TX,Walker,governor,GOVERNOR,13160,8217,61.56,2026-11-07T04:35:29+00:00
+TX,Waller,governor,GOVERNOR,12348,11045,52.79,2026-11-07T04:35:29+00:00
+TX,Ward,governor,GOVERNOR,1842,680,73.04,2026-11-07T04:35:29+00:00
+TX,Washington,governor,GOVERNOR,11143,4158,72.83,2026-11-07T04:35:29+00:00
+TX,Webb,governor,GOVERNOR,17299,40593,29.88,2026-11-07T04:35:29+00:00
+TX,Wharton,governor,GOVERNOR,8607,3907,68.78,2026-11-07T04:35:29+00:00
+TX,Wheeler,governor,GOVERNOR,1432,227,86.32,2026-11-07T04:35:29+00:00
+TX,Wichita,governor,GOVERNOR,21926,11989,64.65,2026-11-07T04:35:29+00:00
+TX,Wilbarger,governor,GOVERNOR,2470,866,74.04,2026-11-07T04:35:29+00:00
+TX,Willacy,governor,GOVERNOR,1644,2973,35.61,2026-11-07T04:35:29+00:00
+TX,Williamson,governor,GOVERNOR,118285,156631,43.03,2026-11-07T04:35:29+00:00
+TX,Wilson,governor,GOVERNOR,15294,6423,70.42,2026-11-07T04:35:29+00:00
+TX,Winkler,governor,GOVERNOR,970,365,72.66,2026-11-07T04:35:29+00:00
+TX,Wise,governor,GOVERNOR,23801,6707,78.02,2026-11-07T04:35:29+00:00
+TX,Wood,governor,GOVERNOR,15999,3531,81.92,2026-11-07T04:35:29+00:00
+TX,Yoakum,governor,GOVERNOR,1242,500,71.3,2026-11-07T04:35:29+00:00
+TX,Young,governor,GOVERNOR,5348,1129,82.57,2026-11-07T04:35:29+00:00
+TX,Zapata,governor,GOVERNOR,1133,2194,34.05,2026-11-07T04:35:29+00:00
+TX,Zavala,governor,GOVERNOR,825,2262,26.72,2026-11-07T04:35:29+00:00
+VA,ACCOMACK COUNTY,senate,"Member, United States Senate",7086,6943,50.51,2026-11-07T04:35:34+00:00
+VA,ALBEMARLE COUNTY,senate,"Member, United States Senate",15825,42302,27.22,2026-11-07T04:35:34+00:00
+VA,ALEXANDRIA CITY,senate,"Member, United States Senate",9884,56882,14.8,2026-11-07T04:35:34+00:00
+VA,ALLEGHANY COUNTY,senate,"Member, United States Senate",3738,2094,64.09,2026-11-07T04:35:34+00:00
+VA,AMELIA COUNTY,senate,"Member, United States Senate",4326,2050,67.85,2026-11-07T04:35:34+00:00
+VA,AMHERST COUNTY,senate,"Member, United States Senate",8576,5365,61.52,2026-11-07T04:35:34+00:00
+VA,APPOMATTOX COUNTY,senate,"Member, United States Senate",5562,2249,71.21,2026-11-07T04:35:34+00:00
+VA,ARLINGTON COUNTY,senate,"Member, United States Senate",15325,87155,14.95,2026-11-07T04:35:34+00:00
+VA,AUGUSTA COUNTY,senate,"Member, United States Senate",23290,11129,67.67,2026-11-07T04:35:34+00:00
+VA,BATH COUNTY,senate,"Member, United States Senate",1301,577,69.28,2026-11-07T04:35:34+00:00
+VA,BEDFORD COUNTY,senate,"Member, United States Senate",28398,11809,70.63,2026-11-07T04:35:34+00:00
+VA,BLAND COUNTY,senate,"Member, United States Senate",1862,618,75.08,2026-11-07T04:35:34+00:00
+VA,BOTETOURT COUNTY,senate,"Member, United States Senate",11439,5849,66.17,2026-11-07T04:35:34+00:00
+VA,BRISTOL CITY,senate,"Member, United States Senate",2874,2092,57.87,2026-11-07T04:35:34+00:00
+VA,BRUNSWICK COUNTY,senate,"Member, United States Senate",2430,3576,40.46,2026-11-07T04:35:34+00:00
+VA,BUCHANAN COUNTY,senate,"Member, United States Senate",3918,1508,72.21,2026-11-07T04:35:34+00:00
+VA,BUCKINGHAM COUNTY,senate,"Member, United States Senate",3395,2865,54.23,2026-11-07T04:35:34+00:00
+VA,BUENA VISTA CITY,senate,"Member, United States Senate",1187,755,61.12,2026-11-07T04:35:34+00:00
+VA,CAMPBELL COUNTY,senate,"Member, United States Senate",16641,7461,69.04,2026-11-07T04:35:34+00:00
+VA,CAROLINE COUNTY,senate,"Member, United States Senate",6178,7390,45.53,2026-11-07T04:35:34+00:00
+VA,CARROLL COUNTY,senate,"Member, United States Senate",8702,2971,74.55,2026-11-07T04:35:34+00:00
+VA,CHARLES CITY COUNTY,senate,"Member, United States Senate",1331,2041,39.47,2026-11-07T04:35:34+00:00
+VA,CHARLOTTE COUNTY,senate,"Member, United States Senate",3001,1797,62.55,2026-11-07T04:35:34+00:00
+VA,CHARLOTTESVILLE CITY,senate,"Member, United States Senate",2019,17692,10.24,2026-11-07T04:35:34+00:00
+VA,CHESAPEAKE CITY,senate,"Member, United States Senate",40862,60190,40.44,2026-11-07T04:35:34+00:00
+VA,CHESTERFIELD COUNTY,senate,"Member, United States Senate",65712,109817,37.44,2026-11-07T04:35:34+00:00
+VA,CLARKE COUNTY,senate,"Member, United States Senate",4024,3742,51.82,2026-11-07T04:35:34+00:00
+VA,COLONIAL HEIGHTS CITY,senate,"Member, United States Senate",3712,2799,57.01,2026-11-07T04:35:34+00:00
+VA,COVINGTON CITY,senate,"Member, United States Senate",948,793,54.45,2026-11-07T04:35:34+00:00
+VA,CRAIG COUNTY,senate,"Member, United States Senate",1736,581,74.92,2026-11-07T04:35:34+00:00
+VA,CULPEPER COUNTY,senate,"Member, United States Senate",12140,10218,54.3,2026-11-07T04:35:34+00:00
+VA,CUMBERLAND COUNTY,senate,"Member, United States Senate",2434,1989,55.03,2026-11-07T04:35:34+00:00
+VA,DANVILLE CITY,senate,"Member, United States Senate",4442,9660,31.5,2026-11-07T04:35:34+00:00
+VA,DICKENSON COUNTY,senate,"Member, United States Senate",3257,1702,65.68,2026-11-07T04:35:34+00:00
+VA,DINWIDDIE COUNTY,senate,"Member, United States Senate",6143,5261,53.87,2026-11-07T04:35:34+00:00
+VA,EMPORIA CITY,senate,"Member, United States Senate",515,1236,29.41,2026-11-07T04:35:34+00:00
+VA,ESSEX COUNTY,senate,"Member, United States Senate",2387,2574,48.12,2026-11-07T04:35:34+00:00
+VA,FAIRFAX CITY,senate,"Member, United States Senate",2775,8389,24.86,2026-11-07T04:35:34+00:00
+VA,FAIRFAX COUNTY,senate,"Member, United States Senate",112937,363927,23.68,2026-11-07T04:35:34+00:00
+VA,FALLS CHURCH CITY,senate,"Member, United States Senate",1201,6857,14.9,2026-11-07T04:35:34+00:00
+VA,FAUQUIER COUNTY,senate,"Member, United States Senate",18914,15888,54.35,2026-11-07T04:35:34+00:00
+VA,FLOYD COUNTY,senate,"Member, United States Senate",4520,2994,60.15,2026-11-07T04:35:34+00:00
+VA,FLUVANNA COUNTY,senate,"Member, United States Senate",6248,7552,45.28,2026-11-07T04:35:34+00:00
+VA,FRANKLIN CITY,senate,"Member, United States Senate",1045,2252,31.7,2026-11-07T04:35:34+00:00
+VA,FRANKLIN COUNTY,senate,"Member, United States Senate",15814,7905,66.67,2026-11-07T04:35:34+00:00
+VA,FREDERICK COUNTY,senate,"Member, United States Senate",22054,18383,54.54,2026-11-07T04:35:34+00:00
+VA,FREDERICKSBURG CITY,senate,"Member, United States Senate",2733,7950,25.58,2026-11-07T04:35:34+00:00
+VA,GALAX CITY,senate,"Member, United States Senate",1195,720,62.4,2026-11-07T04:35:34+00:00
+VA,GILES COUNTY,senate,"Member, United States Senate",4423,2151,67.28,2026-11-07T04:35:34+00:00
+VA,GLOUCESTER COUNTY,senate,"Member, United States Senate",11225,6727,62.53,2026-11-07T04:35:34+00:00
+VA,GOOCHLAND COUNTY,senate,"Member, United States Senate",9330,8148,53.38,2026-11-07T04:35:34+00:00
+VA,GRAYSON COUNTY,senate,"Member, United States Senate",4479,1611,73.55,2026-11-07T04:35:34+00:00
+VA,GREENE COUNTY,senate,"Member, United States Senate",5379,4503,54.43,2026-11-07T04:35:34+00:00
+VA,GREENSVILLE COUNTY,senate,"Member, United States Senate",1315,1990,39.79,2026-11-07T04:35:34+00:00
+VA,HALIFAX COUNTY,senate,"Member, United States Senate",7585,6259,54.79,2026-11-07T04:35:34+00:00
+VA,HAMPTON CITY,senate,"Member, United States Senate",11003,37639,22.62,2026-11-07T04:35:34+00:00
+VA,HANOVER COUNTY,senate,"Member, United States Senate",34642,26446,56.71,2026-11-07T04:35:34+00:00
+VA,HARRISONBURG CITY,senate,"Member, United States Senate",3173,9760,24.53,2026-11-07T04:35:34+00:00
+VA,HENRICO COUNTY,senate,"Member, United States Senate",42615,111007,27.74,2026-11-07T04:35:34+00:00
+VA,HENRY COUNTY,senate,"Member, United States Senate",10689,7537,58.65,2026-11-07T04:35:34+00:00
+VA,HIGHLAND COUNTY,senate,"Member, United States Senate",779,419,65.03,2026-11-07T04:35:34+00:00
+VA,HOPEWELL CITY,senate,"Member, United States Senate",2190,4426,33.1,2026-11-07T04:35:34+00:00
+VA,ISLE OF WIGHT COUNTY,senate,"Member, United States Senate",10960,9609,53.28,2026-11-07T04:35:34+00:00
+VA,JAMES CITY COUNTY,senate,"Member, United States Senate",18008,25677,41.22,2026-11-07T04:35:34+00:00
+VA,KING GEORGE COUNTY,senate,"Member, United States Senate",6475,5365,54.69,2026-11-07T04:35:34+00:00
+VA,KING WILLIAM COUNTY,senate,"Member, United States Senate",5653,3394,62.48,2026-11-07T04:35:34+00:00
+VA,KING and QUEEN COUNTY,senate,"Member, United States Senate",1911,1414,57.47,2026-11-07T04:35:34+00:00
+VA,LANCASTER COUNTY,senate,"Member, United States Senate",3068,3105,49.7,2026-11-07T04:35:34+00:00
+VA,LEE COUNTY,senate,"Member, United States Senate",4703,1541,75.32,2026-11-07T04:35:34+00:00
+VA,LEXINGTON CITY,senate,"Member, United States Senate",609,1534,28.42,2026-11-07T04:35:34+00:00
+VA,LOUDOUN COUNTY,senate,"Member, United States Senate",56063,124469,31.05,2026-11-07T04:35:34+00:00
+VA,LOUISA COUNTY,senate,"Member, United States Senate",10801,8419,56.2,2026-11-07T04:35:34+00:00
+VA,LUNENBURG COUNTY,senate,"Member, United States Senate",2536,2023,55.63,2026-11-07T04:35:34+00:00
+VA,LYNCHBURG CITY,senate,"Member, United States Senate",13607,15623,46.55,2026-11-07T04:35:34+00:00
+VA,MADISON COUNTY,senate,"Member, United States Senate",4090,2505,62.02,2026-11-07T04:35:34+00:00
+VA,MANASSAS CITY,senate,"Member, United States Senate",3761,9018,29.43,2026-11-07T04:35:34+00:00
+VA,MANASSAS PARK CITY,senate,"Member, United States Senate",1093,3432,24.15,2026-11-07T04:35:34+00:00
+VA,MARTINSVILLE CITY,senate,"Member, United States Senate",1343,2863,31.93,2026-11-07T04:35:34+00:00
+VA,MATHEWS COUNTY,senate,"Member, United States Senate",3032,1723,63.76,2026-11-07T04:35:34+00:00
+VA,MECKLENBURG COUNTY,senate,"Member, United States Senate",7028,5617,55.58,2026-11-07T04:35:34+00:00
+VA,MIDDLESEX COUNTY,senate,"Member, United States Senate",3361,2504,57.31,2026-11-07T04:35:34+00:00
+VA,MONTGOMERY COUNTY,senate,"Member, United States Senate",13990,21858,39.03,2026-11-07T04:35:34+00:00
+VA,NELSON COUNTY,senate,"Member, United States Senate",3567,4147,46.24,2026-11-07T04:35:34+00:00
+VA,NEW KENT COUNTY,senate,"Member, United States Senate",8340,5677,59.5,2026-11-07T04:35:34+00:00
+VA,NEWPORT NEWS CITY,senate,"Member, United States Senate",15998,42381,27.4,2026-11-07T04:35:34+00:00
+VA,NORFOLK CITY,senate,"Member, United States Senate",14219,51931,21.5,2026-11-07T04:35:34+00:00
+VA,NORTHAMPTON COUNTY,senate,"Member, United States Senate",2420,3548,40.55,2026-11-07T04:35:34+00:00
+VA,NORTHUMBERLAND COUNTY,senate,"Member, United States Senate",3822,3094,55.26,2026-11-07T04:35:34+00:00
+VA,NORTON CITY,senate,"Member, United States Senate",622,428,59.24,2026-11-07T04:35:34+00:00
+VA,NOTTOWAY COUNTY,senate,"Member, United States Senate",2863,2329,55.14,2026-11-07T04:35:34+00:00
+VA,ORANGE COUNTY,senate,"Member, United States Senate",9441,7986,54.17,2026-11-07T04:35:34+00:00
+VA,PAGE COUNTY,senate,"Member, United States Senate",6537,2882,69.4,2026-11-07T04:35:34+00:00
+VA,PATRICK COUNTY,senate,"Member, United States Senate",5105,1827,73.64,2026-11-07T04:35:34+00:00
+VA,PETERSBURG CITY,senate,"Member, United States Senate",863,9230,8.55,2026-11-07T04:35:34+00:00
+VA,PITTSYLVANIA COUNTY,senate,"Member, United States Senate",17120,9052,65.41,2026-11-07T04:35:34+00:00
+VA,POQUOSON CITY,senate,"Member, United States Senate",4191,2121,66.4,2026-11-07T04:35:34+00:00
+VA,PORTSMOUTH CITY,senate,"Member, United States Senate",7255,25061,22.45,2026-11-07T04:35:34+00:00
+VA,POWHATAN COUNTY,senate,"Member, United States Senate",11269,5644,66.63,2026-11-07T04:35:34+00:00
+VA,PRINCE EDWARD COUNTY,senate,"Member, United States Senate",3381,4310,43.96,2026-11-07T04:35:34+00:00
+VA,PRINCE GEORGE COUNTY,senate,"Member, United States Senate",7028,6061,53.69,2026-11-07T04:35:34+00:00
+VA,PRINCE WILLIAM COUNTY,senate,"Member, United States Senate",52058,130666,28.49,2026-11-07T04:35:34+00:00
+VA,PULASKI COUNTY,senate,"Member, United States Senate",8105,4760,63.0,2026-11-07T04:35:34+00:00
+VA,RADFORD CITY,senate,"Member, United States Senate",1907,2942,39.33,2026-11-07T04:35:34+00:00
+VA,RAPPAHANNOCK COUNTY,senate,"Member, United States Senate",2104,1964,51.72,2026-11-07T04:35:34+00:00
+VA,RICHMOND CITY,senate,"Member, United States Senate",10314,80845,11.31,2026-11-07T04:35:34+00:00
+VA,RICHMOND COUNTY,senate,"Member, United States Senate",1895,1390,57.69,2026-11-07T04:35:34+00:00
+VA,ROANOKE CITY,senate,"Member, United States Senate",9273,23148,28.6,2026-11-07T04:35:34+00:00
+VA,ROANOKE COUNTY,senate,"Member, United States Senate",23186,20650,52.89,2026-11-07T04:35:34+00:00
+VA,ROCKBRIDGE COUNTY,senate,"Member, United States Senate",6172,3966,60.88,2026-11-07T04:35:34+00:00
+VA,ROCKINGHAM COUNTY,senate,"Member, United States Senate",23624,13539,63.57,2026-11-07T04:35:34+00:00
+VA,RUSSELL COUNTY,senate,"Member, United States Senate",6499,2513,72.11,2026-11-07T04:35:34+00:00
+VA,SALEM CITY,senate,"Member, United States Senate",5054,4802,51.28,2026-11-07T04:35:34+00:00
+VA,SCOTT COUNTY,senate,"Member, United States Senate",5613,1795,75.77,2026-11-07T04:35:34+00:00
+VA,SHENANDOAH COUNTY,senate,"Member, United States Senate",11755,6668,63.81,2026-11-07T04:35:34+00:00
+VA,SMYTH COUNTY,senate,"Member, United States Senate",7071,3032,69.99,2026-11-07T04:35:34+00:00
+VA,SOUTHAMPTON COUNTY,senate,"Member, United States Senate",4340,3303,56.78,2026-11-07T04:35:34+00:00
+VA,SPOTSYLVANIA COUNTY,senate,"Member, United States Senate",27528,34696,44.24,2026-11-07T04:35:34+00:00
+VA,STAFFORD COUNTY,senate,"Member, United States Senate",26426,39963,39.8,2026-11-07T04:35:34+00:00
+VA,STAUNTON CITY,senate,"Member, United States Senate",3859,7306,34.56,2026-11-07T04:35:34+00:00
+VA,SUFFOLK CITY,senate,"Member, United States Senate",15694,29885,34.43,2026-11-07T04:35:34+00:00
+VA,SURRY COUNTY,senate,"Member, United States Senate",1585,1968,44.61,2026-11-07T04:35:34+00:00
+VA,SUSSEX COUNTY,senate,"Member, United States Senate",1599,2136,42.81,2026-11-07T04:35:34+00:00
+VA,TAZEWELL COUNTY,senate,"Member, United States Senate",9917,3155,75.86,2026-11-07T04:35:34+00:00
+VA,VIRGINIA BEACH CITY,senate,"Member, United States Senate",75310,108328,41.01,2026-11-07T04:35:34+00:00
+VA,WARREN COUNTY,senate,"Member, United States Senate",10156,6423,61.26,2026-11-07T04:35:34+00:00
+VA,WASHINGTON COUNTY,senate,"Member, United States Senate",13893,7011,66.46,2026-11-07T04:35:34+00:00
+VA,WAYNESBORO CITY,senate,"Member, United States Senate",3913,5074,43.54,2026-11-07T04:35:34+00:00
+VA,WESTMORELAND COUNTY,senate,"Member, United States Senate",4410,4339,50.41,2026-11-07T04:35:34+00:00
+VA,WILLIAMSBURG CITY,senate,"Member, United States Senate",1558,5246,22.9,2026-11-07T04:35:34+00:00
+VA,WINCHESTER CITY,senate,"Member, United States Senate",3229,6092,34.64,2026-11-07T04:35:34+00:00
+VA,WISE COUNTY,senate,"Member, United States Senate",7709,3154,70.97,2026-11-07T04:35:34+00:00
+VA,WYTHE COUNTY,senate,"Member, United States Senate",7793,3230,70.7,2026-11-07T04:35:34+00:00
+VA,YORK COUNTY,senate,"Member, United States Senate",15533,17499,47.02,2026-11-07T04:35:34+00:00
