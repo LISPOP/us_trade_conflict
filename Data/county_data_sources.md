@@ -16,7 +16,10 @@ Checks run 2026-11-11:
   with Republican two-party shares for 1992-2016 (`shnr_pres*`), the China
   import exposure measure (`d_imp_usch_pd_0008`) and its instrument
   (`d_imp_otch_lag_pd_0008`).
-- `workfile_12Jun19.dta` is one row per county (3,197 rows, `fips`, 1,459
+- `workfile_12Jun19.dta` has 3,197 rows, of which 3,111 are counties with
+  values. The other 84 are 31 blank rows and 53 placeholder rows whose FIPS
+  codes end in 999 (one per state, no county name; Alaska's is among them).
+  Drop rows with a missing Canada shock before use. (`fips`, 1,459
   columns). It has separate 2018 retaliatory tariff shocks by partner,
   including **Canada** (`cty_can3_TS*`), China, Mexico and the EU.
 - `counties.json` Senate figures were compared with official state feeds (the
